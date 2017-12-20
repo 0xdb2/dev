@@ -1,6 +1,6 @@
 # dev
 
-The codebase for development environment and some code examples.
+The codebase for my private development environment and some code examples.
 
 To build execute:
 
