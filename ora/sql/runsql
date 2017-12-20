@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "###### start $(date +%Y%m%d-%H%M%S)"
+
+sqlplus -s -l ora1/ora1 @ora1.sql
+
