@@ -1,0 +1,1824 @@
+Accept	sock/BaseSock.C	280;"	function	language:C++	class:BaseSockSrv	signature:( BaseSockSrv& sock, int to)
+ActExc	exc/BaseExc.H	173;"	function	language:C++	class:BaseExc	access:public	signature:( void )
+Action	ora/uobj/test_Pattern.sql	198;"	function	language:SQL
+AddressBook	std11/lambdaf.H	77;"	class	language:C++
+AddressBook::_addresses	std11/lambdaf.H	112;"	member	language:C++	class:AddressBook	access:private
+AddressBook::findMatchingAddresses	std11/lambdaf.H	97;"	function	language:C++	class:AddressBook	access:public	signature:(function<bool (const string&)> func)
+Appt	java/tst/Appt.java	9;"	class	language:Java	inherits:Applet
+Appt.destroy	java/tst/Appt.java	23;"	method	language:Java	class:Appt	access:public	signature:()
+Appt.init	java/tst/Appt.java	13;"	method	language:Java	class:Appt	access:public	signature:()
+Appt.paint	java/tst/Appt.java	26;"	method	language:Java	class:Appt	access:public	signature:(Graphics g)
+Appt.start	java/tst/Appt.java	17;"	method	language:Java	class:Appt	access:public	signature:()
+Appt.stop	java/tst/Appt.java	20;"	method	language:Java	class:Appt	access:public	signature:()
+Appt.text	java/tst/Appt.java	11;"	field	language:Java	class:Appt	access:default
+Args	java/tst/Args.java	1;"	class	language:Java
+Args.main	java/tst/Args.java	3;"	method	language:Java	class:Args	access:public	signature:(String[] args)
+ArrayWrapper	std11/rref.C	53;"	class	language:C++	file:
+ArrayWrapper	std11/rref.C	57;"	function	language:C++	class:ArrayWrapper	access:public	signature:()
+ArrayWrapper	std11/rref.C	62;"	function	language:C++	class:ArrayWrapper	access:public	signature:(int n)
+ArrayWrapper	std11/rref.C	68;"	function	language:C++	class:ArrayWrapper	access:public	signature:(ArrayWrapper&& other)
+ArrayWrapper	std11/rref.C	76;"	function	language:C++	class:ArrayWrapper	access:public	signature:(const ArrayWrapper& other)
+ArrayWrapper::ArrayWrapper	std11/rref.C	57;"	function	language:C++	class:ArrayWrapper	access:public	signature:()
+ArrayWrapper::ArrayWrapper	std11/rref.C	62;"	function	language:C++	class:ArrayWrapper	access:public	signature:(int n)
+ArrayWrapper::ArrayWrapper	std11/rref.C	68;"	function	language:C++	class:ArrayWrapper	access:public	signature:(ArrayWrapper&& other)
+ArrayWrapper::ArrayWrapper	std11/rref.C	76;"	function	language:C++	class:ArrayWrapper	access:public	signature:(const ArrayWrapper& other)
+ArrayWrapper::_metadata	std11/rref.C	91;"	member	language:C++	class:ArrayWrapper	file:	access:private
+ArrayWrapper::_p_vals	std11/rref.C	90;"	member	language:C++	class:ArrayWrapper	file:	access:private
+ArrayWrapper::~ArrayWrapper	std11/rref.C	85;"	function	language:C++	class:ArrayWrapper	access:public	signature:()
+BStore_C	store/BaseStore.C	1;"	variable	language:C++	file:
+Bas	ora/uobj/pack_Bas.sql	25;"	package	language:SQL
+Bas	ora/uobj/pack_Bas.sql	8;"	package	language:SQL
+Bas.Exec	ora/uobj/pack_Bas.sql	33;"	function	language:SQL
+BaseCore_C	core/BaseCore.C	1;"	variable	language:C++	file:
+BaseCore_H	core/BaseCore.H	4;"	variable	language:C++
+BaseDef_H	def/BaseDef.H	4;"	variable	language:C++
+BaseExc	exc/BaseExc.C	51;"	function	language:C++	class:BaseExc	signature:(const string& w)
+BaseExc	exc/BaseExc.H	137;"	class	language:C++	inherits:exception,BaseObj
+BaseExc	exc/BaseExc.H	145;"	function	language:C++	class:BaseExc	access:public	signature:(exception& exc)
+BaseExc::ActExc	exc/BaseExc.H	173;"	function	language:C++	class:BaseExc	access:public	signature:( void )
+BaseExc::BaseExc	exc/BaseExc.C	51;"	function	language:C++	class:BaseExc	signature:(const string& w)
+BaseExc::BaseExc	exc/BaseExc.H	145;"	function	language:C++	class:BaseExc	access:public	signature:(exception& exc)
+BaseExc::BaseExcStack	exc/BaseExc.H	184;"	typedef	language:C++	class:BaseExc	access:private
+BaseExc::Canceled	exc/BaseExc.H	174;"	function	language:C++	class:BaseExc	access:public	signature:(void)
+BaseExc::ClassName	exc/BaseExc.C	107;"	function	language:C++	class:BaseExc	signature:() const
+BaseExc::Clear	exc/BaseExc.H	166;"	function	language:C++	class:BaseExc	access:public	signature:(void)
+BaseExc::ExcStack	exc/BaseExc.C	70;"	member	language:C++	class:BaseExc	file:
+BaseExc::ExcStack	exc/BaseExc.H	185;"	member	language:C++	class:BaseExc	access:private
+BaseExc::Init	exc/BaseExc.C	73;"	function	language:C++	class:BaseExc	signature:(void)
+BaseExc::OnUnwind	exc/BaseExc.C	112;"	function	language:C++	class:BaseExc	signature:(const string& handler, const string& file, const int& line)
+BaseExc::PrintStack	exc/BaseExc.C	124;"	function	language:C++	class:BaseExc	signature:( const exception& e, ostream& os )
+BaseExc::Throw	exc/BaseExc.C	79;"	function	language:C++	class:BaseExc	signature:( const char * name, const char * text, const char * file, int line )
+BaseExc::actexc	exc/BaseExc.C	67;"	member	language:C++	class:BaseExc	file:
+BaseExc::actexc	exc/BaseExc.H	179;"	member	language:C++	class:BaseExc	access:private
+BaseExc::canceled	exc/BaseExc.C	68;"	member	language:C++	class:BaseExc	file:
+BaseExc::canceled	exc/BaseExc.H	180;"	member	language:C++	class:BaseExc	access:private
+BaseExc::old_terminate	exc/BaseExc.C	64;"	member	language:C++	class:BaseExc	file:
+BaseExc::old_terminate	exc/BaseExc.H	181;"	member	language:C++	class:BaseExc	access:private
+BaseExc::old_unexpected	exc/BaseExc.C	65;"	member	language:C++	class:BaseExc	file:
+BaseExc::old_unexpected	exc/BaseExc.H	182;"	member	language:C++	class:BaseExc	access:private
+BaseExc::operator =	exc/BaseExc.H	154;"	function	language:C++	class:BaseExc	access:public	signature:(const BaseExc& other)
+BaseExc::strwhat	exc/BaseExc.H	177;"	member	language:C++	class:BaseExc	access:private
+BaseExc::terminate	exc/BaseExc.C	93;"	function	language:C++	class:BaseExc	signature:()
+BaseExc::unexpected	exc/BaseExc.C	100;"	function	language:C++	class:BaseExc	signature:(void)
+BaseExc::what	exc/BaseExc.H	152;"	function	language:C++	class:BaseExc	access:public	implementation:virtual	signature:() const
+BaseExc::~BaseExc	exc/BaseExc.C	57;"	function	language:C++	class:BaseExc	signature:()
+BaseExcHandler	exc/BaseExc.H	190;"	class	language:C++	inherits:BaseObj
+BaseExcHandler	exc/BaseExc.H	194;"	function	language:C++	class:BaseExcHandler	access:public	signature:()
+BaseExcHandler	exc/BaseExc.H	195;"	function	language:C++	class:BaseExcHandler	access:public	signature:(const string& hn, const string& fn, const int& ln)
+BaseExcHandler::BaseExcHandler	exc/BaseExc.H	194;"	function	language:C++	class:BaseExcHandler	access:public	signature:()
+BaseExcHandler::BaseExcHandler	exc/BaseExc.H	195;"	function	language:C++	class:BaseExcHandler	access:public	signature:(const string& hn, const string& fn, const int& ln)
+BaseExcHandler::ClassName	exc/BaseExc.H	193;"	function	language:C++	class:BaseExcHandler	access:public	signature:() const
+BaseExcHandler::FileName	exc/BaseExc.H	200;"	member	language:C++	class:BaseExcHandler	access:private
+BaseExcHandler::HandlerName	exc/BaseExc.H	199;"	member	language:C++	class:BaseExcHandler	access:private
+BaseExcHandler::Line	exc/BaseExc.H	201;"	member	language:C++	class:BaseExcHandler	access:private
+BaseExcHandler::onPrint	exc/BaseExc.C	153;"	function	language:C++	class:BaseExcHandler	signature:(ostream& os) const
+BaseExcHandler::~BaseExcHandler	exc/BaseExc.H	196;"	function	language:C++	class:BaseExcHandler	access:public	signature:()
+BaseExcStack	exc/BaseExc.H	184;"	typedef	language:C++	class:BaseExc	access:private
+BaseExc_C	exc/BaseExc.C	1;"	variable	language:C++	file:
+BaseExc_H	exc/BaseExc.H	4;"	variable	language:C++
+BaseIpc	ipc/BaseIpc.C	16;"	function	language:C++	class:BaseIpc	signature:()
+BaseIpc	ipc/BaseIpc.H	19;"	class	language:C++	inherits:BaseObj
+BaseIpc::BaseIpc	ipc/BaseIpc.C	16;"	function	language:C++	class:BaseIpc	signature:()
+BaseIpc::ClassName	ipc/BaseIpc.H	29;"	function	language:C++	class:BaseIpc	access:public	implementation:virtual	signature:() const
+BaseIpc::create	ipc/BaseIpc.C	30;"	function	language:C++	class:BaseIpc	signature:()
+BaseIpc::ipc	ipc/BaseIpc.H	44;"	member	language:C++	class:BaseIpc	access:private
+BaseIpc::onPrint	ipc/BaseIpc.H	39;"	function	language:C++	class:BaseIpc	access:public	implementation:virtual	signature:(ostream& os) const
+BaseIpc::valid	ipc/BaseIpc.H	37;"	function	language:C++	class:BaseIpc	access:public	signature:() const
+BaseIpc::~BaseIpc	ipc/BaseIpc.C	22;"	function	language:C++	class:BaseIpc	signature:()
+BaseIpc_unexpected	ipc/BaseIpc.C	7;"	variable	language:C++
+BaseIpc_unexpected	ipc/BaseIpc.H	17;"	variable	language:C++
+BaseMap	map/BaseMap.C	17;"	function	language:C++	class:BaseMap	signature:()
+BaseMap	map/BaseMap.H	20;"	class	language:C++	inherits:BaseObj,map
+BaseMap	map/BaseMap.H	26;"	function	language:C++	class:BaseMap	access:public	signature:(const char* mappedstr)
+BaseMap	map/BaseMap.H	27;"	function	language:C++	class:BaseMap	access:public	signature:(const BaseStr& mappedstr)
+BaseMap::BaseMap	map/BaseMap.C	17;"	function	language:C++	class:BaseMap	signature:()
+BaseMap::BaseMap	map/BaseMap.H	26;"	function	language:C++	class:BaseMap	access:public	signature:(const char* mappedstr)
+BaseMap::BaseMap	map/BaseMap.H	27;"	function	language:C++	class:BaseMap	access:public	signature:(const BaseStr& mappedstr)
+BaseMap::ClassName	map/BaseMap.H	39;"	function	language:C++	class:BaseMap	access:public	implementation:virtual	signature:() const
+BaseMap::create	map/BaseMap.C	86;"	function	language:C++	class:BaseMap	signature:()
+BaseMap::map	map/BaseMap.H	55;"	member	language:C++	class:BaseMap	access:private
+BaseMap::onPrint	map/BaseMap.H	49;"	function	language:C++	class:BaseMap	access:public	implementation:virtual	signature:(ostream& os) const
+BaseMap::operator =	map/BaseMap.C	52;"	function	language:C++	class:BaseMap	signature:(const BaseStr& mappedstr)
+BaseMap::operator =	map/BaseMap.C	60;"	function	language:C++	class:BaseMap	signature:(const char* mappedstr)
+BaseMap::operator BaseStr	map/BaseMap.C	31;"	function	language:C++	class:BaseMap	signature:() const
+BaseMap::strtomap	map/BaseMap.C	68;"	function	language:C++	class:BaseMap	signature:(const BaseStr& mappedstr)
+BaseMap::valid	map/BaseMap.H	47;"	function	language:C++	class:BaseMap	access:public	signature:() const
+BaseMap::~BaseMap	map/BaseMap.C	23;"	function	language:C++	class:BaseMap	signature:()
+BaseMapIter	map/BaseMap.H	60;"	typedef	language:C++
+BaseMap_H	map/BaseMap.H	4;"	variable	language:C++
+BaseMap_unexpected	map/BaseMap.C	8;"	variable	language:C++
+BaseMap_unexpected	map/BaseMap.H	18;"	variable	language:C++
+BaseMth	mth/BaseMth.C	22;"	function	language:C++	class:BaseMth	signature:()
+BaseMth	mth/BaseMth.H	101;"	class	language:C++	inherits:BaseMthRunnable
+BaseMth	mth/BaseMth.H	23;"	class	language:C++	inherits:BaseObj
+BaseMth	mth/BaseMth.H	27;"	function	language:C++	class:BaseMth	access:public	signature:()
+BaseMth::BaseMth	mth/BaseMth.C	22;"	function	language:C++	class:BaseMth	signature:()
+BaseMth::BaseMth	mth/BaseMth.H	27;"	function	language:C++	class:BaseMth	access:public	signature:()
+BaseMth::ClassName	mth/BaseMth.H	107;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:() const
+BaseMth::ClassName	mth/BaseMth.H	33;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:() const
+BaseMth::_thread	mth/BaseMth.H	71;"	member	language:C++	class:BaseMth	access:private
+BaseMth::create	mth/BaseMth.C	36;"	function	language:C++	class:BaseMth	signature:()
+BaseMth::get	mth/BaseMth.H	48;"	function	language:C++	class:BaseMth	access:public	signature:()
+BaseMth::main_thid	mth/BaseMth.H	70;"	member	language:C++	class:BaseMth	access:private
+BaseMth::onPrint	mth/BaseMth.H	124;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:(ostream& os) const
+BaseMth::onPrint	mth/BaseMth.H	58;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:(ostream& os) const
+BaseMth::run	mth/BaseMth.H	130;"	function	language:C++	class:BaseMth	access:public	signature:()
+BaseMth::running	mth/BaseMth.H	120;"	function	language:C++	class:BaseMth	access:public	signature:() const
+BaseMth::running	mth/BaseMth.H	34;"	function	language:C++	class:BaseMth	access:public	signature:() const
+BaseMth::start	mth/BaseMth.H	37;"	function	language:C++	class:BaseMth	access:public	signature:(Callable&& fn, Args&& ... args)
+BaseMth::thcnt	mth/BaseMth.C	9;"	member	language:C++	class:BaseMth	file:
+BaseMth::thcnt	mth/BaseMth.H	147;"	member	language:C++	class:BaseMth	access:private
+BaseMth::thcnt	mth/BaseMth.H	69;"	member	language:C++	class:BaseMth	access:private
+BaseMth::thid	mth/BaseMth.H	146;"	member	language:C++	class:BaseMth	access:private
+BaseMth::wait	mth/BaseMth.H	50;"	function	language:C++	class:BaseMth	access:public	signature:()
+BaseMth::~BaseMth	mth/BaseMth.C	28;"	function	language:C++	class:BaseMth	signature:()
+BaseMth::~BaseMth	mth/BaseMth.H	28;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:()
+BaseMthRunnable	mth/BaseMth.H	76;"	class	language:C++	inherits:BaseObj
+BaseMthRunnable	mth/BaseMth.H	80;"	function	language:C++	class:BaseMthRunnable	access:public	signature:()
+BaseMthRunnable::BaseMthRunnable	mth/BaseMth.H	80;"	function	language:C++	class:BaseMthRunnable	access:public	signature:()
+BaseMthRunnable::_running	mth/BaseMth.H	96;"	member	language:C++	class:BaseMthRunnable	access:protected
+BaseMthRunnable::_thread	mth/BaseMth.H	98;"	member	language:C++	class:BaseMthRunnable	access:private
+BaseMthRunnable::start	mth/BaseMth.H	82;"	function	language:C++	class:BaseMthRunnable	access:public	signature:()
+BaseMthRunnable::wait	mth/BaseMth.H	90;"	function	language:C++	class:BaseMthRunnable	access:public	signature:()
+BaseMthRunnable::~BaseMthRunnable	mth/BaseMth.H	81;"	function	language:C++	class:BaseMthRunnable	access:public	implementation:virtual	signature:()
+BaseMth_unexpected	mth/BaseMth.C	7;"	variable	language:C++
+BaseMth_unexpected	mth/BaseMth.H	20;"	variable	language:C++
+BaseObj	obj/BaseObj.C	42;"	function	language:C++	class:BaseObj	signature:()
+BaseObj	obj/BaseObj.H	31;"	class	language:C++
+BaseObj	obj/BaseObj.H	35;"	function	language:C++	class:BaseObj	access:public	signature:(const BaseObj& other)
+BaseObj::BaseObj	obj/BaseObj.C	42;"	function	language:C++	class:BaseObj	signature:()
+BaseObj::BaseObj	obj/BaseObj.H	35;"	function	language:C++	class:BaseObj	access:public	signature:(const BaseObj& other)
+BaseObj::GetCreated	obj/BaseObj.C	64;"	function	language:C++	class:BaseObj	signature:() const
+BaseObj::GetInstance	obj/BaseObj.C	69;"	function	language:C++	class:BaseObj	signature:() const
+BaseObj::instance_count	obj/BaseObj.C	40;"	member	language:C++	class:BaseObj	file:
+BaseObj::instance_count	obj/BaseObj.H	64;"	member	language:C++	class:BaseObj	access:private
+BaseObj::instance_num	obj/BaseObj.H	63;"	member	language:C++	class:BaseObj	access:private
+BaseObj::onPrint	obj/BaseObj.C	74;"	function	language:C++	class:BaseObj	signature:(ostream& os) const
+BaseObj::operator =	obj/BaseObj.H	44;"	function	language:C++	class:BaseObj	access:public	implementation:virtual	signature:(BaseObj const &other) const
+BaseObj::operator ==	obj/BaseObj.H	49;"	function	language:C++	class:BaseObj	access:public	signature:(const BaseObj& other)
+BaseObj::signature	obj/BaseObj.H	65;"	member	language:C++	class:BaseObj	access:private
+BaseObj::timestamp	obj/BaseObj.H	62;"	member	language:C++	class:BaseObj	access:private
+BaseObj::~BaseObj	obj/BaseObj.C	54;"	function	language:C++	class:BaseObj	signature:()
+BaseObj_C	obj/BaseObj.C	1;"	variable	language:C++	file:
+BaseObj_H	obj/BaseObj.H	4;"	variable	language:C++
+BaseOra	ora/cpp/BaseOra.C	40;"	function	language:C++	class:BaseOra	signature:()
+BaseOra	ora/cpp/BaseOra.H	19;"	class	language:C++	inherits:BaseObj
+BaseOra::BaseOra	ora/cpp/BaseOra.C	40;"	function	language:C++	class:BaseOra	signature:()
+BaseOra::ClassName	ora/cpp/BaseOra.H	29;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:() const
+BaseOra::Commit	ora/cpp/BaseOra.C	133;"	function	language:C++	class:BaseOra	signature:(void) const
+BaseOra::Connect	ora/cpp/BaseOra.C	57;"	function	language:C++	class:BaseOra	signature:(const BaseStr& connstr)
+BaseOra::Disconnect	ora/cpp/BaseOra.C	155;"	function	language:C++	class:BaseOra	signature:(void)
+BaseOra::ErrHandler	ora/cpp/BaseOra.C	31;"	function	language:C++	class:BaseOra	signature:(const BaseStr& msg)
+BaseOra::Execute	ora/cpp/BaseOra.C	86;"	function	language:C++	class:BaseOra	signature:( const BaseStr& Package, const BaseStr& FuncName, const BaseStr& InPar )
+BaseOra::Rollback	ora/cpp/BaseOra.C	144;"	function	language:C++	class:BaseOra	signature:(void) const
+BaseOra::__anon1::Msg	ora/cpp/BaseOra.H	58;"	member	language:C++	struct:BaseOra::__anon1	access:public
+BaseOra::__anon1::OutPar	ora/cpp/BaseOra.H	57;"	member	language:C++	struct:BaseOra::__anon1	access:public
+BaseOra::__anon1::Ret	ora/cpp/BaseOra.H	56;"	member	language:C++	struct:BaseOra::__anon1	access:public
+BaseOra::_connected	ora/cpp/BaseOra.H	53;"	member	language:C++	class:BaseOra	access:private
+BaseOra::_connstr	ora/cpp/BaseOra.H	54;"	member	language:C++	class:BaseOra	access:private
+BaseOra::connected	ora/cpp/BaseOra.H	44;"	function	language:C++	class:BaseOra	access:public	signature:(void) const
+BaseOra::connected	ora/cpp/BaseOra.H	45;"	function	language:C++	class:BaseOra	access:public	signature:(bool setval)
+BaseOra::onPrint	ora/cpp/BaseOra.H	47;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:(ostream& os) const
+BaseOra::pls	ora/cpp/BaseOra.H	59;"	member	language:C++	class:BaseOra	typeref:struct:BaseOra::__anon1	access:private
+BaseOra::~BaseOra	ora/cpp/BaseOra.C	46;"	function	language:C++	class:BaseOra	signature:()
+BaseOraErrHandler	ora/cpp/BaseOra.C	26;"	function	language:C++	file:	signature:(const BaseStr& msg)
+BaseOra_H	ora/cpp/BaseOra.H	4;"	variable	language:C++
+BaseOra_unexpected	ora/cpp/BaseOra.C	13;"	variable	language:C++
+BaseOra_unexpected	ora/cpp/BaseOra.H	17;"	variable	language:C++
+BasePth	pth/BasePth.C	22;"	function	language:C++	class:BasePth	signature:()
+BasePth	pth/BasePth.H	137;"	class	language:C++	inherits:BaseObj
+BasePth	pth/BasePth.H	141;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth	pth/BasePth.H	235;"	class	language:C++	inherits:BasePthRunnable
+BasePth	pth/BasePth.H	27;"	class	language:C++	inherits:BaseObj
+BasePth	pth/BasePth.H	33;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth	pth/BasePth.H	34;"	function	language:C++	class:BasePth	access:public	signature:(BasePth&& other)
+BasePth::BasePth	pth/BasePth.C	22;"	function	language:C++	class:BasePth	signature:()
+BasePth::BasePth	pth/BasePth.H	141;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::BasePth	pth/BasePth.H	33;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::BasePth	pth/BasePth.H	34;"	function	language:C++	class:BasePth	access:public	signature:(BasePth&& other)
+BasePth::ClassName	pth/BasePth.H	147;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:() const
+BasePth::ClassName	pth/BasePth.H	241;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:() const
+BasePth::ClassName	pth/BasePth.H	41;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:() const
+BasePth::_thread	pth/BasePth.H	130;"	member	language:C++	class:BasePth	access:private
+BasePth::_thread	pth/BasePth.H	206;"	member	language:C++	class:BasePth	access:private
+BasePth::create	pth/BasePth.C	36;"	function	language:C++	class:BasePth	signature:()
+BasePth::get	pth/BasePth.H	183;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::get	pth/BasePth.H	80;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::getresult	pth/BasePth.H	84;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::getret	pth/BasePth.H	182;"	function	language:C++	class:BasePth	access:public	signature:(void)
+BasePth::moveresult	pth/BasePth.H	90;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::onPrint	pth/BasePth.H	119;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:(ostream& os) const
+BasePth::onPrint	pth/BasePth.H	192;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:(ostream& os) const
+BasePth::onPrint	pth/BasePth.H	258;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:(ostream& os) const
+BasePth::operator =	pth/BasePth.H	35;"	function	language:C++	class:BasePth	access:public	signature:(BasePth&& other)
+BasePth::ready	pth/BasePth.H	92;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::result	pth/BasePth.H	131;"	member	language:C++	class:BasePth	access:private
+BasePth::ret	pth/BasePth.H	203;"	member	language:C++	class:BasePth	access:private
+BasePth::run	pth/BasePth.H	264;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::running	pth/BasePth.H	148;"	function	language:C++	class:BasePth	access:public	signature:() const
+BasePth::running	pth/BasePth.H	254;"	function	language:C++	class:BasePth	access:public	signature:() const
+BasePth::running	pth/BasePth.H	42;"	function	language:C++	class:BasePth	access:public	signature:() const
+BasePth::start	pth/BasePth.H	152;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&& ... args)
+BasePth::start	pth/BasePth.H	45;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&& ... args)
+BasePth::task	pth/BasePth.H	164;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&&... args)
+BasePth::task	pth/BasePth.H	59;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&&... args)
+BasePth::thcnt	pth/BasePth.H	204;"	member	language:C++	class:BasePth	access:private
+BasePth::thcnt	pth/BasePth.H	281;"	member	language:C++	class:BasePth	access:private
+BasePth::thid	pth/BasePth.H	280;"	member	language:C++	class:BasePth	access:private
+BasePth::wait	pth/BasePth.H	184;"	function	language:C++	class:BasePth	access:public	signature:()
+BasePth::~BasePth	pth/BasePth.C	28;"	function	language:C++	class:BasePth	signature:()
+BasePth::~BasePth	pth/BasePth.H	142;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:()
+BasePth::~BasePth	pth/BasePth.H	37;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:()
+BasePthRunnable	pth/BasePth.H	210;"	class	language:C++	inherits:BaseObj
+BasePthRunnable	pth/BasePth.H	214;"	function	language:C++	class:BasePthRunnable	access:public	signature:()
+BasePthRunnable::BasePthRunnable	pth/BasePth.H	214;"	function	language:C++	class:BasePthRunnable	access:public	signature:()
+BasePthRunnable::_running	pth/BasePth.H	230;"	member	language:C++	class:BasePthRunnable	access:protected
+BasePthRunnable::_thread	pth/BasePth.H	232;"	member	language:C++	class:BasePthRunnable	access:private
+BasePthRunnable::start	pth/BasePth.H	216;"	function	language:C++	class:BasePthRunnable	access:public	signature:()
+BasePthRunnable::wait	pth/BasePth.H	224;"	function	language:C++	class:BasePthRunnable	access:public	signature:()
+BasePthRunnable::~BasePthRunnable	pth/BasePth.H	215;"	function	language:C++	class:BasePthRunnable	access:public	implementation:virtual	signature:()
+BasePth_unexpected	pth/BasePth.C	7;"	variable	language:C++
+BasePth_unexpected	pth/BasePth.H	21;"	variable	language:C++
+BaseShm	shm/BaseShm.C	16;"	function	language:C++	class:BaseShm	signature:()
+BaseShm	shm/BaseShm.H	18;"	class	language:C++	inherits:BaseObj
+BaseShm::BaseShm	shm/BaseShm.C	16;"	function	language:C++	class:BaseShm	signature:()
+BaseShm::ClassName	shm/BaseShm.H	25;"	function	language:C++	class:BaseShm	access:public	implementation:virtual	signature:() const
+BaseShm::create	shm/BaseShm.C	30;"	function	language:C++	class:BaseShm	signature:()
+BaseShm::onPrint	shm/BaseShm.H	35;"	function	language:C++	class:BaseShm	access:public	implementation:virtual	signature:(ostream& os) const
+BaseShm::shm	shm/BaseShm.H	40;"	member	language:C++	class:BaseShm	access:private
+BaseShm::valid	shm/BaseShm.H	33;"	function	language:C++	class:BaseShm	access:public	signature:() const
+BaseShm::~BaseShm	shm/BaseShm.C	22;"	function	language:C++	class:BaseShm	signature:()
+BaseShm_unexpected	shm/BaseShm.C	7;"	variable	language:C++
+BaseShm_unexpected	shm/BaseShm.H	16;"	variable	language:C++
+BaseSock	sock/BaseSock.H	65;"	class	language:C++	inherits:BaseObj
+BaseSock::SockAddr	sock/BaseSock.H	127;"	member	language:C++	class:BaseSock	access:private
+BaseSock::SockAddr	sock/BaseSock.H	83;"	function	language:C++	class:BaseSock	access:public	signature:(other.SockAddr)
+BaseSock::SockFd	sock/BaseSock.H	126;"	member	language:C++	class:BaseSock	access:private
+BaseSock::SockFlag	sock/BaseSock.H	125;"	member	language:C++	class:BaseSock	access:private
+BaseSock::accept	sock/BaseSock.C	126;"	function	language:C++	class:BaseSock	signature:(BaseSock& NewSock) const
+BaseSock::bind	sock/BaseSock.C	104;"	function	language:C++	class:BaseSock	signature:(const int Port)
+BaseSock::bytes	sock/BaseSock.H	128;"	member	language:C++	class:BaseSock	access:private
+BaseSock::clear	sock/BaseSock.H	118;"	function	language:C++	class:BaseSock	access:public	signature:()
+BaseSock::close	sock/BaseSock.C	40;"	function	language:C++	class:BaseSock	signature:()
+BaseSock::connect	sock/BaseSock.C	73;"	function	language:C++	class:BaseSock	signature:( const BaseStr& Host, const int Port)
+BaseSock::create	sock/BaseSock.C	52;"	function	language:C++	class:BaseSock	signature:()
+BaseSock::gettraf	sock/BaseSock.H	99;"	function	language:C++	class:BaseSock	access:public	signature:()
+BaseSock::listen	sock/BaseSock.C	117;"	function	language:C++	class:BaseSock	signature:()
+BaseSock::noexcept	sock/BaseSock.H	70;"	member	language:C++	class:BaseSock	access:public
+BaseSock::onPrint	sock/BaseSock.H	108;"	function	language:C++	class:BaseSock	access:public	implementation:virtual	signature:(ostream& os) const
+BaseSock::operator <<	sock/BaseSock.C	202;"	function	language:C++	class:BaseSock	signature:(const BaseStr& s)
+BaseSock::operator >>	sock/BaseSock.C	212;"	function	language:C++	class:BaseSock	signature:(BaseStr& s)
+BaseSock::other	sock/BaseSock.H	76;"	member	language:C++	class:BaseSock	access:public
+BaseSock::other	sock/BaseSock.H	82;"	member	language:C++	class:BaseSock	access:public
+BaseSock::recv	sock/BaseSock.C	156;"	function	language:C++	class:BaseSock	signature:(BaseStr& r)
+BaseSock::send	sock/BaseSock.C	145;"	function	language:C++	class:BaseSock	signature:(const BaseStr& s)
+BaseSock::setNonBlock	sock/BaseSock.C	185;"	function	language:C++	class:BaseSock	signature:(const bool Block)
+BaseSock::setSockOpt	sock/BaseSock.C	65;"	function	language:C++	class:BaseSock	signature:(const int OptNam, const void* OptVal, int OptLen)
+BaseSock::valid	sock/BaseSock.H	105;"	function	language:C++	class:BaseSock	access:public	signature:() const
+BaseSock::~BaseSock	sock/BaseSock.C	28;"	function	language:C++	class:BaseSock	signature:()
+BaseSockClt	sock/BaseSock.C	407;"	function	language:C++	class:BaseSockClt	signature:(BaseStr host, int port )
+BaseSockClt	sock/BaseSock.H	235;"	class	language:C++	inherits:BaseSock
+BaseSockClt::BaseSockClt	sock/BaseSock.C	407;"	function	language:C++	class:BaseSockClt	signature:(BaseStr host, int port )
+BaseSockClt::ClassName	sock/BaseSock.H	241;"	function	language:C++	class:BaseSockClt	access:public	implementation:virtual	signature:() const
+BaseSockClt::operator <<	sock/BaseSock.C	242;"	function	language:C++	class:BaseSockClt	signature:(const BaseStr& s)
+BaseSockClt::operator >>	sock/BaseSock.C	252;"	function	language:C++	class:BaseSockClt	signature:(BaseStr& s)
+BaseSockClt::~BaseSockClt	sock/BaseSock.H	240;"	function	language:C++	class:BaseSockClt	access:public	implementation:virtual	signature:()
+BaseSockInf	sock/BaseSock.H	132;"	class	language:C++	inherits:BaseObj
+BaseSockInf	sock/BaseSock.H	135;"	function	language:C++	class:BaseSockInf	access:public	signature:()
+BaseSockInf	sock/BaseSock.H	136;"	function	language:C++	class:BaseSockInf	access:public	signature:(const BaseSockInf& other)
+BaseSockInf::BaseSockInf	sock/BaseSock.H	135;"	function	language:C++	class:BaseSockInf	access:public	signature:()
+BaseSockInf::BaseSockInf	sock/BaseSock.H	136;"	function	language:C++	class:BaseSockInf	access:public	signature:(const BaseSockInf& other)
+BaseSockInf::ClassName	sock/BaseSock.H	140;"	function	language:C++	class:BaseSockInf	access:public	implementation:virtual	signature:() const
+BaseSockInf::clear	sock/BaseSock.H	188;"	function	language:C++	class:BaseSockInf	access:private	signature:()
+BaseSockInf::onPrint	sock/BaseSock.H	148;"	function	language:C++	class:BaseSockInf	access:public	implementation:virtual	signature:(ostream& os) const
+BaseSockInf::operator =	sock/BaseSock.H	141;"	function	language:C++	class:BaseSockInf	access:public	signature:(const BaseSockInf& sock)
+BaseSockInf::operator =	sock/BaseSock.H	183;"	function	language:C++	class:BaseSockInf	access:public	signature:(const stat_t& other)
+BaseSockInf::set	sock/BaseSock.C	368;"	function	language:C++	class:BaseSockInf	signature:(const BaseStr& sp)
+BaseSockInf::set	sock/BaseSock.C	373;"	function	language:C++	class:BaseSockInf	signature:(const BaseMap& mp)
+BaseSockInf::stat	sock/BaseSock.H	192;"	member	language:C++	class:BaseSockInf	access:private
+BaseSockInf::stat_t	sock/BaseSock.H	159;"	struct	language:C++	class:BaseSockInf	access:public
+BaseSockInf::stat_t::BytesRecv	sock/BaseSock.H	174;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+BaseSockInf::stat_t::BytesSent	sock/BaseSock.H	173;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+BaseSockInf::stat_t::SockHdlr	sock/BaseSock.H	172;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+BaseSockInf::stat_t::flags	sock/BaseSock.H	171;"	member	language:C++	struct:BaseSockInf::stat_t	typeref:struct:BaseSockInf::stat_t::flags_t	access:public
+BaseSockInf::stat_t::flags_t	sock/BaseSock.H	162;"	struct	language:C++	struct:BaseSockInf::stat_t	access:public
+BaseSockInf::stat_t::flags_t::faulty	sock/BaseSock.H	169;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+BaseSockInf::stat_t::flags_t::flags_t	sock/BaseSock.H	164;"	function	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public	signature:()
+BaseSockInf::stat_t::flags_t::flags_t	sock/BaseSock.H	165;"	function	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public	signature:(const int fl)
+BaseSockInf::stat_t::flags_t::nok	sock/BaseSock.H	167;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+BaseSockInf::stat_t::flags_t::ok	sock/BaseSock.H	166;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+BaseSockInf::stat_t::flags_t::reserved	sock/BaseSock.H	168;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+BaseSockInf::stat_t::stat_t	sock/BaseSock.H	161;"	function	language:C++	struct:BaseSockInf::stat_t	access:public	signature:()
+BaseSockInf::stat_t::threadid	sock/BaseSock.H	176;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+BaseSockInf::stat_t::threadid	sock/BaseSock.H	178;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+BaseSockInf::~BaseSockInf	sock/BaseSock.H	139;"	function	language:C++	class:BaseSockInf	access:public	implementation:virtual	signature:()
+BaseSockSrv	sock/BaseSock.C	262;"	function	language:C++	class:BaseSockSrv	signature:(int port)
+BaseSockSrv	sock/BaseSock.H	197;"	class	language:C++	inherits:BaseSock
+BaseSockSrv	sock/BaseSock.H	200;"	function	language:C++	class:BaseSockSrv	access:public	signature:()
+BaseSockSrv::Accept	sock/BaseSock.C	280;"	function	language:C++	class:BaseSockSrv	signature:( BaseSockSrv& sock, int to)
+BaseSockSrv::BaseSockSrv	sock/BaseSock.C	262;"	function	language:C++	class:BaseSockSrv	signature:(int port)
+BaseSockSrv::BaseSockSrv	sock/BaseSock.H	200;"	function	language:C++	class:BaseSockSrv	access:public	signature:()
+BaseSockSrv::ClassName	sock/BaseSock.H	205;"	function	language:C++	class:BaseSockSrv	access:public	implementation:virtual	signature:() const
+BaseSockSrv::Close	sock/BaseSock.H	212;"	function	language:C++	class:BaseSockSrv	access:public	signature:(void)
+BaseSockSrv::Execute	sock/BaseSock.C	299;"	function	language:C++	class:BaseSockSrv	signature:(BaseSockInf (sockhdlr) BaseSockSrv&&))
+BaseSockSrv::executed	sock/BaseSock.C	13;"	member	language:C++	class:BaseSockSrv	file:
+BaseSockSrv::executed	sock/BaseSock.H	227;"	member	language:C++	class:BaseSockSrv	access:private
+BaseSockSrv::get	sock/BaseSock.H	220;"	function	language:C++	class:BaseSockSrv	access:private	signature:(void)
+BaseSockSrv::getresult	sock/BaseSock.H	225;"	function	language:C++	class:BaseSockSrv	access:private	signature:()
+BaseSockSrv::gettraf	sock/BaseSock.H	214;"	function	language:C++	class:BaseSockSrv	access:public	signature:()
+BaseSockSrv::operator <<	sock/BaseSock.C	222;"	function	language:C++	class:BaseSockSrv	signature:(const BaseStr& s)
+BaseSockSrv::operator >>	sock/BaseSock.C	232;"	function	language:C++	class:BaseSockSrv	signature:(BaseStr& s)
+BaseSockSrv::other	sock/BaseSock.H	202;"	member	language:C++	class:BaseSockSrv	access:public
+BaseSockSrv::ready	sock/BaseSock.C	315;"	function	language:C++	class:BaseSockSrv	signature:(void)
+BaseSockSrv::result	sock/BaseSock.H	229;"	member	language:C++	class:BaseSockSrv	access:private
+BaseSockSrv::timeout	sock/BaseSock.C	11;"	member	language:C++	class:BaseSockSrv	file:
+BaseSockSrv::timeout	sock/BaseSock.H	221;"	member	language:C++	class:BaseSockSrv	access:private
+BaseSockSrv::timeouted	sock/BaseSock.C	328;"	function	language:C++	class:BaseSockSrv	signature:(int)
+BaseSockSrv::timeouted	sock/BaseSock.C	358;"	function	language:C++	class:BaseSockSrv	signature:(int)
+BaseSockSrv::valid	sock/BaseSock.H	213;"	function	language:C++	class:BaseSockSrv	access:public	signature:(void)
+BaseSockSrv::~BaseSockSrv	sock/BaseSock.H	204;"	function	language:C++	class:BaseSockSrv	access:public	implementation:virtual	signature:()
+BaseSock_C	sock/BaseSock.C	1;"	variable	language:C++	file:
+BaseSock_H	sock/BaseSock.H	4;"	variable	language:C++
+BaseStorable	store/BaseStore.H	16;"	class	language:C++	inherits:BaseObj
+BaseStorable::ClassName	store/BaseStore.H	22;"	function	language:C++	class:BaseStorable	access:public	implementation:virtual	signature:() const
+BaseStorable::~BaseStorable	store/BaseStore.C	16;"	function	language:C++	class:BaseStorable	signature:()
+BaseStore	store/BaseStore.C	24;"	function	language:C++	class:BaseStore	signature:()
+BaseStore	store/BaseStore.C	30;"	function	language:C++	class:BaseStore	signature:(BaseStore const &other)
+BaseStore	store/BaseStore.H	30;"	class	language:C++	inherits:BaseStorable
+BaseStore::BaseStore	store/BaseStore.C	24;"	function	language:C++	class:BaseStore	signature:()
+BaseStore::BaseStore	store/BaseStore.C	30;"	function	language:C++	class:BaseStore	signature:(BaseStore const &other)
+BaseStore::ClassName	store/BaseStore.H	37;"	function	language:C++	class:BaseStore	access:public	implementation:virtual	signature:() const
+BaseStore::Copy	store/BaseStore.C	75;"	function	language:C++	class:BaseStore	signature:() const
+BaseStore::add	store/BaseStore.C	80;"	function	language:C++	class:BaseStore	signature:(BaseStorable const &newobj)
+BaseStore::back	store/BaseStore.C	90;"	function	language:C++	class:BaseStore	signature:(const BaseStorable& oldobj)
+BaseStore::copy	store/BaseStore.C	60;"	function	language:C++	class:BaseStore	signature:(BaseStore const &other)
+BaseStore::destroy	store/BaseStore.C	68;"	function	language:C++	class:BaseStore	signature:()
+BaseStore::get	store/BaseStore.C	103;"	function	language:C++	class:BaseStore	signature:(int index)
+BaseStore::nstored	store/BaseStore.C	112;"	function	language:C++	class:BaseStore	signature:() const
+BaseStore::number	store/BaseStore.H	57;"	member	language:C++	class:BaseStore	access:private
+BaseStore::operator =	store/BaseStore.C	42;"	function	language:C++	class:BaseStore	signature:(BaseStore const &other)
+BaseStore::storage	store/BaseStore.H	58;"	member	language:C++	class:BaseStore	access:private
+BaseStore::~BaseStore	store/BaseStore.C	36;"	function	language:C++	class:BaseStore	signature:()
+BaseStore_H	store/BaseStore.H	4;"	variable	language:C++
+BaseStr	str/BaseStr.H	15;"	class	language:C++	inherits:BaseObj,string
+BaseStr	str/BaseStr.H	20;"	function	language:C++	class:BaseStr	access:public	signature:()
+BaseStr	str/BaseStr.H	21;"	function	language:C++	class:BaseStr	access:public	signature:(const BaseStr& o)
+BaseStr	str/BaseStr.H	22;"	function	language:C++	class:BaseStr	access:public	signature:(const char * s)
+BaseStr	str/BaseStr.H	23;"	function	language:C++	class:BaseStr	access:public	signature:(char c)
+BaseStr	str/BaseStr.H	24;"	function	language:C++	class:BaseStr	access:public	signature:(const string s)
+BaseStr::BaseStr	str/BaseStr.H	20;"	function	language:C++	class:BaseStr	access:public	signature:()
+BaseStr::BaseStr	str/BaseStr.H	21;"	function	language:C++	class:BaseStr	access:public	signature:(const BaseStr& o)
+BaseStr::BaseStr	str/BaseStr.H	22;"	function	language:C++	class:BaseStr	access:public	signature:(const char * s)
+BaseStr::BaseStr	str/BaseStr.H	23;"	function	language:C++	class:BaseStr	access:public	signature:(char c)
+BaseStr::BaseStr	str/BaseStr.H	24;"	function	language:C++	class:BaseStr	access:public	signature:(const string s)
+BaseStr::ClassName	str/BaseStr.H	26;"	function	language:C++	class:BaseStr	access:public	implementation:virtual	signature:() const
+BaseStr::onPrint	str/BaseStr.C	15;"	function	language:C++	class:BaseStr	signature:(ostream& os) const
+BaseStr::operator ()	str/BaseStr.H	37;"	function	language:C++	class:BaseStr	access:public	signature:(size_t pos, size_t len) const
+BaseStr::operator +	str/BaseStr.H	30;"	function	language:C++	class:BaseStr	access:public	signature:(const char* s)
+BaseStr::operator +	str/BaseStr.H	31;"	function	language:C++	class:BaseStr	access:public	signature:(const int& i)
+BaseStr::operator +	str/BaseStr.H	32;"	function	language:C++	class:BaseStr	access:public	signature:(const BaseStr& s)
+BaseStr::operator ==	str/BaseStr.H	33;"	function	language:C++	class:BaseStr	access:public	signature:(const BaseStr& o)
+BaseStr::operator ==	str/BaseStr.H	34;"	function	language:C++	class:BaseStr	access:public	signature:(const char* s)
+BaseStr::operator []	str/BaseStr.H	35;"	function	language:C++	class:BaseStr	access:public	signature:(int pos) const
+BaseStr::operator []	str/BaseStr.H	36;"	function	language:C++	class:BaseStr	access:public	signature:(int pos)
+BaseStr::operator const char*	str/BaseStr.H	29;"	function	language:C++	class:BaseStr	access:public	signature:() const
+BaseStr::~BaseStr	str/BaseStr.H	25;"	function	language:C++	class:BaseStr	access:public	implementation:virtual	signature:()
+BaseStr_C	str/BaseStr.C	1;"	variable	language:C++	file:
+BaseStr_H	str/BaseStr.H	4;"	variable	language:C++
+BaseTime	time/BaseTime.C	16;"	function	language:C++	class:BaseTime	signature:()
+BaseTime	time/BaseTime.C	21;"	function	language:C++	class:BaseTime	signature:(const char * fmt)
+BaseTime	time/BaseTime.H	20;"	class	language:C++	inherits:BaseObj
+BaseTime::BaseTime	time/BaseTime.C	16;"	function	language:C++	class:BaseTime	signature:()
+BaseTime::BaseTime	time/BaseTime.C	21;"	function	language:C++	class:BaseTime	signature:(const char * fmt)
+BaseTime::ClassName	time/BaseTime.H	28;"	function	language:C++	class:BaseTime	access:public	signature:(void) const
+BaseTime::GetTime	time/BaseTime.C	41;"	function	language:C++	class:BaseTime	signature:(void)
+BaseTime::Now	time/BaseTime.C	35;"	function	language:C++	class:BaseTime	signature:(void)
+BaseTime::format	time/BaseTime.H	33;"	member	language:C++	class:BaseTime	access:private
+BaseTime::now	time/BaseTime.C	47;"	function	language:C++	class:BaseTime	signature:(void)
+BaseTime::time	time/BaseTime.H	32;"	member	language:C++	class:BaseTime	access:private
+BaseTime::time_buf	time/BaseTime.H	34;"	member	language:C++	class:BaseTime	access:private
+BaseTime::~BaseTime	time/BaseTime.C	27;"	function	language:C++	class:BaseTime	signature:()
+BaseTime_C	time/BaseTime.C	1;"	variable	language:C++	file:
+BaseTime_H	time/BaseTime.H	4;"	variable	language:C++
+BaseTpl	tpl/BaseTpl.C	16;"	function	language:C++	class:BaseTpl	signature:()
+BaseTpl	tpl/BaseTpl.H	19;"	class	language:C++	inherits:BaseObj
+BaseTpl::BaseTpl	tpl/BaseTpl.C	16;"	function	language:C++	class:BaseTpl	signature:()
+BaseTpl::ClassName	tpl/BaseTpl.H	29;"	function	language:C++	class:BaseTpl	access:public	implementation:virtual	signature:() const
+BaseTpl::create	tpl/BaseTpl.C	30;"	function	language:C++	class:BaseTpl	signature:()
+BaseTpl::onPrint	tpl/BaseTpl.H	39;"	function	language:C++	class:BaseTpl	access:public	implementation:virtual	signature:(ostream& os) const
+BaseTpl::tpl	tpl/BaseTpl.H	44;"	member	language:C++	class:BaseTpl	access:private
+BaseTpl::valid	tpl/BaseTpl.H	37;"	function	language:C++	class:BaseTpl	access:public	signature:() const
+BaseTpl::~BaseTpl	tpl/BaseTpl.C	22;"	function	language:C++	class:BaseTpl	signature:()
+BaseTpl_C	ipc/BaseIpc.C	1;"	variable	language:C++	file:
+BaseTpl_C	map/BaseMap.C	1;"	variable	language:C++	file:
+BaseTpl_C	mth/BaseMth.C	1;"	variable	language:C++	file:
+BaseTpl_C	ora/cpp/BaseOra.C	1;"	variable	language:C++	file:
+BaseTpl_C	pth/BasePth.C	1;"	variable	language:C++	file:
+BaseTpl_C	shm/BaseShm.C	1;"	variable	language:C++	file:
+BaseTpl_C	tpl/BaseTpl.C	1;"	variable	language:C++	file:
+BaseTpl_C	trc/BaseTrc.C	1;"	variable	language:C++	file:
+BaseTpl_H	ipc/BaseIpc.H	4;"	variable	language:C++
+BaseTpl_H	mth/BaseMth.H	4;"	variable	language:C++
+BaseTpl_H	pth/BasePth.H	4;"	variable	language:C++
+BaseTpl_H	shm/BaseShm.H	4;"	variable	language:C++
+BaseTpl_H	tpl/BaseTpl.H	4;"	variable	language:C++
+BaseTpl_H	trc/BaseTrc.H	4;"	variable	language:C++
+BaseTpl_unexpected	tpl/BaseTpl.C	7;"	variable	language:C++
+BaseTpl_unexpected	tpl/BaseTpl.H	17;"	variable	language:C++
+BaseTrc	trc/BaseTrc.C	16;"	function	language:C++	class:BaseTrc	signature:()
+BaseTrc	trc/BaseTrc.H	19;"	class	language:C++	inherits:BaseObj
+BaseTrc::BaseTrc	trc/BaseTrc.C	16;"	function	language:C++	class:BaseTrc	signature:()
+BaseTrc::ClassName	trc/BaseTrc.H	29;"	function	language:C++	class:BaseTrc	access:public	implementation:virtual	signature:() const
+BaseTrc::create	trc/BaseTrc.C	30;"	function	language:C++	class:BaseTrc	signature:()
+BaseTrc::onPrint	trc/BaseTrc.H	39;"	function	language:C++	class:BaseTrc	access:public	implementation:virtual	signature:(ostream& os) const
+BaseTrc::trc	trc/BaseTrc.H	44;"	member	language:C++	class:BaseTrc	access:private
+BaseTrc::valid	trc/BaseTrc.H	37;"	function	language:C++	class:BaseTrc	access:public	signature:() const
+BaseTrc::~BaseTrc	trc/BaseTrc.C	22;"	function	language:C++	class:BaseTrc	signature:()
+BaseTrc_unexpected	trc/BaseTrc.C	7;"	variable	language:C++
+BaseTrc_unexpected	trc/BaseTrc.H	17;"	variable	language:C++
+BaseTst_C	tst/BaseTst.C	1;"	variable	language:C++	file:
+BaseTst_H	tst/BaseTst.H	3;"	variable	language:C++
+BaseVfs	vfs/BaseVfs.C	261;"	function	language:C++	class:BaseVfs	signature:()
+BaseVfs	vfs/BaseVfs.C	268;"	function	language:C++	class:BaseVfs	signature:(const char * fn, int ms)
+BaseVfs	vfs/BaseVfs.H	70;"	class	language:C++	inherits:BaseObj,ostream
+BaseVfs::BaseVfs	vfs/BaseVfs.C	261;"	function	language:C++	class:BaseVfs	signature:()
+BaseVfs::BaseVfs	vfs/BaseVfs.C	268;"	function	language:C++	class:BaseVfs	signature:(const char * fn, int ms)
+BaseVfs::ClassName	vfs/BaseVfs.C	280;"	function	language:C++	class:BaseVfs	signature:() const
+BaseVfs::Open	vfs/BaseVfs.H	77;"	function	language:C++	class:BaseVfs	access:public	signature:(const char * fn, int ms)
+BaseVfs::buf	vfs/BaseVfs.H	85;"	member	language:C++	class:BaseVfs	access:private
+BaseVfs::~BaseVfs	vfs/BaseVfs.C	276;"	function	language:C++	class:BaseVfs	signature:()
+BaseVfsBuf	vfs/BaseVfs.C	41;"	function	language:C++	class:BaseVfsBuf	signature:(void)
+BaseVfsBuf	vfs/BaseVfs.C	54;"	function	language:C++	class:BaseVfsBuf	signature:(const char * fn, int ms)
+BaseVfsBuf	vfs/BaseVfs.H	41;"	class	language:C++	inherits:BaseObj,fdbuf
+BaseVfsBuf::BaseVfsBuf	vfs/BaseVfs.C	41;"	function	language:C++	class:BaseVfsBuf	signature:(void)
+BaseVfsBuf::BaseVfsBuf	vfs/BaseVfs.C	54;"	function	language:C++	class:BaseVfsBuf	signature:(const char * fn, int ms)
+BaseVfsBuf::ClassName	vfs/BaseVfs.C	253;"	function	language:C++	class:BaseVfsBuf	signature:() const
+BaseVfsBuf::Open	vfs/BaseVfs.C	62;"	function	language:C++	class:BaseVfsBuf	signature:(const char * fn, int ms)
+BaseVfsBuf::cursize	vfs/BaseVfs.H	63;"	member	language:C++	class:BaseVfsBuf	access:private
+BaseVfsBuf::fname	vfs/BaseVfs.H	64;"	member	language:C++	class:BaseVfsBuf	access:private
+BaseVfsBuf::link	vfs/BaseVfs.C	236;"	function	language:C++	class:BaseVfsBuf	signature:(void)
+BaseVfsBuf::maxsize	vfs/BaseVfs.H	62;"	member	language:C++	class:BaseVfsBuf	access:private
+BaseVfsBuf::open	vfs/BaseVfs.C	77;"	function	language:C++	class:BaseVfsBuf	signature:(const char * fn, int om)
+BaseVfsBuf::overflow	vfs/BaseVfs.C	93;"	function	language:C++	class:BaseVfsBuf	signature:(int ch)
+BaseVfsBuf::switchfile	vfs/BaseVfs.C	186;"	function	language:C++	class:BaseVfsBuf	signature:(bool newfile)
+BaseVfsBuf::xsputn	vfs/BaseVfs.C	156;"	function	language:C++	class:BaseVfsBuf	signature:(const char* buf, streamsize size)
+BaseVfsBuf::~BaseVfsBuf	vfs/BaseVfs.C	84;"	function	language:C++	class:BaseVfsBuf	signature:()
+BaseVfs_C	vfs/BaseVfs.C	1;"	variable	language:C++	file:
+BaseVfs_H	vfs/BaseVfs.H	4;"	variable	language:C++
+Bruch	exc/test6.C	10;"	class	language:C++	file:
+Bruch	exc/test6.C	19;"	function	language:C++	class:Bruch	access:public	signature:(int z)
+Bruch::Bruch	exc/test6.C	19;"	function	language:C++	class:Bruch	access:public	signature:(int z)
+Bruch::NennerIstNull	exc/test6.C	15;"	class	language:C++	class:Bruch	file:	access:public
+Bruch::TestExec	exc/test6.C	32;"	function	language:C++	class:Bruch	access:public	signature:(int i)
+BytesRecv	sock/BaseSock.H	174;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+BytesSent	sock/BaseSock.H	173;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+CFLAGS	mth/makefile	11;"	macro	language:Make
+CFLAGS	ora/extproc/makefile	15;"	macro	language:Make
+CFLAGS	pth/makefile	11;"	macro	language:Make
+CFLAGS	sock/makefile	12;"	macro	language:Make
+CLEAN	ora/java/makefile	60;"	macro	language:Make
+CLEAN	ora/uobj/makefile	49;"	macro	language:Make
+CUSTOMER	ora/java/ex-jpa-se/sql/tables_oracle.sql	4;"	table	language:SQL
+CUSTOMER.ID	ora/java/ex-jpa-se/sql/tables_oracle.sql	4;"	field	language:SQL
+CUSTOMER.NAME	ora/java/ex-jpa-se/sql/tables_oracle.sql	5;"	field	language:SQL
+CXX	ora/extproc/makefile	13;"	macro	language:Make
+Canceled	exc/BaseExc.H	174;"	function	language:C++	class:BaseExc	access:public	signature:(void)
+ClassName	exc/BaseExc.C	107;"	function	language:C++	class:BaseExc	signature:() const
+ClassName	exc/BaseExc.H	193;"	function	language:C++	class:BaseExcHandler	access:public	signature:() const
+ClassName	ipc/BaseIpc.H	29;"	function	language:C++	class:BaseIpc	access:public	implementation:virtual	signature:() const
+ClassName	map/BaseMap.H	39;"	function	language:C++	class:BaseMap	access:public	implementation:virtual	signature:() const
+ClassName	mth/BaseMth.H	107;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:() const
+ClassName	mth/BaseMth.H	33;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:() const
+ClassName	obj/objtst.C	11;"	function	language:C++	class:My	access:public	implementation:virtual	signature:() const
+ClassName	ora/cpp/BaseOra.H	29;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:() const
+ClassName	pth/BasePth.H	147;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:() const
+ClassName	pth/BasePth.H	241;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:() const
+ClassName	pth/BasePth.H	41;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:() const
+ClassName	shm/BaseShm.H	25;"	function	language:C++	class:BaseShm	access:public	implementation:virtual	signature:() const
+ClassName	sock/BaseSock.H	140;"	function	language:C++	class:BaseSockInf	access:public	implementation:virtual	signature:() const
+ClassName	sock/BaseSock.H	205;"	function	language:C++	class:BaseSockSrv	access:public	implementation:virtual	signature:() const
+ClassName	sock/BaseSock.H	241;"	function	language:C++	class:BaseSockClt	access:public	implementation:virtual	signature:() const
+ClassName	store/BaseStore.H	22;"	function	language:C++	class:BaseStorable	access:public	implementation:virtual	signature:() const
+ClassName	store/BaseStore.H	37;"	function	language:C++	class:BaseStore	access:public	implementation:virtual	signature:() const
+ClassName	store/store.C	20;"	function	language:C++	class:My1	access:public	implementation:virtual	signature:() const
+ClassName	store/store.C	38;"	function	language:C++	class:My2	access:public	implementation:virtual	signature:() const
+ClassName	str/BaseStr.H	26;"	function	language:C++	class:BaseStr	access:public	implementation:virtual	signature:() const
+ClassName	str/strtst.C	15;"	function	language:C++	class:StrStore	access:public	implementation:virtual	signature:() const
+ClassName	time/BaseTime.H	28;"	function	language:C++	class:BaseTime	access:public	signature:(void) const
+ClassName	tpl/BaseTpl.H	29;"	function	language:C++	class:BaseTpl	access:public	implementation:virtual	signature:() const
+ClassName	trc/BaseTrc.H	29;"	function	language:C++	class:BaseTrc	access:public	implementation:virtual	signature:() const
+ClassName	tst/Storage.C	18;"	function	language:C++	class:TInt	signature:() const
+ClassName	tst/funobj.C	13;"	function	language:C++	class:Obj	access:public	implementation:virtual	signature:() const
+ClassName	tst/refobj.C	49;"	function	language:C++	class:MyCopy	access:public	implementation:virtual	signature:() const
+ClassName	tst/refobj.C	89;"	function	language:C++	class:MyMove	access:public	implementation:virtual	signature:() const
+ClassName	vfs/BaseVfs.C	253;"	function	language:C++	class:BaseVfsBuf	signature:() const
+ClassName	vfs/BaseVfs.C	280;"	function	language:C++	class:BaseVfs	signature:() const
+Clear	exc/BaseExc.H	166;"	function	language:C++	class:BaseExc	access:public	signature:(void)
+Client	ora/java/ex-jpa-se/src/client/Client.java	36;"	class	language:Java
+Client.closeEntityManager	ora/java/ex-jpa-se/src/client/Client.java	182;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.closeTransactionalEntityManager	ora/java/ex-jpa-se/src/client/Client.java	167;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.createEntityManager	ora/java/ex-jpa-se/src/client/Client.java	176;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.createTransactionalEntityManager	ora/java/ex-jpa-se/src/client/Client.java	158;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.em	ora/java/ex-jpa-se/src/client/Client.java	39;"	field	language:Java	class:Client	file:	access:private
+Client.emf	ora/java/ex-jpa-se/src/client/Client.java	38;"	field	language:Java	class:Client	file:	access:private
+Client.findCustomer	ora/java/ex-jpa-se/src/client/Client.java	150;"	method	language:Java	class:Client	file:	access:private	signature:(String name)
+Client.main	ora/java/ex-jpa-se/src/client/Client.java	41;"	method	language:Java	class:Client	access:public	signature:(String[] args)
+Client.testDelete	ora/java/ex-jpa-se/src/client/Client.java	120;"	method	language:Java	class:Client	file:	access:private	signature:(Customer c)
+Client.testInsert	ora/java/ex-jpa-se/src/client/Client.java	74;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.verifyDelete	ora/java/ex-jpa-se/src/client/Client.java	131;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.verifyInsert	ora/java/ex-jpa-se/src/client/Client.java	107;"	method	language:Java	class:Client	file:	access:private	signature:()
+Close	ora/uobj/type_Trace.sql	461;"	procedure	language:SQL
+Close	sock/BaseSock.H	212;"	function	language:C++	class:BaseSockSrv	access:public	signature:(void)
+Commit	ora/cpp/BaseOra.C	133;"	function	language:C++	class:BaseOra	signature:(void) const
+Connect	ora/cpp/BaseOra.C	57;"	function	language:C++	class:BaseOra	signature:(const BaseStr& connstr)
+Copy	store/BaseStore.C	75;"	function	language:C++	class:BaseStore	signature:() const
+Copy	store/store.C	52;"	function	language:C++	class:My1	signature:() const
+Copy	store/store.C	57;"	function	language:C++	class:My2	signature:() const
+Copy	str/strtst.C	16;"	function	language:C++	class:StrStore	access:public	implementation:virtual	signature:() const
+Copy	tst/Storage.C	33;"	function	language:C++	class:TInt	signature:() const
+Core	tst/pattern.C	15;"	class	language:C++	file:	inherits:Interface
+Core::read	tst/pattern.C	27;"	function	language:C++	class:Core	access:public	signature:(string &str)
+Core::write	tst/pattern.C	23;"	function	language:C++	class:Core	access:public	signature:(string &str)
+Core::~Core	tst/pattern.C	18;"	function	language:C++	class:Core	access:public	signature:()
+CpObj	tst/refobj.C	26;"	class	language:C++	file:	inherits:Obj
+CpObj	tst/refobj.C	29;"	function	language:C++	class:CpObj	access:public	signature:()
+CpObj	tst/refobj.C	30;"	function	language:C++	class:CpObj	access:public	signature:(const CpObj& other)
+CpObj::CpObj	tst/refobj.C	29;"	function	language:C++	class:CpObj	access:public	signature:()
+CpObj::CpObj	tst/refobj.C	30;"	function	language:C++	class:CpObj	access:public	signature:(const CpObj& other)
+CpObj::operator =	tst/refobj.C	32;"	function	language:C++	class:CpObj	access:public	implementation:virtual	signature:(const CpObj& other)
+CpObj::~CpObj	tst/refobj.C	31;"	function	language:C++	class:CpObj	access:public	signature:()
+Customer	ora/java/ex-jpa-se/src/entity/Customer.java	35;"	class	language:Java	inherits:Serializable
+Customer.getId	ora/java/ex-jpa-se/src/entity/Customer.java	42;"	method	language:Java	class:Customer	access:public	signature:()
+Customer.getName	ora/java/ex-jpa-se/src/entity/Customer.java	50;"	method	language:Java	class:Customer	access:public	signature:()
+Customer.getOrders	ora/java/ex-jpa-se/src/entity/Customer.java	59;"	method	language:Java	class:Customer	access:public	signature:()
+Customer.id	ora/java/ex-jpa-se/src/entity/Customer.java	37;"	field	language:Java	class:Customer	file:	access:private
+Customer.name	ora/java/ex-jpa-se/src/entity/Customer.java	38;"	field	language:Java	class:Customer	file:	access:private
+Customer.orders	ora/java/ex-jpa-se/src/entity/Customer.java	39;"	field	language:Java	class:Customer	file:	access:private
+Customer.setId	ora/java/ex-jpa-se/src/entity/Customer.java	46;"	method	language:Java	class:Customer	access:public	signature:(int id)
+Customer.setName	ora/java/ex-jpa-se/src/entity/Customer.java	54;"	method	language:Java	class:Customer	access:public	signature:(String name)
+Customer.setOrders	ora/java/ex-jpa-se/src/entity/Customer.java	63;"	method	language:Java	class:Customer	access:public	signature:(Collection<Order> newValue)
+Customers	ora/java/pack_orderman.sql	11;"	table	language:SQL
+Customers.City	ora/java/pack_orderman.sql	14;"	field	language:SQL
+Customers.CustName	ora/java/pack_orderman.sql	12;"	field	language:SQL
+Customers.CustNo	ora/java/pack_orderman.sql	11;"	field	language:SQL
+Customers.Phone	ora/java/pack_orderman.sql	17;"	field	language:SQL
+Customers.State	ora/java/pack_orderman.sql	15;"	field	language:SQL
+Customers.Street	ora/java/pack_orderman.sql	13;"	field	language:SQL
+Customers.Zip	ora/java/pack_orderman.sql	16;"	field	language:SQL
+DESTROY	pm/My/Log.pm	122;"	subroutine	language:Perl
+DT	time/BaseTime.H	16;"	macro	language:C++
+DataView1	ora/tst/exerc_hays.sql	22;"	view	language:SQL
+DataView2	ora/tst/exerc_hays.sql	31;"	view	language:SQL
+Decorator	tst/pattern.C	36;"	class	language:C++	file:	inherits:Interface
+Decorator	tst/pattern.C	40;"	function	language:C++	class:Decorator	access:public	signature:(Interface *c)
+Decorator::Decorator	tst/pattern.C	40;"	function	language:C++	class:Decorator	access:public	signature:(Interface *c)
+Decorator::inner	tst/pattern.C	38;"	member	language:C++	class:Decorator	file:	access:private
+Decorator::read	tst/pattern.C	52;"	function	language:C++	class:Decorator	access:public	signature:(string &b)
+Decorator::write	tst/pattern.C	48;"	function	language:C++	class:Decorator	access:public	signature:(string &b)
+Decorator::~Decorator	tst/pattern.C	44;"	function	language:C++	class:Decorator	access:public	signature:()
+Disconnect	ora/cpp/BaseOra.C	155;"	function	language:C++	class:BaseOra	signature:(void)
+DoIt	ora/uobj/test_Pattern.sql	246;"	variable	language:SQL
+END	exc/BaseExc.H	130;"	macro	language:C++
+ERR	exc/BaseExc.H	58;"	macro	language:C++
+EXCBLK	exc/BaseExc.H	85;"	macro	language:C++
+EXCDEF	exc/BaseExc.H	79;"	macro	language:C++
+EXCDEFEXT	exc/BaseExc.H	82;"	macro	language:C++
+EXCEND	exc/BaseExc.H	97;"	macro	language:C++
+EXCEPTION	exc/BaseExc.H	91;"	macro	language:C++
+EXCFUNC	exc/BaseExc.H	89;"	macro	language:C++
+EXCFUNCEND	exc/BaseExc.H	107;"	macro	language:C++
+EXCFUNCRET	exc/BaseExc.H	111;"	macro	language:C++
+EXCHDLR	exc/BaseExc.H	53;"	macro	language:C++
+EXCINIT	exc/BaseExc.H	61;"	macro	language:C++
+EXCRAISE	exc/BaseExc.H	118;"	macro	language:C++
+EXCRERAISE	exc/BaseExc.H	119;"	macro	language:C++
+EXCTERM	exc/BaseExc.H	64;"	macro	language:C++
+EmailProcessor	std11/lambdaf.H	115;"	class	language:C++
+EmailProcessor::_handler_func	std11/lambdaf.H	133;"	member	language:C++	class:EmailProcessor	access:private
+EmailProcessor::receiveMessage	std11/lambdaf.H	118;"	function	language:C++	class:EmailProcessor	access:public	signature:(const string& message)
+EmailProcessor::setHandlerFunc	std11/lambdaf.H	127;"	function	language:C++	class:EmailProcessor	access:public	signature:(function<void (const string&)> handler_func)
+Entity	std11/lambdaf.H	11;"	class	language:C++
+Entity	std11/lambdaf.H	14;"	function	language:C++	class:Entity	access:public	signature:(int i, string n, string t, int hp)
+Entity::Entity	std11/lambdaf.H	14;"	function	language:C++	class:Entity	access:public	signature:(int i, string n, string t, int hp)
+Entity::alive	std11/lambdaf.H	32;"	member	language:C++	class:Entity	access:private
+Entity::gettype	std11/lambdaf.H	26;"	function	language:C++	class:Entity	access:public	signature:(void) const
+Entity::hitpoints	std11/lambdaf.H	33;"	member	language:C++	class:Entity	access:private
+Entity::id	std11/lambdaf.H	29;"	member	language:C++	class:Entity	access:private
+Entity::name	std11/lambdaf.H	30;"	member	language:C++	class:Entity	access:private
+Entity::onPrint	std11/lambdaf.H	22;"	function	language:C++	class:Entity	access:public	implementation:virtual	signature:(ostream& os) const
+Entity::type	std11/lambdaf.H	31;"	member	language:C++	class:Entity	access:private
+Entity::~Entity	std11/lambdaf.H	24;"	function	language:C++	class:Entity	access:public	implementation:virtual	signature:()
+EntityContainer	std11/lambdaf.H	38;"	class	language:C++
+EntityContainer::addEntity	std11/lambdaf.H	49;"	function	language:C++	class:EntityContainer	access:public	signature:(Entity* entity)
+EntityContainer::entities	std11/lambdaf.H	74;"	member	language:C++	class:EntityContainer	access:private
+EntityContainer::findMatchingEntities	std11/lambdaf.H	57;"	function	language:C++	class:EntityContainer	access:public	signature:(Func func)
+EntityContainer::get	std11/lambdaf.H	54;"	function	language:C++	class:EntityContainer	access:public	signature:(void) const
+EntityContainer::~EntityContainer	std11/lambdaf.H	41;"	function	language:C++	class:EntityContainer	access:public	implementation:virtual	signature:()
+ErrHandler	ora/cpp/BaseOra.C	31;"	function	language:C++	class:BaseOra	signature:(const BaseStr& msg)
+ExcStack	exc/BaseExc.C	70;"	member	language:C++	class:BaseExc	file:
+ExcStack	exc/BaseExc.H	185;"	member	language:C++	class:BaseExc	access:private
+Execute	ora/cpp/BaseOra.C	86;"	function	language:C++	class:BaseOra	signature:( const BaseStr& Package, const BaseStr& FuncName, const BaseStr& InPar )
+Execute	ora/uobj/test_Pattern.sql	181;"	function	language:SQL
+Execute	sock/BaseSock.C	299;"	function	language:C++	class:BaseSockSrv	signature:(BaseSockInf (sockhdlr) BaseSockSrv&&))
+Extproc	ora/uobj/pack_Extproc.sql	27;"	package	language:SQL
+Extproc.System	ora/uobj/pack_Extproc.sql	31;"	procedure	language:SQL
+Extproc.System.SockSrv	ora/uobj/pack_Extproc.sql	41;"	procedure	language:SQL
+FileHandleOp	ora/uobj/type_Trace.sql	187;"	function	language:SQL
+FileHandleOp.FLUSH	ora/uobj/type_Trace.sql	272;"	label	language:SQL
+FileHandleOp.OPEN	ora/uobj/type_Trace.sql	222;"	label	language:SQL
+FileHandleOp.PUTL	ora/uobj/type_Trace.sql	237;"	label	language:SQL
+FileHandleOp.SwitchTraceFile	ora/uobj/type_Trace.sql	245;"	label	language:SQL
+FileHandleOp.getFileName	ora/uobj/type_Trace.sql	201;"	function	language:SQL
+FileName	exc/BaseExc.H	200;"	member	language:C++	class:BaseExcHandler	access:private
+FileName	exc/test1.C	18;"	member	language:C++	class:StackWalker	file:	access:private
+Flush	ora/uobj/type_Trace.sql	452;"	procedure	language:SQL
+Func1	ora/uobj/test_Trace.sql	18;"	procedure	language:SQL
+Func2	ora/uobj/test_Trace.sql	30;"	procedure	language:SQL
+Func3	ora/uobj/test_Trace.sql	42;"	procedure	language:SQL
+Get	tst/Storage.C	12;"	function	language:C++	class:TInt	access:public	signature:() const
+GetCreated	obj/BaseObj.C	64;"	function	language:C++	class:BaseObj	signature:() const
+GetInstance	obj/BaseObj.C	69;"	function	language:C++	class:BaseObj	signature:() const
+GetTime	time/BaseTime.C	41;"	function	language:C++	class:BaseTime	signature:(void)
+Handle	ora/uobj/test_Pattern.sql	105;"	procedure	language:SQL
+Handle	ora/uobj/test_Pattern.sql	77;"	procedure	language:SQL
+HandlerName	exc/BaseExc.H	199;"	member	language:C++	class:BaseExcHandler	access:private
+HandlerName	exc/test1.C	17;"	member	language:C++	class:StackWalker	file:	access:private
+INCFLAGS	mth/makefile	12;"	macro	language:Make
+INCFLAGS	ora/cpp/makefile	23;"	macro	language:Make
+INCFLAGS	ora/extproc/makefile	14;"	macro	language:Make
+INCFLAGS	pth/makefile	12;"	macro	language:Make
+Id	exc/test2.C	41;"	function	language:C++	class:objbase	access:public	implementation:virtual	signature:(void)
+Init	exc/BaseExc.C	73;"	function	language:C++	class:BaseExc	signature:(void)
+Init	ora/uobj/type_Trace.sql	366;"	procedure	language:SQL
+Inner	exc/test5.C	21;"	function	language:C++	class:Inner	signature:()
+Inner	exc/test5.C	4;"	class	language:C++	file:
+Inner::Inner	exc/test5.C	21;"	function	language:C++	class:Inner	signature:()
+Inner::fun	exc/test5.C	31;"	function	language:C++	class:Inner	signature:()
+Inner::~Inner	exc/test5.C	26;"	function	language:C++	class:Inner	signature:()
+Inst	ora/uobj/test_Pattern.sql	374;"	variable	language:SQL
+Int	tst/Storage.C	15;"	member	language:C++	class:TInt	file:	access:private
+Interface	tst/pattern.C	7;"	class	language:C++	file:
+Interface::~Interface	tst/pattern.C	10;"	function	language:C++	class:Interface	access:public	implementation:virtual	signature:()
+Invoke	ora/uobj/test_Pattern.sql	237;"	function	language:SQL
+JCLASS	java/tst/makefile	5;"	macro	language:Make
+JCLSS	ora/java/makefile	6;"	macro	language:Make
+LDFLAGS	core/makefile	12;"	macro	language:Make
+LDFLAGS	ora/cpp/makefile	26;"	macro	language:Make
+LDFLAGS	ora/extproc/makefile	17;"	macro	language:Make
+LDJ	ora/java/makefile	12;"	macro	language:Make
+LDJFLAGS	ora/java/makefile	14;"	macro	language:Make
+LIBFLAGS	core/makefile	11;"	macro	language:Make
+LIBFLAGS	ora/cpp/makefile	24;"	macro	language:Make
+LIBFLAGS	ora/extproc/makefile	16;"	macro	language:Make
+LOG	exc/BaseExc.H	56;"	macro	language:C++
+LOGHDLR	exc/BaseExc.H	54;"	macro	language:C++
+LOGL	exc/BaseExc.H	57;"	macro	language:C++
+LOGON	ora/java/makefile	10;"	macro	language:Make
+Level	exc/test1.C	16;"	member	language:C++	class:StackWalker	file:	access:private
+Line	exc/BaseExc.H	201;"	member	language:C++	class:BaseExcHandler	access:private
+Line	exc/test1.C	19;"	member	language:C++	class:StackWalker	file:	access:private
+LineItems	ora/java/pack_orderman.sql	40;"	table	language:SQL
+LineItems.Discount	ora/java/pack_orderman.sql	44;"	field	language:SQL
+LineItems.LineNo	ora/java/pack_orderman.sql	40;"	field	language:SQL
+LineItems.OrderNo	ora/java/pack_orderman.sql	41;"	field	language:SQL
+LineItems.Quantity	ora/java/pack_orderman.sql	43;"	field	language:SQL
+LineItems.StockNo	ora/java/pack_orderman.sql	42;"	field	language:SQL
+Log	pm/My/Log.pm	1;"	package	language:Perl
+Log::DESTROY	pm/My/Log.pm	122;"	subroutine	language:Perl
+Log::close	pm/My/Log.pm	75;"	subroutine	language:Perl
+Log::init	pm/My/Log.pm	51;"	subroutine	language:Perl
+Log::line	pm/My/Log.pm	92;"	subroutine	language:Perl
+Log::new	pm/My/Log.pm	24;"	subroutine	language:Perl
+Log::open	pm/My/Log.pm	57;"	subroutine	language:Perl
+Log::put	pm/My/Log.pm	108;"	subroutine	language:Perl
+MAIN	core/BaseCore.H	110;"	macro	language:C++
+MAINEND	core/BaseCore.H	116;"	macro	language:C++
+MAKEFILE	core/makefile	7;"	macro	language:Make
+MAKEFILE	def/makefile	5;"	macro	language:Make
+MAKEFILE	exc/makefile	7;"	macro	language:Make
+MAKEFILE	ipc/makefile	7;"	macro	language:Make
+MAKEFILE	java/tst/makefile	8;"	macro	language:Make
+MAKEFILE	makefile	5;"	macro	language:Make
+MAKEFILE	map/makefile	7;"	macro	language:Make
+MAKEFILE	mth/makefile	7;"	macro	language:Make
+MAKEFILE	obj/makefile	8;"	macro	language:Make
+MAKEFILE	ora/cpp/makefile	8;"	macro	language:Make
+MAKEFILE	ora/extproc/makefile	9;"	macro	language:Make
+MAKEFILE	ora/java/makefile	17;"	macro	language:Make
+MAKEFILE	ora/makefile	5;"	macro	language:Make
+MAKEFILE	ora/uobj/makefile	12;"	macro	language:Make
+MAKEFILE	pth/makefile	7;"	macro	language:Make
+MAKEFILE	shm/makefile	7;"	macro	language:Make
+MAKEFILE	sock/makefile	7;"	macro	language:Make
+MAKEFILE	std11/makefile	7;"	macro	language:Make
+MAKEFILE	store/makefile	7;"	macro	language:Make
+MAKEFILE	str/makefile	7;"	macro	language:Make
+MAKEFILE	time/makefile	7;"	macro	language:Make
+MAKEFILE	tpl/makefile	7;"	macro	language:Make
+MAKEFILE	trc/makefile	7;"	macro	language:Make
+MAKEFILE	tst/makefile	7;"	macro	language:Make
+MAKEFILE	vfs/makefile	7;"	macro	language:Make
+MAX	ipc/BaseIpc.H	15;"	variable	language:C++
+MAX	mth/BaseMth.H	18;"	variable	language:C++
+MAX	ora/cpp/BaseOra.H	15;"	variable	language:C++
+MAX	pth/BasePth.H	19;"	variable	language:C++
+MAX	shm/BaseShm.H	14;"	variable	language:C++
+MAX	tpl/BaseTpl.H	15;"	variable	language:C++
+MAX	trc/BaseTrc.H	15;"	variable	language:C++
+MAXRECV	sock/BaseSock.H	21;"	variable	language:C++
+MessageSizeStore	std11/lambdaf.H	136;"	class	language:C++
+MessageSizeStore	std11/lambdaf.H	139;"	function	language:C++	class:MessageSizeStore	access:public	signature:()
+MessageSizeStore::MessageSizeStore	std11/lambdaf.H	139;"	function	language:C++	class:MessageSizeStore	access:public	signature:()
+MessageSizeStore::_max_size	std11/lambdaf.H	155;"	member	language:C++	class:MessageSizeStore	access:private
+MessageSizeStore::checkMessage	std11/lambdaf.H	141;"	function	language:C++	class:MessageSizeStore	access:public	signature:(const std::string& message )
+MessageSizeStore::getMaxSize	std11/lambdaf.H	149;"	function	language:C++	class:MessageSizeStore	access:public	signature:()
+MetaData	std11/rref.C	26;"	class	language:C++	file:
+MetaData	std11/rref.C	29;"	function	language:C++	class:MetaData	access:public	signature:(int size, const std::string& name)
+MetaData	std11/rref.C	35;"	function	language:C++	class:MetaData	access:public	signature:(const MetaData& other)
+MetaData	std11/rref.C	41;"	function	language:C++	class:MetaData	access:public	signature:(MetaData&& other)
+MetaData::MetaData	std11/rref.C	29;"	function	language:C++	class:MetaData	access:public	signature:(int size, const std::string& name)
+MetaData::MetaData	std11/rref.C	35;"	function	language:C++	class:MetaData	access:public	signature:(const MetaData& other)
+MetaData::MetaData	std11/rref.C	41;"	function	language:C++	class:MetaData	access:public	signature:(MetaData&& other)
+MetaData::_name	std11/rref.C	49;"	member	language:C++	class:MetaData	file:	access:private
+MetaData::_size	std11/rref.C	50;"	member	language:C++	class:MetaData	file:	access:private
+MetaData::getName	std11/rref.C	46;"	function	language:C++	class:MetaData	access:public	signature:() const
+MetaData::getSize	std11/rref.C	47;"	function	language:C++	class:MetaData	access:public	signature:() const
+Msg	ora/cpp/BaseOra.H	58;"	member	language:C++	struct:BaseOra::__anon1	access:public
+Msg	ora/uobj/test_Pattern.sql	245;"	variable	language:SQL
+Msg	ora/uobj/type_Trace.sql	427;"	procedure	language:SQL
+MvObj	tst/refobj.C	54;"	class	language:C++	file:	inherits:Obj
+MvObj	tst/refobj.C	57;"	function	language:C++	class:MvObj	access:public	signature:()
+MvObj	tst/refobj.C	58;"	function	language:C++	class:MvObj	access:public	signature:(MvObj&& other)
+MvObj::MvObj	tst/refobj.C	57;"	function	language:C++	class:MvObj	access:public	signature:()
+MvObj::MvObj	tst/refobj.C	58;"	function	language:C++	class:MvObj	access:public	signature:(MvObj&& other)
+MvObj::operator =	tst/refobj.C	60;"	function	language:C++	class:MvObj	access:public	signature:(MvObj&& other)
+MvObj::~MvObj	tst/refobj.C	59;"	function	language:C++	class:MvObj	access:public	signature:()
+My	mth/mthtst.C	24;"	class	language:C++	file:
+My	mth/mthtst.C	27;"	function	language:C++	class:My	access:public	signature:()
+My	mth/mthtst.C	28;"	function	language:C++	class:My	access:public	signature:(const char * s)
+My	mth/mthtst.C	33;"	function	language:C++	class:My	access:public	signature:(My&& rs)
+My	obj/objtst.C	5;"	class	language:C++	file:	inherits:BaseObj
+My	obj/objtst.C	8;"	function	language:C++	class:My	access:public	signature:()
+My	obj/objtst.C	9;"	function	language:C++	class:My	access:public	signature:(const char* s)
+My	pth/pthtst.C	25;"	class	language:C++	file:
+My	pth/pthtst.C	28;"	function	language:C++	class:My	access:public	signature:()
+My	pth/pthtst.C	29;"	function	language:C++	class:My	access:public	signature:(const char * s)
+My	pth/pthtst.C	34;"	function	language:C++	class:My	access:public	signature:(My&& other)
+My	tst/nofobj.C	28;"	class	language:C++	file:	inherits:Obj
+My	tst/nofobj.C	36;"	function	language:C++	class:My	signature:()
+My1	store/store.C	11;"	function	language:C++	class:My1	access:public	signature:()
+My1	store/store.C	12;"	function	language:C++	class:My1	access:public	signature:(int i)
+My1	store/store.C	8;"	class	language:C++	file:	inherits:BaseStorable
+My1::ClassName	store/store.C	20;"	function	language:C++	class:My1	access:public	implementation:virtual	signature:() const
+My1::Copy	store/store.C	52;"	function	language:C++	class:My1	signature:() const
+My1::My1	store/store.C	11;"	function	language:C++	class:My1	access:public	signature:()
+My1::My1	store/store.C	12;"	function	language:C++	class:My1	access:public	signature:(int i)
+My1::get	store/store.C	22;"	function	language:C++	class:My1	access:public	signature:()
+My1::num	store/store.C	24;"	member	language:C++	class:My1	file:	access:private
+My1::restore	store/store.C	19;"	function	language:C++	class:My1	access:public	implementation:virtual	signature:(void)
+My1::~My1	store/store.C	17;"	function	language:C++	class:My1	access:public	signature:(void)
+My2	store/store.C	27;"	class	language:C++	file:	inherits:BaseStorable
+My2	store/store.C	30;"	function	language:C++	class:My2	access:public	signature:()
+My2	store/store.C	31;"	function	language:C++	class:My2	access:public	signature:(int i)
+My2::ClassName	store/store.C	38;"	function	language:C++	class:My2	access:public	implementation:virtual	signature:() const
+My2::Copy	store/store.C	57;"	function	language:C++	class:My2	signature:() const
+My2::My2	store/store.C	30;"	function	language:C++	class:My2	access:public	signature:()
+My2::My2	store/store.C	31;"	function	language:C++	class:My2	access:public	signature:(int i)
+My2::get	store/store.C	47;"	function	language:C++	class:My2	access:public	signature:()
+My2::num	store/store.C	49;"	member	language:C++	class:My2	file:	access:private
+My2::operator =	store/store.C	40;"	function	language:C++	class:My2	access:public	implementation:virtual	signature:(const My2 &other)
+My2::~My2	store/store.C	36;"	function	language:C++	class:My2	access:public	signature:(void)
+My::ClassName	obj/objtst.C	11;"	function	language:C++	class:My	access:public	implementation:virtual	signature:() const
+My::My	mth/mthtst.C	27;"	function	language:C++	class:My	access:public	signature:()
+My::My	mth/mthtst.C	28;"	function	language:C++	class:My	access:public	signature:(const char * s)
+My::My	mth/mthtst.C	33;"	function	language:C++	class:My	access:public	signature:(My&& rs)
+My::My	obj/objtst.C	8;"	function	language:C++	class:My	access:public	signature:()
+My::My	obj/objtst.C	9;"	function	language:C++	class:My	access:public	signature:(const char* s)
+My::My	pth/pthtst.C	28;"	function	language:C++	class:My	access:public	signature:()
+My::My	pth/pthtst.C	29;"	function	language:C++	class:My	access:public	signature:(const char * s)
+My::My	pth/pthtst.C	34;"	function	language:C++	class:My	access:public	signature:(My&& other)
+My::My	tst/nofobj.C	36;"	function	language:C++	class:My	signature:()
+My::get	mth/mthtst.C	34;"	function	language:C++	class:My	access:public	signature:(void)
+My::get	pth/pthtst.C	42;"	function	language:C++	class:My	access:public	signature:(void)
+My::operator =	mth/mthtst.C	32;"	function	language:C++	class:My	access:public	signature:(const char * s)
+My::operator =	pth/pthtst.C	33;"	function	language:C++	class:My	access:public	signature:(const char * s)
+My::operator =	pth/pthtst.C	36;"	function	language:C++	class:My	access:public	signature:(My&& other)
+My::str	mth/mthtst.C	36;"	member	language:C++	class:My	file:	access:private
+My::str	obj/objtst.C	14;"	member	language:C++	class:My	file:	access:private
+My::str	pth/pthtst.C	44;"	member	language:C++	class:My	file:	access:private
+My::~My	mth/mthtst.C	29;"	function	language:C++	class:My	access:public	signature:()
+My::~My	obj/objtst.C	10;"	function	language:C++	class:My	access:public	implementation:virtual	signature:()
+My::~My	pth/pthtst.C	30;"	function	language:C++	class:My	access:public	signature:()
+MyCopy	tst/refobj.C	41;"	class	language:C++	file:	inherits:CpObj
+MyCopy	tst/refobj.C	44;"	function	language:C++	class:MyCopy	access:public	signature:()
+MyCopy	tst/refobj.C	45;"	function	language:C++	class:MyCopy	access:public	signature:(const string& s)
+MyCopy::ClassName	tst/refobj.C	49;"	function	language:C++	class:MyCopy	access:public	implementation:virtual	signature:() const
+MyCopy::MyCopy	tst/refobj.C	44;"	function	language:C++	class:MyCopy	access:public	signature:()
+MyCopy::MyCopy	tst/refobj.C	45;"	function	language:C++	class:MyCopy	access:public	signature:(const string& s)
+MyCopy::onPrint	tst/refobj.C	48;"	function	language:C++	class:MyCopy	access:public	implementation:virtual	signature:(ostream& os) const
+MyCopy::operator =	tst/refobj.C	47;"	function	language:C++	class:MyCopy	access:public	implementation:virtual	signature:(MyCopy other)
+MyCopy::str	tst/refobj.C	51;"	member	language:C++	class:MyCopy	file:	access:private
+MyCopy::~MyCopy	tst/refobj.C	46;"	function	language:C++	class:MyCopy	access:public	signature:()
+MyMove	tst/refobj.C	65;"	class	language:C++	file:	inherits:MvObj
+MyMove	tst/refobj.C	68;"	function	language:C++	class:MyMove	access:public	signature:()
+MyMove	tst/refobj.C	70;"	function	language:C++	class:MyMove	access:public	signature:(const string& s)
+MyMove	tst/refobj.C	71;"	function	language:C++	class:MyMove	access:public	signature:(const char* s)
+MyMove	tst/refobj.C	72;"	function	language:C++	class:MyMove	access:public	signature:(MyMove& other)
+MyMove::ClassName	tst/refobj.C	89;"	function	language:C++	class:MyMove	access:public	implementation:virtual	signature:() const
+MyMove::MyMove	tst/refobj.C	68;"	function	language:C++	class:MyMove	access:public	signature:()
+MyMove::MyMove	tst/refobj.C	70;"	function	language:C++	class:MyMove	access:public	signature:(const string& s)
+MyMove::MyMove	tst/refobj.C	71;"	function	language:C++	class:MyMove	access:public	signature:(const char* s)
+MyMove::MyMove	tst/refobj.C	72;"	function	language:C++	class:MyMove	access:public	signature:(MyMove& other)
+MyMove::onPrint	tst/refobj.C	90;"	function	language:C++	class:MyMove	access:public	implementation:virtual	signature:(ostream& os) const
+MyMove::operator =	tst/refobj.C	73;"	function	language:C++	class:MyMove	access:public	signature:(const MyMove& other)
+MyMove::operator =	tst/refobj.C	80;"	function	language:C++	class:MyMove	access:public	signature:(MyMove&& other)
+MyMove::str	tst/refobj.C	92;"	member	language:C++	class:MyMove	file:	access:private
+MyMove::~MyMove	tst/refobj.C	69;"	function	language:C++	class:MyMove	access:public	signature:()
+MyUI	java/tst/MyUI.java	12;"	class	language:Java	inherits:JFrame,ActionListener
+MyUI	java/tst/MyUI.java	20;"	method	language:Java	class:MyUI	access:default	signature:()
+MyUI.MyUI	java/tst/MyUI.java	20;"	method	language:Java	class:MyUI	access:default	signature:()
+MyUI._clickMeMode	java/tst/MyUI.java	18;"	field	language:Java	class:MyUI	file:	access:private
+MyUI.actionPerformed	java/tst/MyUI.java	44;"	method	language:Java	class:MyUI	access:public	signature:(ActionEvent event)
+MyUI.button	java/tst/MyUI.java	16;"	field	language:Java	class:MyUI	access:default
+MyUI.clickButton	java/tst/MyUI.java	16;"	field	language:Java	class:MyUI	access:default
+MyUI.clicked	java/tst/MyUI.java	15;"	field	language:Java	class:MyUI	access:default
+MyUI.main	java/tst/MyUI.java	60;"	method	language:Java	class:MyUI	access:public	signature:(String[] args)
+MyUI.panel	java/tst/MyUI.java	17;"	field	language:Java	class:MyUI	access:default
+MyUI.text	java/tst/MyUI.java	15;"	field	language:Java	class:MyUI	access:default
+NennerIstNull	exc/test6.C	15;"	class	language:C++	class:Bruch	file:	access:public
+Now	time/BaseTime.C	35;"	function	language:C++	class:BaseTime	signature:(void)
+OBJS	core/makefile	4;"	macro	language:Make
+OBJS	def/makefile	2;"	macro	language:Make
+OBJS	exc/makefile	3;"	macro	language:Make
+OBJS	ipc/makefile	4;"	macro	language:Make
+OBJS	java/tst/makefile	3;"	macro	language:Make
+OBJS	map/makefile	4;"	macro	language:Make
+OBJS	mth/makefile	4;"	macro	language:Make
+OBJS	obj/makefile	3;"	macro	language:Make
+OBJS	ora/cpp/makefile	12;"	macro	language:Make
+OBJS	ora/cpp/makefile	5;"	macro	language:Make
+OBJS	ora/extproc/makefile	5;"	macro	language:Make
+OBJS	ora/java/makefile	4;"	macro	language:Make
+OBJS	ora/uobj/makefile	4;"	macro	language:Make
+OBJS	pth/makefile	4;"	macro	language:Make
+OBJS	shm/makefile	4;"	macro	language:Make
+OBJS	sock/makefile	4;"	macro	language:Make
+OBJS	std11/makefile	3;"	macro	language:Make
+OBJS	store/makefile	3;"	macro	language:Make
+OBJS	str/makefile	3;"	macro	language:Make
+OBJS	time/makefile	3;"	macro	language:Make
+OBJS	tpl/makefile	4;"	macro	language:Make
+OBJS	trc/makefile	4;"	macro	language:Make
+OBJS	tst/makefile	3;"	macro	language:Make
+OBJS	vfs/makefile	3;"	macro	language:Make
+OPEN_NEW_FILE	vfs/BaseVfs.H	37;"	macro	language:C++
+OR	exc/BaseExc.H	127;"	macro	language:C++
+ORA_LIBS	ora/cpp/makefile	15;"	macro	language:Make
+ORDER_TABLE	ora/java/ex-jpa-se/sql/tables_oracle.sql	9;"	table	language:SQL
+ORDER_TABLE.CUSTOMER_ID	ora/java/ex-jpa-se/sql/tables_oracle.sql	11;"	field	language:SQL
+ORDER_TABLE.ORDER_ID	ora/java/ex-jpa-se/sql/tables_oracle.sql	9;"	field	language:SQL
+ORDER_TABLE.SHIPPING_ADDRESS	ora/java/ex-jpa-se/sql/tables_oracle.sql	10;"	field	language:SQL
+Obj	tst/array.C	20;"	function	language:C++	class:Obj	signature:()
+Obj	tst/array.C	7;"	class	language:C++	file:
+Obj	tst/freemem.C	20;"	function	language:C++	class:Obj	signature:()
+Obj	tst/freemem.C	7;"	class	language:C++	file:
+Obj	tst/funarg.C	16;"	function	language:C++	class:Obj	signature:()
+Obj	tst/funarg.C	7;"	class	language:C++	file:	inherits:BObj
+Obj	tst/funobj.C	18;"	function	language:C++	class:Obj	signature:()
+Obj	tst/funobj.C	8;"	class	language:C++	file:	inherits:BaseObj
+Obj	tst/nofobj.C	19;"	class	language:C++	file:
+Obj	tst/nofobj.C	22;"	function	language:C++	class:Obj	access:public	signature:()
+Obj	tst/refobj.C	11;"	function	language:C++	class:Obj	access:public	signature:()
+Obj	tst/refobj.C	8;"	class	language:C++	file:
+Obj::ClassName	tst/funobj.C	13;"	function	language:C++	class:Obj	access:public	implementation:virtual	signature:() const
+Obj::Obj	tst/array.C	20;"	function	language:C++	class:Obj	signature:()
+Obj::Obj	tst/freemem.C	20;"	function	language:C++	class:Obj	signature:()
+Obj::Obj	tst/funarg.C	16;"	function	language:C++	class:Obj	signature:()
+Obj::Obj	tst/funobj.C	18;"	function	language:C++	class:Obj	signature:()
+Obj::Obj	tst/nofobj.C	22;"	function	language:C++	class:Obj	access:public	signature:()
+Obj::Obj	tst/refobj.C	11;"	function	language:C++	class:Obj	access:public	signature:()
+Obj::Print	tst/array.C	33;"	function	language:C++	class:Obj	signature:()
+Obj::Print	tst/freemem.C	39;"	function	language:C++	class:Obj	signature:()
+Obj::Print	tst/funarg.C	26;"	function	language:C++	class:Obj	signature:() const
+Obj::Print	tst/funobj.C	28;"	function	language:C++	class:Obj	signature:() const
+Obj::arr	tst/array.C	14;"	member	language:C++	class:Obj	file:	access:private
+Obj::arr	tst/array.C	17;"	member	language:C++	class:Obj	file:
+Obj::arr	tst/freemem.C	14;"	member	language:C++	class:Obj	file:	access:private
+Obj::arr	tst/freemem.C	17;"	member	language:C++	class:Obj	file:
+Obj::cstr	tst/nofobj.C	25;"	member	language:C++	class:Obj	file:	access:private
+Obj::dec	tst/refobj.C	20;"	function	language:C++	class:Obj	file:	access:private	signature:(void)
+Obj::inc	tst/refobj.C	19;"	function	language:C++	class:Obj	file:	access:private	signature:(void)
+Obj::inst_cnt	tst/refobj.C	17;"	member	language:C++	class:Obj	file:	access:private
+Obj::inst_cnt	tst/refobj.C	23;"	member	language:C++	class:Obj	file:
+Obj::inst_num	tst/refobj.C	18;"	member	language:C++	class:Obj	file:	access:private
+Obj::onPrint	tst/refobj.C	14;"	function	language:C++	class:Obj	access:public	implementation:virtual	signature:(ostream& os) const
+Obj::~Obj	tst/array.C	11;"	function	language:C++	class:Obj	access:public	signature:()
+Obj::~Obj	tst/freemem.C	34;"	function	language:C++	class:Obj	signature:()
+Obj::~Obj	tst/funarg.C	21;"	function	language:C++	class:Obj	signature:()
+Obj::~Obj	tst/funobj.C	23;"	function	language:C++	class:Obj	signature:()
+Obj::~Obj	tst/nofobj.C	23;"	function	language:C++	class:Obj	access:public	signature:()
+Obj::~Obj	tst/refobj.C	12;"	function	language:C++	class:Obj	access:public	signature:()
+OnUnwind	exc/BaseExc.C	112;"	function	language:C++	class:BaseExc	signature:(const string& handler, const string& file, const int& line)
+Open	ora/uobj/type_Trace.sql	381;"	procedure	language:SQL
+Open	vfs/BaseVfs.C	62;"	function	language:C++	class:BaseVfsBuf	signature:(const char * fn, int ms)
+Open	vfs/BaseVfs.H	77;"	function	language:C++	class:BaseVfs	access:public	signature:(const char * fn, int ms)
+Opened	ora/uobj/type_Trace.sql	372;"	function	language:SQL
+Order	ora/java/ex-jpa-se/src/entity/Order.java	31;"	class	language:Java
+Order.address	ora/java/ex-jpa-se/src/entity/Order.java	34;"	field	language:Java	class:Order	file:	access:private
+Order.customer	ora/java/ex-jpa-se/src/entity/Order.java	35;"	field	language:Java	class:Order	file:	access:private
+Order.getAddress	ora/java/ex-jpa-se/src/entity/Order.java	48;"	method	language:Java	class:Order	access:public	signature:()
+Order.getCustomer	ora/java/ex-jpa-se/src/entity/Order.java	58;"	method	language:Java	class:Order	access:public	signature:()
+Order.getId	ora/java/ex-jpa-se/src/entity/Order.java	39;"	method	language:Java	class:Order	access:public	signature:()
+Order.id	ora/java/ex-jpa-se/src/entity/Order.java	33;"	field	language:Java	class:Order	file:	access:private
+Order.setAddress	ora/java/ex-jpa-se/src/entity/Order.java	52;"	method	language:Java	class:Order	access:public	signature:(String address)
+Order.setCustomer	ora/java/ex-jpa-se/src/entity/Order.java	62;"	method	language:Java	class:Order	access:public	signature:(Customer customer)
+Order.setId	ora/java/ex-jpa-se/src/entity/Order.java	43;"	method	language:Java	class:Order	access:public	signature:(int id)
+Orders	ora/java/pack_orderman.sql	22;"	table	language:SQL
+Orders.Custno	ora/java/pack_orderman.sql	23;"	field	language:SQL
+Orders.OrderDate	ora/java/pack_orderman.sql	24;"	field	language:SQL
+Orders.OrderNo	ora/java/pack_orderman.sql	22;"	field	language:SQL
+Orders.ShipDate	ora/java/pack_orderman.sql	25;"	field	language:SQL
+Orders.ToCity	ora/java/pack_orderman.sql	27;"	field	language:SQL
+Orders.ToState	ora/java/pack_orderman.sql	28;"	field	language:SQL
+Orders.ToStreet	ora/java/pack_orderman.sql	26;"	field	language:SQL
+Orders.ToZip	ora/java/pack_orderman.sql	29;"	field	language:SQL
+OutPar	ora/cpp/BaseOra.H	57;"	member	language:C++	struct:BaseOra::__anon1	access:public
+Outer	exc/test5.C	12;"	class	language:C++	file:
+Outer	exc/test5.C	39;"	function	language:C++	class:Outer	signature:()
+Outer::Outer	exc/test5.C	39;"	function	language:C++	class:Outer	signature:()
+Outer::fun	exc/test5.C	49;"	function	language:C++	class:Outer	signature:()
+Outer::~Outer	exc/test5.C	44;"	function	language:C++	class:Outer	signature:()
+PROC	ora/cpp/makefile	13;"	macro	language:Make
+PROCFLAGS	ora/cpp/makefile	32;"	macro	language:Make
+PROCINC	ora/cpp/makefile	33;"	macro	language:Make
+PROCSQL	ora/cpp/makefile	31;"	macro	language:Make
+PROG	mth/makefile	3;"	macro	language:Make
+PROGS	core/makefile	3;"	macro	language:Make
+PROGS	exc/makefile	4;"	macro	language:Make
+PROGS	ipc/makefile	3;"	macro	language:Make
+PROGS	java/tst/makefile	4;"	macro	language:Make
+PROGS	map/makefile	3;"	macro	language:Make
+PROGS	obj/makefile	4;"	macro	language:Make
+PROGS	ora/cpp/makefile	3;"	macro	language:Make
+PROGS	ora/extproc/makefile	3;"	macro	language:Make
+PROGS	ora/java/makefile	3;"	macro	language:Make
+PROGS	ora/uobj/makefile	3;"	macro	language:Make
+PROGS	pth/makefile	3;"	macro	language:Make
+PROGS	shm/makefile	3;"	macro	language:Make
+PROGS	sock/makefile	3;"	macro	language:Make
+PROGS	std11/makefile	4;"	macro	language:Make
+PROGS	store/makefile	4;"	macro	language:Make
+PROGS	str/makefile	4;"	macro	language:Make
+PROGS	time/makefile	4;"	macro	language:Make
+PROGS	tpl/makefile	3;"	macro	language:Make
+PROGS	trc/makefile	3;"	macro	language:Make
+PROGS	tst/makefile	4;"	macro	language:Make
+PROGS	vfs/makefile	4;"	macro	language:Make
+Pop	ora/uobj/type_Trace.sql	436;"	procedure	language:SQL
+Print	tst/array.C	33;"	function	language:C++	class:Obj	signature:()
+Print	tst/freemem.C	39;"	function	language:C++	class:Obj	signature:()
+Print	tst/funarg.C	26;"	function	language:C++	class:Obj	signature:() const
+Print	tst/funobj.C	28;"	function	language:C++	class:Obj	signature:() const
+PrintStack	exc/BaseExc.C	124;"	function	language:C++	class:BaseExc	signature:( const exception& e, ostream& os )
+PrintStack	exc/test1.C	39;"	function	language:C++	signature:(void)
+ProgramStack	exc/test1.C	32;"	variable	language:C++
+Push	ora/uobj/type_Trace.sql	390;"	function	language:SQL
+Put	ora/uobj/type_Trace.sql	403;"	procedure	language:SQL
+Put.My	ora/uobj/type_Trace.sql	405;"	label	language:SQL
+Ret	ora/cpp/BaseOra.H	56;"	member	language:C++	struct:BaseOra::__anon1	access:public
+Ret	ora/uobj/test_Pattern.sql	244;"	variable	language:SQL
+Rollback	ora/cpp/BaseOra.C	144;"	function	language:C++	class:BaseOra	signature:(void) const
+SHLIB	ora/extproc/makefile	6;"	macro	language:Make
+SIZE	time/BaseTime.C	12;"	macro	language:C++	file:
+SIZE	time/BaseTime.H	13;"	macro	language:C++
+SQLP	ora/java/makefile	9;"	macro	language:Make
+SQLPFLAGS	ora/java/makefile	11;"	macro	language:Make
+SUBDIRS	makefile	3;"	macro	language:Make
+SUBDIRS	ora/makefile	3;"	macro	language:Make
+SockAddr	sock/BaseSock.H	127;"	member	language:C++	class:BaseSock	access:private
+SockAddr	sock/BaseSock.H	83;"	function	language:C++	class:BaseSock	access:public	signature:(other.SockAddr)
+SockFd	sock/BaseSock.H	126;"	member	language:C++	class:BaseSock	access:private
+SockFlag	sock/BaseSock.H	125;"	member	language:C++	class:BaseSock	access:private
+SockHandler	sock/socksrv.C	11;"	function	language:C++	signature:(BaseSockSrv&& sock)
+SockHdlr	sock/BaseSock.H	172;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+SockSrv	ora/extproc/Socket.C	35;"	function	language:C++	signature:(int par, char* snd, char* rcv)
+StackWalker	exc/test1.C	14;"	class	language:C++	file:	inherits:BObj
+StackWalker	exc/test1.C	21;"	function	language:C++	class:StackWalker	access:public	signature:()
+StackWalker	exc/test1.C	22;"	function	language:C++	class:StackWalker	access:public	signature:(const string& hn, const string& fn, const int& ln)
+StackWalker::FileName	exc/test1.C	18;"	member	language:C++	class:StackWalker	file:	access:private
+StackWalker::HandlerName	exc/test1.C	17;"	member	language:C++	class:StackWalker	file:	access:private
+StackWalker::Level	exc/test1.C	16;"	member	language:C++	class:StackWalker	file:	access:private
+StackWalker::Line	exc/test1.C	19;"	member	language:C++	class:StackWalker	file:	access:private
+StackWalker::StackWalker	exc/test1.C	21;"	function	language:C++	class:StackWalker	access:public	signature:()
+StackWalker::StackWalker	exc/test1.C	22;"	function	language:C++	class:StackWalker	access:public	signature:(const string& hn, const string& fn, const int& ln)
+StackWalker::onPrint	exc/test1.C	34;"	function	language:C++	class:StackWalker	signature:(ostream& os) const
+StackWalker::~StackWalker	exc/test1.C	28;"	function	language:C++	class:StackWalker	access:public	signature:()
+StockItems	ora/java/pack_orderman.sql	34;"	table	language:SQL
+StockItems.Description	ora/java/pack_orderman.sql	35;"	field	language:SQL
+StockItems.Price	ora/java/pack_orderman.sql	36;"	field	language:SQL
+StockItems.StockNo	ora/java/pack_orderman.sql	34;"	field	language:SQL
+StrStore	str/strtst.C	14;"	function	language:C++	class:StrStore	access:public	signature:(const char *s)
+StrStore	str/strtst.C	9;"	class	language:C++	file:	inherits:BaseStorable,string
+StrStore::ClassName	str/strtst.C	15;"	function	language:C++	class:StrStore	access:public	implementation:virtual	signature:() const
+StrStore::Copy	str/strtst.C	16;"	function	language:C++	class:StrStore	access:public	implementation:virtual	signature:() const
+StrStore::StrStore	str/strtst.C	14;"	function	language:C++	class:StrStore	access:public	signature:(const char *s)
+TEST_EXC	exc/test6.C	7;"	variable	language:C++
+THEN	exc/BaseExc.H	129;"	macro	language:C++
+TInt	tst/Storage.C	23;"	function	language:C++	class:TInt	signature:(const int i)
+TInt	tst/Storage.C	28;"	function	language:C++	class:TInt	signature:(TInt const & other)
+TInt	tst/Storage.C	3;"	class	language:C++	file:	inherits:BStorable
+TInt::ClassName	tst/Storage.C	18;"	function	language:C++	class:TInt	signature:() const
+TInt::Copy	tst/Storage.C	33;"	function	language:C++	class:TInt	signature:() const
+TInt::Get	tst/Storage.C	12;"	function	language:C++	class:TInt	access:public	signature:() const
+TInt::Int	tst/Storage.C	15;"	member	language:C++	class:TInt	file:	access:private
+TInt::TInt	tst/Storage.C	23;"	function	language:C++	class:TInt	signature:(const int i)
+TInt::TInt	tst/Storage.C	28;"	function	language:C++	class:TInt	signature:(TInt const & other)
+TInt::~TInt	tst/Storage.C	38;"	function	language:C++	class:TInt	signature:()
+TS	time/BaseTime.H	15;"	macro	language:C++
+TestExec	exc/test6.C	32;"	function	language:C++	class:Bruch	access:public	signature:(int i)
+Throw	exc/BaseExc.C	79;"	function	language:C++	class:BaseExc	signature:( const char * name, const char * text, const char * file, int line )
+UOBJS	ora/java/makefile	5;"	macro	language:Make
+UOBJS	ora/uobj/makefile	5;"	macro	language:Make
+USERID	ora/cpp/makefile	30;"	macro	language:Make
+USERSTR	ora/java/makefile	13;"	macro	language:Make
+Uuid	core/BaseCore.H	64;"	class	language:C++
+Uuid	core/BaseCore.H	67;"	function	language:C++	class:Uuid	access:public	signature:()
+Uuid::Uuid	core/BaseCore.H	67;"	function	language:C++	class:Uuid	access:public	signature:()
+Uuid::clear	core/BaseCore.H	74;"	function	language:C++	class:Uuid	access:public	signature:(void)
+Uuid::get	core/BaseCore.H	78;"	function	language:C++	class:Uuid	access:public	signature:(void)
+Uuid::gettime	core/BaseCore.H	79;"	function	language:C++	class:Uuid	access:public	signature:(const char* fmt=Ó)
+Uuid::safe	core/BaseCore.H	97;"	member	language:C++	class:Uuid	access:private
+Uuid::str	core/BaseCore.H	98;"	member	language:C++	class:Uuid	access:private
+Uuid::unparse	core/BaseCore.H	88;"	function	language:C++	class:Uuid	access:public	signature:(bool upper=true)
+Uuid::uuid	core/BaseCore.H	96;"	member	language:C++	class:Uuid	access:private
+Uuid::~Uuid	core/BaseCore.H	73;"	function	language:C++	class:Uuid	access:public	signature:()
+WHEN	exc/BaseExc.H	126;"	macro	language:C++
+Wrapper	tst/pattern.C	58;"	class	language:C++	file:	inherits:Decorator
+Wrapper	tst/pattern.C	62;"	function	language:C++	class:Wrapper	access:public	signature:(Interface *c, string str)
+Wrapper::Wrapper	tst/pattern.C	62;"	function	language:C++	class:Wrapper	access:public	signature:(Interface *c, string str)
+Wrapper::backward	tst/pattern.C	60;"	member	language:C++	class:Wrapper	file:	access:private
+Wrapper::forward	tst/pattern.C	60;"	member	language:C++	class:Wrapper	file:	access:private
+Wrapper::read	tst/pattern.C	80;"	function	language:C++	class:Wrapper	access:public	signature:(string &str)
+Wrapper::write	tst/pattern.C	73;"	function	language:C++	class:Wrapper	access:public	signature:(string &str)
+Wrapper::~Wrapper	tst/pattern.C	69;"	function	language:C++	class:Wrapper	access:public	signature:()
+YEAR_TO_DAYS	time/BaseTime.H	38;"	macro	language:C++
+_BaseCore_H	core/BaseCore.H	2;"	macro	language:C++
+_BaseDef_H	def/BaseDef.H	2;"	macro	language:C++
+_BaseExc_H	exc/BaseExc.H	2;"	macro	language:C++
+_BaseIpc_H	ipc/BaseIpc.H	2;"	macro	language:C++
+_BaseMap_H	map/BaseMap.H	2;"	macro	language:C++
+_BaseMth_H	mth/BaseMth.H	2;"	macro	language:C++
+_BaseObj_H	obj/BaseObj.H	2;"	macro	language:C++
+_BaseOra_H	ora/cpp/BaseOra.H	2;"	macro	language:C++
+_BasePth_H	pth/BasePth.H	2;"	macro	language:C++
+_BaseShm_H	shm/BaseShm.H	2;"	macro	language:C++
+_BaseSock_H	sock/BaseSock.H	2;"	macro	language:C++
+_BaseStore_H	store/BaseStore.H	2;"	macro	language:C++
+_BaseStr_H	str/BaseStr.H	2;"	macro	language:C++
+_BaseTime_H	time/BaseTime.H	2;"	macro	language:C++
+_BaseTpl_H	tpl/BaseTpl.H	2;"	macro	language:C++
+_BaseTrc_H	trc/BaseTrc.H	2;"	macro	language:C++
+_BaseTst_H	tst/BaseTst.H	2;"	macro	language:C++
+_BaseVfs_H	vfs/BaseVfs.H	2;"	macro	language:C++
+_act_exc_handler	exc/BaseExc.C	41;"	variable	language:C++
+_addresses	std11/lambdaf.H	112;"	member	language:C++	class:AddressBook	access:private
+_clickMeMode	java/tst/MyUI.java	18;"	field	language:Java	class:MyUI	file:	access:private
+_connected	ora/cpp/BaseOra.H	53;"	member	language:C++	class:BaseOra	access:private
+_connstr	ora/cpp/BaseOra.H	54;"	member	language:C++	class:BaseOra	access:private
+_handler_func	std11/lambdaf.H	133;"	member	language:C++	class:EmailProcessor	access:private
+_max_size	std11/lambdaf.H	155;"	member	language:C++	class:MessageSizeStore	access:private
+_metadata	std11/rref.C	91;"	member	language:C++	class:ArrayWrapper	file:	access:private
+_myName	exc/BaseExc.C	42;"	variable	language:C++
+_name	std11/rref.C	49;"	member	language:C++	class:MetaData	file:	access:private
+_p_vals	std11/rref.C	90;"	member	language:C++	class:ArrayWrapper	file:	access:private
+_running	mth/BaseMth.H	96;"	member	language:C++	class:BaseMthRunnable	access:protected
+_running	pth/BasePth.H	230;"	member	language:C++	class:BasePthRunnable	access:protected
+_size	std11/rref.C	50;"	member	language:C++	class:MetaData	file:	access:private
+_thread	mth/BaseMth.H	71;"	member	language:C++	class:BaseMth	access:private
+_thread	mth/BaseMth.H	98;"	member	language:C++	class:BaseMthRunnable	access:private
+_thread	pth/BasePth.H	130;"	member	language:C++	class:BasePth	access:private
+_thread	pth/BasePth.H	206;"	member	language:C++	class:BasePth	access:private
+_thread	pth/BasePth.H	232;"	member	language:C++	class:BasePthRunnable	access:private
+_what	exc/test2.C	48;"	member	language:C++	class:exc	file:	access:private
+aCoffee	ora/uobj/test_Pattern.sql	580;"	variable	language:SQL
+aTea	ora/uobj/test_Pattern.sql	582;"	variable	language:SQL
+accept	sock/BaseSock.C	126;"	function	language:C++	class:BaseSock	signature:(BaseSock& NewSock) const
+actexc	exc/BaseExc.C	67;"	member	language:C++	class:BaseExc	file:
+actexc	exc/BaseExc.H	179;"	member	language:C++	class:BaseExc	access:private
+actionPerformed	java/tst/MyUI.java	44;"	method	language:Java	class:MyUI	access:public	signature:(ActionEvent event)
+add	store/BaseStore.C	80;"	function	language:C++	class:BaseStore	signature:(BaseStorable const &newobj)
+addCustomer	ora/java/orderman.java	29;"	method	language:Java	class:orderman	access:public	signature:(int custNo, String custName, String street, String city, String state, String zipCode, String phoneNo)
+addEntity	std11/lambdaf.H	49;"	function	language:C++	class:EntityContainer	access:public	signature:(Entity* entity)
+addLineItem	ora/java/orderman.java	110;"	method	language:Java	class:orderman	access:public	signature:(int lineNo, int orderNo, int stockNo, int quantity, float discount)
+addOrder	ora/java/orderman.java	80;"	method	language:Java	class:orderman	access:public	signature:(int orderNo, int custNo, String orderDate, String shipDate, String toStreet, String toCity, String toState, String toZipCode)
+addStockItem	ora/java/orderman.java	57;"	method	language:Java	class:orderman	access:public	signature:(int stockNo, String description, float price)
+address	ora/java/ex-jpa-se/src/entity/Order.java	34;"	field	language:Java	class:Order	file:	access:private
+alarm_handler	tst/nofobj.C	9;"	function	language:C++	signature:( int )
+alive	std11/lambdaf.H	32;"	member	language:C++	class:Entity	access:private
+arr	tst/array.C	14;"	member	language:C++	class:Obj	file:	access:private
+arr	tst/array.C	17;"	member	language:C++	class:Obj	file:
+arr	tst/freemem.C	14;"	member	language:C++	class:Obj	file:	access:private
+arr	tst/freemem.C	17;"	member	language:C++	class:Obj	file:
+autots	core/BaseCore.H	51;"	member	language:C++	class:coretime_t	access:private
+back	store/BaseStore.C	90;"	function	language:C++	class:BaseStore	signature:(const BaseStorable& oldobj)
+backward	tst/pattern.C	60;"	member	language:C++	class:Wrapper	file:	access:private
+bind	sock/BaseSock.C	104;"	function	language:C++	class:BaseSock	signature:(const int Port)
+bounded	ipc/ipctst.C	14;"	enumerator	language:C++	enum:flags	file:
+bounded	map/maptst.C	14;"	enumerator	language:C++	enum:flags	file:
+bounded	ora/cpp/oratst.C	14;"	enumerator	language:C++	enum:flags	file:
+bounded	sock/BaseSock.H	31;"	enumerator	language:C++	enum:flags
+bounded	tpl/tpltst.C	14;"	enumerator	language:C++	enum:flags	file:
+bounded	trc/trctst.C	14;"	enumerator	language:C++	enum:flags	file:
+buf	vfs/BaseVfs.H	85;"	member	language:C++	class:BaseVfs	access:private
+button	java/tst/MyUI.java	16;"	field	language:Java	class:MyUI	access:default
+bytes	sock/BaseSock.H	128;"	member	language:C++	class:BaseSock	access:private
+canceled	exc/BaseExc.C	68;"	member	language:C++	class:BaseExc	file:
+canceled	exc/BaseExc.H	180;"	member	language:C++	class:BaseExc	access:private
+chain	ora/uobj/test_Pattern.sql	119;"	variable	language:SQL
+changeQuantity	ora/java/orderman.java	231;"	method	language:Java	class:orderman	access:public	signature:(int newQty, int orderNo, int stockNo)
+checkMessage	std11/lambdaf.H	141;"	function	language:C++	class:MessageSizeStore	access:public	signature:(const std::string& message )
+checkStockItem	ora/java/orderman.java	206;"	method	language:Java	class:orderman	access:public	signature:(int stockNo)
+clear	core/BaseCore.H	74;"	function	language:C++	class:Uuid	access:public	signature:(void)
+clear	sock/BaseSock.H	118;"	function	language:C++	class:BaseSock	access:public	signature:()
+clear	sock/BaseSock.H	188;"	function	language:C++	class:BaseSockInf	access:private	signature:()
+clickButton	java/tst/MyUI.java	16;"	field	language:Java	class:MyUI	access:default
+clicked	java/tst/MyUI.java	15;"	field	language:Java	class:MyUI	access:default
+client	ora/java/ex-jpa-se/src/client/Client.java	21;"	package	language:Java
+close	pm/My/Log.pm	75;"	subroutine	language:Perl
+close	sock/BaseSock.C	40;"	function	language:C++	class:BaseSock	signature:()
+closeEntityManager	ora/java/ex-jpa-se/src/client/Client.java	182;"	method	language:Java	class:Client	file:	access:private	signature:()
+closeTransactionalEntityManager	ora/java/ex-jpa-se/src/client/Client.java	167;"	method	language:Java	class:Client	file:	access:private	signature:()
+connect	sock/BaseSock.C	73;"	function	language:C++	class:BaseSock	signature:( const BaseStr& Host, const int Port)
+connected	ipc/ipctst.C	16;"	enumerator	language:C++	enum:flags	file:
+connected	map/maptst.C	16;"	enumerator	language:C++	enum:flags	file:
+connected	ora/cpp/BaseOra.H	44;"	function	language:C++	class:BaseOra	access:public	signature:(void) const
+connected	ora/cpp/BaseOra.H	45;"	function	language:C++	class:BaseOra	access:public	signature:(bool setval)
+connected	ora/cpp/oratst.C	16;"	enumerator	language:C++	enum:flags	file:
+connected	sock/BaseSock.H	33;"	enumerator	language:C++	enum:flags
+connected	tpl/tpltst.C	16;"	enumerator	language:C++	enum:flags	file:
+connected	trc/trctst.C	16;"	enumerator	language:C++	enum:flags	file:
+copy	store/BaseStore.C	60;"	function	language:C++	class:BaseStore	signature:(BaseStore const &other)
+core.log	ora/java/core/log/myLogger.java	8;"	package	language:Java
+coretime_now	core/BaseCore.C	7;"	function	language:C++	signature:(coretime_t& coretime)
+coretime_t	core/BaseCore.H	36;"	class	language:C++	inherits:timespec
+coretime_t	core/BaseCore.H	39;"	function	language:C++	class:coretime_t	access:public	signature:()
+coretime_t	core/BaseCore.H	40;"	function	language:C++	class:coretime_t	access:public	signature:(const timeval& other)
+coretime_t	core/BaseCore.H	41;"	function	language:C++	class:coretime_t	access:public	signature:(const bool _auto)
+coretime_t::autots	core/BaseCore.H	51;"	member	language:C++	class:coretime_t	access:private
+coretime_t::coretime_t	core/BaseCore.H	39;"	function	language:C++	class:coretime_t	access:public	signature:()
+coretime_t::coretime_t	core/BaseCore.H	40;"	function	language:C++	class:coretime_t	access:public	signature:(const timeval& other)
+coretime_t::coretime_t	core/BaseCore.H	41;"	function	language:C++	class:coretime_t	access:public	signature:(const bool _auto)
+coretime_t::now	core/BaseCore.H	45;"	function	language:C++	class:coretime_t	access:public	signature:(void)
+coretime_t::operator timeval*	core/BaseCore.H	42;"	function	language:C++	class:coretime_t	access:public	signature:()
+coretime_t::width	core/BaseCore.H	52;"	member	language:C++	class:coretime_t	access:private
+coretst_C	core/coretst.C	1;"	variable	language:C++	file:
+create	ipc/BaseIpc.C	30;"	function	language:C++	class:BaseIpc	signature:()
+create	map/BaseMap.C	86;"	function	language:C++	class:BaseMap	signature:()
+create	mth/BaseMth.C	36;"	function	language:C++	class:BaseMth	signature:()
+create	pth/BasePth.C	36;"	function	language:C++	class:BasePth	signature:()
+create	shm/BaseShm.C	30;"	function	language:C++	class:BaseShm	signature:()
+create	sock/BaseSock.C	52;"	function	language:C++	class:BaseSock	signature:()
+create	tpl/BaseTpl.C	30;"	function	language:C++	class:BaseTpl	signature:()
+create	trc/BaseTrc.C	30;"	function	language:C++	class:BaseTrc	signature:()
+createEntityManager	ora/java/ex-jpa-se/src/client/Client.java	176;"	method	language:Java	class:Client	file:	access:private	signature:()
+createTransactionalEntityManager	ora/java/ex-jpa-se/src/client/Client.java	158;"	method	language:Java	class:Client	file:	access:private	signature:()
+created	ipc/ipctst.C	13;"	enumerator	language:C++	enum:flags	file:
+created	map/maptst.C	13;"	enumerator	language:C++	enum:flags	file:
+created	ora/cpp/oratst.C	13;"	enumerator	language:C++	enum:flags	file:
+created	sock/BaseSock.H	30;"	enumerator	language:C++	enum:flags
+created	tpl/tpltst.C	13;"	enumerator	language:C++	enum:flags	file:
+created	trc/trctst.C	13;"	enumerator	language:C++	enum:flags	file:
+cstr	tst/nofobj.C	25;"	member	language:C++	class:Obj	file:	access:private
+cur	ora/tst/exerc_hays.sql	67;"	cursor	language:SQL
+cursize	vfs/BaseVfs.H	63;"	member	language:C++	class:BaseVfsBuf	access:private
+customer	ora/java/ex-jpa-se/src/entity/Order.java	35;"	field	language:Java	class:Order	file:	access:private
+day	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+dec	tst/refobj.C	20;"	function	language:C++	class:Obj	file:	access:private	signature:(void)
+deleteOrder	ora/java/orderman.java	255;"	method	language:Java	class:orderman	access:public	signature:(int orderNo)
+dequeued	sock/BaseSock.H	35;"	enumerator	language:C++	enum:flags
+destroy	java/tst/Appt.java	23;"	method	language:Java	class:Appt	access:public	signature:()
+destroy	store/BaseStore.C	68;"	function	language:C++	class:BaseStore	signature:()
+drink_o	ora/uobj/test_Pattern.sql	412;"	function	language:SQL
+drink_o.constructor	ora/uobj/test_Pattern.sql	406;"	field	language:SQL
+drink_o.description	ora/uobj/test_Pattern.sql	402;"	field	language:SQL
+drink_o.member	ora/uobj/test_Pattern.sql	404;"	field	language:SQL
+drink_o.member	ora/uobj/test_Pattern.sql	405;"	field	language:SQL
+dummy	exc/BaseExc.C	32;"	function	language:C++	signature:(void)
+em	ora/java/ex-jpa-se/src/client/Client.java	39;"	field	language:Java	class:Client	file:	access:private
+emf	ora/java/ex-jpa-se/src/client/Client.java	38;"	field	language:Java	class:Client	file:	access:private
+enqueued	sock/BaseSock.H	34;"	enumerator	language:C++	enum:flags
+entities	std11/lambdaf.H	74;"	member	language:C++	class:EntityContainer	access:private
+entity	ora/java/ex-jpa-se/src/entity/Customer.java	21;"	package	language:Java
+entity	ora/java/ex-jpa-se/src/entity/Order.java	21;"	package	language:Java
+exc	exc/test2.C	44;"	class	language:C++	file:	inherits:excbase,objbase
+exc	exc/test2.C	50;"	function	language:C++	class:exc	access:public	signature:(const string& e, int i)
+exc	exc/test3.C	11;"	class	language:C++	file:	inherits:BObj
+exc	exc/test3.C	15;"	function	language:C++	class:exc	access:public	signature:(const string& e)
+exc::_what	exc/test2.C	48;"	member	language:C++	class:exc	file:	access:private
+exc::exc	exc/test2.C	50;"	function	language:C++	class:exc	access:public	signature:(const string& e, int i)
+exc::exc	exc/test3.C	15;"	function	language:C++	class:exc	access:public	signature:(const string& e)
+exc::what	exc/test2.C	60;"	function	language:C++	class:exc	access:public	implementation:virtual	signature:() const
+exc::what	exc/test3.C	13;"	member	language:C++	class:exc	file:	access:private
+exc::~exc	exc/test2.C	56;"	function	language:C++	class:exc	access:public	signature:(void)
+exc::~exc	exc/test3.C	20;"	function	language:C++	class:exc	access:public	signature:(void)
+excbase	exc/test2.C	14;"	class	language:C++	file:
+excbase	exc/test2.C	17;"	function	language:C++	class:excbase	access:public	signature:(void)
+excbase::excbase	exc/test2.C	17;"	function	language:C++	class:excbase	access:public	signature:(void)
+excbase::what	exc/test2.C	25;"	function	language:C++	class:excbase	access:public	implementation:virtual	signature:() const
+excbase::~excbase	exc/test2.C	21;"	function	language:C++	class:excbase	access:public	signature:(void)
+exctst	exc/exctst.C	16;"	class	language:C++	file:
+exctst	exc/exctst.C	19;"	function	language:C++	class:exctst	access:public	signature:(void)
+exctst::exctst	exc/exctst.C	19;"	function	language:C++	class:exctst	access:public	signature:(void)
+exctst::~exctst	exc/exctst.C	24;"	function	language:C++	class:exctst	access:public	signature:(void)
+executed	sock/BaseSock.C	13;"	member	language:C++	class:BaseSockSrv	file:
+executed	sock/BaseSock.H	227;"	member	language:C++	class:BaseSockSrv	access:private
+faulty	ipc/ipctst.C	17;"	enumerator	language:C++	enum:flags	file:
+faulty	map/maptst.C	17;"	enumerator	language:C++	enum:flags	file:
+faulty	ora/cpp/oratst.C	17;"	enumerator	language:C++	enum:flags	file:
+faulty	sock/BaseSock.H	169;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+faulty	sock/BaseSock.H	36;"	enumerator	language:C++	enum:flags
+faulty	tpl/tpltst.C	17;"	enumerator	language:C++	enum:flags	file:
+faulty	trc/trctst.C	17;"	enumerator	language:C++	enum:flags	file:
+fdbuf	vfs/BaseVfs.H	39;"	typedef	language:C++
+findCustomer	ora/java/ex-jpa-se/src/client/Client.java	150;"	method	language:Java	class:Client	file:	access:private	signature:(String name)
+findMatchingAddresses	std11/lambdaf.H	97;"	function	language:C++	class:AddressBook	access:public	signature:(function<bool (const string&)> func)
+findMatchingEntities	std11/lambdaf.H	57;"	function	language:C++	class:EntityContainer	access:public	signature:(Func func)
+flags	ipc/ipctst.C	11;"	enum	language:C++	file:
+flags	map/maptst.C	11;"	enum	language:C++	file:
+flags	ora/cpp/oratst.C	11;"	enum	language:C++	file:
+flags	sock/BaseSock.H	171;"	member	language:C++	struct:BaseSockInf::stat_t	typeref:struct:BaseSockInf::stat_t::flags_t	access:public
+flags	sock/BaseSock.H	28;"	enum	language:C++
+flags	tpl/tpltst.C	11;"	enum	language:C++	file:
+flags	trc/trctst.C	11;"	enum	language:C++	file:
+flags_t	ipc/ipctst.C	10;"	typedef	language:C++	file:
+flags_t	map/maptst.C	10;"	typedef	language:C++	file:
+flags_t	ora/cpp/oratst.C	10;"	typedef	language:C++	file:
+flags_t	sock/BaseSock.H	162;"	struct	language:C++	struct:BaseSockInf::stat_t	access:public
+flags_t	sock/BaseSock.H	164;"	function	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public	signature:()
+flags_t	sock/BaseSock.H	165;"	function	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public	signature:(const int fl)
+flags_t	tpl/tpltst.C	10;"	typedef	language:C++	file:
+flags_t	trc/trctst.C	10;"	typedef	language:C++	file:
+fname	vfs/BaseVfs.H	64;"	member	language:C++	class:BaseVfsBuf	access:private
+format	ora/java/core/log/myLogger.java	45;"	method	language:Java	class:myFormatter	access:public	signature:(LogRecord record)
+format	time/BaseTime.H	33;"	member	language:C++	class:BaseTime	access:private
+forward	tst/pattern.C	60;"	member	language:C++	class:Wrapper	file:	access:private
+fun	exc/test5.C	31;"	function	language:C++	class:Inner	signature:()
+fun	exc/test5.C	49;"	function	language:C++	class:Outer	signature:()
+fun	exc/test7.C	42;"	function	language:C++	signature:( int sig )
+fun	tst/funarg.C	47;"	function	language:C++	signature:(char * f ... )
+fun	tst/funobj.C	33;"	function	language:C++	signature:(Obj const &o)
+funarr	tst/funarg.C	40;"	function	language:C++	signature:( int const * arr)
+func	exc/exctst.C	32;"	function	language:C++	signature:(void)
+func	exc/test1.C	72;"	function	language:C++	signature:(void)
+func	exc/test2.C	67;"	function	language:C++	signature:(void )
+func	exc/test3.C	26;"	function	language:C++	signature:(void)
+funref	tst/funarg.C	31;"	function	language:C++	signature:( const int& o)
+funt	exc/test1.C	51;"	function	language:C++	signature:(void)
+get	core/BaseCore.H	78;"	function	language:C++	class:Uuid	access:public	signature:(void)
+get	mth/BaseMth.H	48;"	function	language:C++	class:BaseMth	access:public	signature:()
+get	mth/mthtst.C	34;"	function	language:C++	class:My	access:public	signature:(void)
+get	ora/uobj/test_Pattern.sql	29;"	function	language:SQL
+get	pth/BasePth.H	183;"	function	language:C++	class:BasePth	access:public	signature:()
+get	pth/BasePth.H	80;"	function	language:C++	class:BasePth	access:public	signature:()
+get	pth/pthtst.C	42;"	function	language:C++	class:My	access:public	signature:(void)
+get	sock/BaseSock.H	220;"	function	language:C++	class:BaseSockSrv	access:private	signature:(void)
+get	std11/lambdaf.H	54;"	function	language:C++	class:EntityContainer	access:public	signature:(void) const
+get	store/BaseStore.C	103;"	function	language:C++	class:BaseStore	signature:(int index)
+get	store/store.C	22;"	function	language:C++	class:My1	access:public	signature:()
+get	store/store.C	47;"	function	language:C++	class:My2	access:public	signature:()
+getAddress	ora/java/ex-jpa-se/src/entity/Order.java	48;"	method	language:Java	class:Order	access:public	signature:()
+getCustomer	ora/java/ex-jpa-se/src/entity/Order.java	58;"	method	language:Java	class:Order	access:public	signature:()
+getDescription	ora/uobj/test_Pattern.sql	428;"	function	language:SQL
+getDescription	ora/uobj/test_Pattern.sql	504;"	function	language:SQL
+getDescription	ora/uobj/test_Pattern.sql	516;"	function	language:SQL
+getDescription	ora/uobj/test_Pattern.sql	531;"	function	language:SQL
+getDescription	ora/uobj/test_Pattern.sql	549;"	function	language:SQL
+getDescription	ora/uobj/test_Pattern.sql	564;"	function	language:SQL
+getId	ora/java/ex-jpa-se/src/entity/Customer.java	42;"	method	language:Java	class:Customer	access:public	signature:()
+getId	ora/java/ex-jpa-se/src/entity/Order.java	39;"	method	language:Java	class:Order	access:public	signature:()
+getInt	std11/rref.C	95;"	function	language:C++	signature:()
+getLogger	ora/java/core/log/myLogger.java	18;"	method	language:Java	class:myLogger	access:public	signature:()
+getMaxSize	std11/lambdaf.H	149;"	function	language:C++	class:MessageSizeStore	access:public	signature:()
+getMsg	ora/uobj/test_Pattern.sql	165;"	function	language:SQL
+getMsg	ora/uobj/test_Pattern.sql	232;"	function	language:SQL
+getMyName	ora/uobj/type_Trace.sql	361;"	function	language:SQL
+getName	ora/java/ex-jpa-se/src/entity/Customer.java	50;"	method	language:Java	class:Customer	access:public	signature:()
+getName	ora/uobj/test_Pattern.sql	308;"	function	language:SQL
+getName	ora/uobj/test_Pattern.sql	329;"	function	language:SQL
+getName	ora/uobj/test_Pattern.sql	342;"	function	language:SQL
+getName	std11/rref.C	11;"	function	language:C++	signature:(void)
+getName	std11/rref.C	46;"	function	language:C++	class:MetaData	access:public	signature:() const
+getOrders	ora/java/ex-jpa-se/src/entity/Customer.java	59;"	method	language:Java	class:Customer	access:public	signature:()
+getRate	ora/uobj/test_Pattern.sql	313;"	function	language:SQL
+getRate	ora/uobj/test_Pattern.sql	334;"	function	language:SQL
+getRate	ora/uobj/test_Pattern.sql	356;"	function	language:SQL
+getRvalueInt	std11/rref.C	100;"	function	language:C++	signature:()
+getSize	std11/rref.C	47;"	function	language:C++	class:MetaData	access:public	signature:() const
+getresult	pth/BasePth.H	84;"	function	language:C++	class:BasePth	access:public	signature:()
+getresult	sock/BaseSock.H	225;"	function	language:C++	class:BaseSockSrv	access:private	signature:()
+getret	pth/BasePth.H	182;"	function	language:C++	class:BasePth	access:public	signature:(void)
+gettime	core/BaseCore.H	79;"	function	language:C++	class:Uuid	access:public	signature:(const char* fmt=Ó)
+gettraf	sock/BaseSock.H	214;"	function	language:C++	class:BaseSockSrv	access:public	signature:()
+gettraf	sock/BaseSock.H	99;"	function	language:C++	class:BaseSock	access:public	signature:()
+gettype	std11/lambdaf.H	26;"	function	language:C++	class:Entity	access:public	signature:(void) const
+hitpoints	std11/lambdaf.H	33;"	member	language:C++	class:Entity	access:private
+hour	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+id	exc/test2.C	30;"	member	language:C++	class:objbase	file:	access:private
+id	ora/java/ex-jpa-se/src/entity/Customer.java	37;"	field	language:Java	class:Customer	file:	access:private
+id	ora/java/ex-jpa-se/src/entity/Order.java	33;"	field	language:Java	class:Order	file:	access:private
+id	std11/lambdaf.H	29;"	member	language:C++	class:Entity	access:private
+inc	tst/refobj.C	19;"	function	language:C++	class:Obj	file:	access:private	signature:(void)
+init	java/tst/Appt.java	13;"	method	language:Java	class:Appt	access:public	signature:()
+init	ora/java/core/log/myLogger.java	20;"	method	language:Java	class:myLogger	access:public	signature:(String logfile, String name)
+init	ora/java/orderman.java	23;"	method	language:Java	class:orderman	access:public	signature:(String logfile)
+init	pm/My/Log.pm	51;"	subroutine	language:Perl
+inner	tst/pattern.C	38;"	member	language:C++	class:Decorator	file:	access:private
+inst_cnt	tst/refobj.C	17;"	member	language:C++	class:Obj	file:	access:private
+inst_cnt	tst/refobj.C	23;"	member	language:C++	class:Obj	file:
+inst_num	tst/refobj.C	18;"	member	language:C++	class:Obj	file:	access:private
+instance_count	obj/BaseObj.C	40;"	member	language:C++	class:BaseObj	file:
+instance_count	obj/BaseObj.H	64;"	member	language:C++	class:BaseObj	access:private
+instance_count	tst/nofobj.C	7;"	variable	language:C++
+instance_num	obj/BaseObj.H	63;"	member	language:C++	class:BaseObj	access:private
+ipc	ipc/BaseIpc.H	44;"	member	language:C++	class:BaseIpc	access:private
+line	pm/My/Log.pm	92;"	subroutine	language:Perl
+link	vfs/BaseVfs.C	236;"	function	language:C++	class:BaseVfsBuf	signature:(void)
+listen	sock/BaseSock.C	117;"	function	language:C++	class:BaseSock	signature:()
+listened	ipc/ipctst.C	15;"	enumerator	language:C++	enum:flags	file:
+listened	map/maptst.C	15;"	enumerator	language:C++	enum:flags	file:
+listened	ora/cpp/oratst.C	15;"	enumerator	language:C++	enum:flags	file:
+listened	sock/BaseSock.H	32;"	enumerator	language:C++	enum:flags
+listened	tpl/tpltst.C	15;"	enumerator	language:C++	enum:flags	file:
+listened	trc/trctst.C	15;"	enumerator	language:C++	enum:flags	file:
+log	ora/java/core/log/myLogger.java	17;"	field	language:Java	class:myLogger	file:	access:private
+log	ora/java/orderman.java	21;"	field	language:Java	class:orderman	file:	access:private
+loginit	ora/extproc/Socket.C	32;"	variable	language:C++	file:
+mailx	ora/extproc/shell.c	21;"	function	language:C	signature:(char *to, char *subject, char *message)
+main	exc/exctst.C	56;"	function	language:C++	signature:(int, char* argv[])
+main	exc/test1.C	88;"	function	language:C++	signature:(int, char* argv[])
+main	exc/test2.C	90;"	function	language:C++	signature:(int, char* argv[])
+main	exc/test3.C	42;"	function	language:C++	signature:(int, char* argv[])
+main	exc/test4.C	7;"	function	language:C++	signature:(int argc, char *argv[])
+main	exc/test5.C	59;"	function	language:C++	signature:()
+main	exc/test6.C	57;"	function	language:C++	signature:(int, char* argv[])
+main	exc/test7.C	55;"	function	language:C++	signature:(int, char* argv[])
+main	ipc/ipctst.C	26;"	function	language:C++	signature:(int argc, char *argv[])
+main	java/tst/Args.java	3;"	method	language:Java	class:Args	access:public	signature:(String[] args)
+main	java/tst/MyUI.java	60;"	method	language:Java	class:MyUI	access:public	signature:(String[] args)
+main	map/maptst.C	26;"	function	language:C++	signature:(int argc, char *argv[])
+main	mth/mthtst.C	48;"	function	language:C++	signature:(int argc, char *argv[])
+main	obj/objtst.C	23;"	function	language:C++	signature:(int, char**)
+main	ora/cpp/oratst.C	26;"	function	language:C++	signature:(int argc, char *argv[])
+main	ora/extproc/shell.c	83;"	function	language:C	signature:(int argc, char **argv)
+main	ora/extproc/socksrv.C	20;"	function	language:C++	signature:(void)
+main	ora/java/ex-jpa-se/src/client/Client.java	41;"	method	language:Java	class:Client	access:public	signature:(String[] args)
+main	pth/pthtst.C	60;"	function	language:C++	signature:(int argc, char *argv[])
+main	shm/shmtst.C	16;"	function	language:C++	signature:(int argc, char *argv[])
+main	sock/sockclt.C	4;"	function	language:C++	signature:(int argc, char * args[])
+main	sock/socksrv.C	53;"	function	language:C++	signature:(void)
+main	std11/lambdaf.C	4;"	function	language:C++	signature:(void)
+main	std11/rref.C	110;"	function	language:C++	signature:(void)
+main	store/store.C	65;"	function	language:C++	signature:(void)
+main	str/strtst.C	37;"	function	language:C++	signature:(void)
+main	time/timetst.C	33;"	function	language:C++	signature:(void)
+main	tpl/tpltst.C	26;"	function	language:C++	signature:(int argc, char *argv[])
+main	trc/trctst.C	26;"	function	language:C++	signature:(int argc, char *argv[])
+main	tst/Storage.C	55;"	function	language:C++	signature:(void)
+main	tst/array.C	39;"	function	language:C++	signature:(void)
+main	tst/freemem.C	45;"	function	language:C++	signature:(void)
+main	tst/funarg.C	73;"	function	language:C++	signature:(void)
+main	tst/funobj.C	38;"	function	language:C++	signature:(void)
+main	tst/main.c	7;"	function	language:C	signature:(int argc, char** argv)
+main	tst/misc.C	7;"	function	language:C++	signature:(void)
+main	tst/nofobj.C	40;"	function	language:C++	signature:(void)
+main	tst/pattern.C	154;"	function	language:C++	signature:()
+main	tst/refobj.C	95;"	function	language:C++	signature:(void)
+main	tst/typeinfo.C	7;"	function	language:C++	signature:(void)
+main	tst/types.C	8;"	function	language:C++	signature:(void)
+main	vfs/tst1.C	9;"	function	language:C++	signature:(void)
+main	vfs/vfstst.C	4;"	function	language:C++	signature:(void)
+main_thid	mth/BaseMth.C	10;"	variable	language:C++
+main_thid	mth/BaseMth.H	70;"	member	language:C++	class:BaseMth	access:private
+main_thid	pth/BasePth.C	10;"	variable	language:C++
+map	map/BaseMap.H	55;"	member	language:C++	class:BaseMap	access:private
+maxsize	vfs/BaseVfs.H	62;"	member	language:C++	class:BaseVfsBuf	access:private
+min	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+misc_main_C	tst/misc.C	1;"	variable	language:C++	file:
+mon	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+moveresult	pth/BasePth.H	90;"	function	language:C++	class:BasePth	access:public	signature:()
+my	ora/java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+myFormatter	ora/java/core/log/myLogger.java	42;"	class	language:Java	inherits:Formatter
+myFormatter.format	ora/java/core/log/myLogger.java	45;"	method	language:Java	class:myFormatter	access:public	signature:(LogRecord record)
+myFun1	mth/mthtst.C	17;"	function	language:C++	signature:(int sec, string&& str)
+myFun1	pth/pthtst.C	17;"	function	language:C++	signature:(int sec, string&& str)
+myFun2	mth/mthtst.C	39;"	function	language:C++	signature:(int sec, My&& str)
+myFun2	pth/pthtst.C	48;"	function	language:C++	signature:(int sec, My&& str)
+myLogger	ora/java/core/log/myLogger.java	15;"	class	language:Java
+myLogger.getLogger	ora/java/core/log/myLogger.java	18;"	method	language:Java	class:myLogger	access:public	signature:()
+myLogger.init	ora/java/core/log/myLogger.java	20;"	method	language:Java	class:myLogger	access:public	signature:(String logfile, String name)
+myLogger.log	ora/java/core/log/myLogger.java	17;"	field	language:Java	class:myLogger	file:	access:private
+n	ora/tst/exerc_hays.sql	14;"	variable	language:SQL
+name	ora/java/ex-jpa-se/src/entity/Customer.java	38;"	field	language:Java	class:Customer	file:	access:private
+name	std11/lambdaf.H	30;"	member	language:C++	class:Entity	access:private
+new	pm/My/Log.pm	24;"	subroutine	language:Perl
+noexcept	sock/BaseSock.H	70;"	member	language:C++	class:BaseSock	access:public
+nok	sock/BaseSock.H	167;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+now	core/BaseCore.H	45;"	function	language:C++	class:coretime_t	access:public	signature:(void)
+now	time/BaseTime.C	47;"	function	language:C++	class:BaseTime	signature:(void)
+nstored	store/BaseStore.C	112;"	function	language:C++	class:BaseStore	signature:() const
+null_exception	exc/BaseExc.C	39;"	variable	language:C++
+num	store/store.C	24;"	member	language:C++	class:My1	file:	access:private
+num	store/store.C	49;"	member	language:C++	class:My2	file:	access:private
+number	store/BaseStore.H	57;"	member	language:C++	class:BaseStore	access:private
+objbase	exc/test2.C	28;"	class	language:C++	file:
+objbase	exc/test2.C	32;"	function	language:C++	class:objbase	access:public	signature:(int i)
+objbase::Id	exc/test2.C	41;"	function	language:C++	class:objbase	access:public	implementation:virtual	signature:(void)
+objbase::id	exc/test2.C	30;"	member	language:C++	class:objbase	file:	access:private
+objbase::objbase	exc/test2.C	32;"	function	language:C++	class:objbase	access:public	signature:(int i)
+objbase::~objbase	exc/test2.C	37;"	function	language:C++	class:objbase	access:public	signature:(void)
+ok	sock/BaseSock.H	166;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+old_terminate	exc/BaseExc.C	64;"	member	language:C++	class:BaseExc	file:
+old_terminate	exc/BaseExc.H	181;"	member	language:C++	class:BaseExc	access:private
+old_unexpected	exc/BaseExc.C	65;"	member	language:C++	class:BaseExc	file:
+old_unexpected	exc/BaseExc.H	182;"	member	language:C++	class:BaseExc	access:private
+onPrint	exc/BaseExc.C	153;"	function	language:C++	class:BaseExcHandler	signature:(ostream& os) const
+onPrint	exc/test1.C	34;"	function	language:C++	class:StackWalker	signature:(ostream& os) const
+onPrint	ipc/BaseIpc.H	39;"	function	language:C++	class:BaseIpc	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	map/BaseMap.H	49;"	function	language:C++	class:BaseMap	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	mth/BaseMth.H	124;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	mth/BaseMth.H	58;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	obj/BaseObj.C	74;"	function	language:C++	class:BaseObj	signature:(ostream& os) const
+onPrint	ora/cpp/BaseOra.H	47;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	pth/BasePth.H	119;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	pth/BasePth.H	192;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	pth/BasePth.H	258;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	shm/BaseShm.H	35;"	function	language:C++	class:BaseShm	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	sock/BaseSock.H	108;"	function	language:C++	class:BaseSock	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	sock/BaseSock.H	148;"	function	language:C++	class:BaseSockInf	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	std11/lambdaf.H	22;"	function	language:C++	class:Entity	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	str/BaseStr.C	15;"	function	language:C++	class:BaseStr	signature:(ostream& os) const
+onPrint	tpl/BaseTpl.H	39;"	function	language:C++	class:BaseTpl	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	trc/BaseTrc.H	39;"	function	language:C++	class:BaseTrc	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	tst/refobj.C	14;"	function	language:C++	class:Obj	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	tst/refobj.C	48;"	function	language:C++	class:MyCopy	access:public	implementation:virtual	signature:(ostream& os) const
+onPrint	tst/refobj.C	90;"	function	language:C++	class:MyMove	access:public	implementation:virtual	signature:(ostream& os) const
+open	pm/My/Log.pm	57;"	subroutine	language:Perl
+open	vfs/BaseVfs.C	77;"	function	language:C++	class:BaseVfsBuf	signature:(const char * fn, int om)
+operator ()	str/BaseStr.H	37;"	function	language:C++	class:BaseStr	access:public	signature:(size_t pos, size_t len) const
+operator +	str/BaseStr.C	22;"	function	language:C++	signature:(const char* s, const BaseStr& o)
+operator +	str/BaseStr.H	30;"	function	language:C++	class:BaseStr	access:public	signature:(const char* s)
+operator +	str/BaseStr.H	31;"	function	language:C++	class:BaseStr	access:public	signature:(const int& i)
+operator +	str/BaseStr.H	32;"	function	language:C++	class:BaseStr	access:public	signature:(const BaseStr& s)
+operator <<	core/BaseCore.C	12;"	function	language:C++	signature:(ostream& os, coretime_t& time)
+operator <<	map/BaseMap.C	10;"	function	language:C++	signature:(ostream& os, const BaseMap& map)
+operator <<	obj/BaseObj.C	82;"	function	language:C++	signature:( ostream& os, BaseObj const &obj )
+operator <<	obj/objtst.C	17;"	function	language:C++	signature:(ostream& os, const My& my)
+operator <<	sock/BaseSock.C	16;"	function	language:C++	signature:(ostream& os, const sockaddr_in& sa)
+operator <<	sock/BaseSock.C	202;"	function	language:C++	class:BaseSock	signature:(const BaseStr& s)
+operator <<	sock/BaseSock.C	222;"	function	language:C++	class:BaseSockSrv	signature:(const BaseStr& s)
+operator <<	sock/BaseSock.C	242;"	function	language:C++	class:BaseSockClt	signature:(const BaseStr& s)
+operator <<	sock/BaseSock.C	420;"	function	language:C++	signature:(ostream& os, const BaseSockSrv& sock)
+operator <<	std11/lambdaf.H	36;"	function	language:C++	signature:( ostream& os, const Entity& ent)
+operator <<	store/BaseStore.C	53;"	function	language:C++	signature:(ostream& os, const BaseStore& s)
+operator <<	store/store.C	62;"	function	language:C++	signature:(ostream& os, const My1& b)
+operator <<	store/store.C	63;"	function	language:C++	signature:(ostream& os, const My2& b)
+operator <<	str/strtst.C	19;"	function	language:C++	signature:(ostream& os, const StrStore& s)
+operator <<	time/BaseTime.C	93;"	function	language:C++	signature:(ostream& os, const tm& tm)
+operator <<	tst/refobj.C	24;"	function	language:C++	signature:( ostream& os, const Obj &inst)
+operator =	exc/BaseExc.H	154;"	function	language:C++	class:BaseExc	access:public	signature:(const BaseExc& other)
+operator =	map/BaseMap.C	52;"	function	language:C++	class:BaseMap	signature:(const BaseStr& mappedstr)
+operator =	map/BaseMap.C	60;"	function	language:C++	class:BaseMap	signature:(const char* mappedstr)
+operator =	mth/mthtst.C	32;"	function	language:C++	class:My	access:public	signature:(const char * s)
+operator =	obj/BaseObj.H	44;"	function	language:C++	class:BaseObj	access:public	implementation:virtual	signature:(BaseObj const &other) const
+operator =	pth/BasePth.H	35;"	function	language:C++	class:BasePth	access:public	signature:(BasePth&& other)
+operator =	pth/pthtst.C	33;"	function	language:C++	class:My	access:public	signature:(const char * s)
+operator =	pth/pthtst.C	36;"	function	language:C++	class:My	access:public	signature:(My&& other)
+operator =	sock/BaseSock.H	141;"	function	language:C++	class:BaseSockInf	access:public	signature:(const BaseSockInf& sock)
+operator =	sock/BaseSock.H	183;"	function	language:C++	class:BaseSockInf	access:public	signature:(const stat_t& other)
+operator =	store/BaseStore.C	42;"	function	language:C++	class:BaseStore	signature:(BaseStore const &other)
+operator =	store/store.C	40;"	function	language:C++	class:My2	access:public	implementation:virtual	signature:(const My2 &other)
+operator =	tst/refobj.C	32;"	function	language:C++	class:CpObj	access:public	implementation:virtual	signature:(const CpObj& other)
+operator =	tst/refobj.C	47;"	function	language:C++	class:MyCopy	access:public	implementation:virtual	signature:(MyCopy other)
+operator =	tst/refobj.C	60;"	function	language:C++	class:MvObj	access:public	signature:(MvObj&& other)
+operator =	tst/refobj.C	73;"	function	language:C++	class:MyMove	access:public	signature:(const MyMove& other)
+operator =	tst/refobj.C	80;"	function	language:C++	class:MyMove	access:public	signature:(MyMove&& other)
+operator ==	obj/BaseObj.H	49;"	function	language:C++	class:BaseObj	access:public	signature:(const BaseObj& other)
+operator ==	str/BaseStr.H	33;"	function	language:C++	class:BaseStr	access:public	signature:(const BaseStr& o)
+operator ==	str/BaseStr.H	34;"	function	language:C++	class:BaseStr	access:public	signature:(const char* s)
+operator >>	sock/BaseSock.C	212;"	function	language:C++	class:BaseSock	signature:(BaseStr& s)
+operator >>	sock/BaseSock.C	232;"	function	language:C++	class:BaseSockSrv	signature:(BaseStr& s)
+operator >>	sock/BaseSock.C	252;"	function	language:C++	class:BaseSockClt	signature:(BaseStr& s)
+operator BaseStr	map/BaseMap.C	31;"	function	language:C++	class:BaseMap	signature:() const
+operator []	str/BaseStr.H	35;"	function	language:C++	class:BaseStr	access:public	signature:(int pos) const
+operator []	str/BaseStr.H	36;"	function	language:C++	class:BaseStr	access:public	signature:(int pos)
+operator const char*	str/BaseStr.H	29;"	function	language:C++	class:BaseStr	access:public	signature:() const
+operator timeval*	core/BaseCore.H	42;"	function	language:C++	class:coretime_t	access:public	signature:()
+orderman	ora/java/orderman.java	17;"	class	language:Java
+orderman	ora/java/pack_orderman.sql	71;"	package	language:SQL
+orderman	ora/java/pack_orderman.sql	92;"	package	language:SQL
+orderman.addCustomer	ora/java/orderman.java	29;"	method	language:Java	class:orderman	access:public	signature:(int custNo, String custName, String street, String city, String state, String zipCode, String phoneNo)
+orderman.addLineItem	ora/java/orderman.java	110;"	method	language:Java	class:orderman	access:public	signature:(int lineNo, int orderNo, int stockNo, int quantity, float discount)
+orderman.addOrder	ora/java/orderman.java	80;"	method	language:Java	class:orderman	access:public	signature:(int orderNo, int custNo, String orderDate, String shipDate, String toStreet, String toCity, String toState, String toZipCode)
+orderman.addStockItem	ora/java/orderman.java	57;"	method	language:Java	class:orderman	access:public	signature:(int stockNo, String description, float price)
+orderman.changeQuantity	ora/java/orderman.java	231;"	method	language:Java	class:orderman	access:public	signature:(int newQty, int orderNo, int stockNo)
+orderman.checkStockItem	ora/java/orderman.java	206;"	method	language:Java	class:orderman	access:public	signature:(int stockNo)
+orderman.deleteOrder	ora/java/orderman.java	255;"	method	language:Java	class:orderman	access:public	signature:(int orderNo)
+orderman.init	ora/java/orderman.java	23;"	method	language:Java	class:orderman	access:public	signature:(String logfile)
+orderman.init	ora/java/pack_orderman.sql	93;"	procedure	language:SQL
+orderman.init.add_customer	ora/java/pack_orderman.sql	97;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item	ora/java/pack_orderman.sql	104;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order	ora/java/pack_orderman.sql	108;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item	ora/java/pack_orderman.sql	116;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders	ora/java/pack_orderman.sql	121;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders.check_stock_item	ora/java/pack_orderman.sql	125;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders.check_stock_item.change_quantity	ora/java/pack_orderman.sql	129;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders.check_stock_item.change_quantity.delete_order	ora/java/pack_orderman.sql	133;"	procedure	language:SQL
+orderman.log	ora/java/orderman.java	21;"	field	language:Java	class:orderman	file:	access:private
+orderman.my	ora/java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+orderman.printResults	ora/java/orderman.java	159;"	method	language:Java	class:orderman	access:default	signature:(ResultSet rset)
+orderman.tmp	ora/java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+orderman.totalOrders	ora/java/orderman.java	135;"	method	language:Java	class:orderman	access:public	signature:()
+orders	ora/java/ex-jpa-se/src/entity/Customer.java	39;"	field	language:Java	class:Customer	file:	access:private
+oscar	ora/java/oscar.java	1;"	class	language:Java
+oscar.quote	ora/java/oscar.java	4;"	method	language:Java	class:oscar	access:public	signature:()
+oscar_quote	ora/java/oscar.sql	3;"	function	language:SQL
+other	sock/BaseSock.H	202;"	member	language:C++	class:BaseSockSrv	access:public
+other	sock/BaseSock.H	76;"	member	language:C++	class:BaseSock	access:public
+other	sock/BaseSock.H	82;"	member	language:C++	class:BaseSock	access:public
+out_of_main_exception	exc/exctst.C	14;"	variable	language:C++
+overflow	vfs/BaseVfs.C	93;"	function	language:C++	class:BaseVfsBuf	signature:(int ch)
+packFile	ora/uobj/type_Trace.sql	100;"	package	language:SQL
+packFile	ora/uobj/type_Trace.sql	122;"	package	language:SQL
+packFile.FileHndlType	ora/uobj/type_Trace.sql	103;"	subtype	language:SQL
+packFile.FileTab	ora/uobj/type_Trace.sql	125;"	variable	language:SQL
+packFile.FileTabType	ora/uobj/type_Trace.sql	125;"	table	language:SQL
+packFile.FileType.AutoFlush	ora/uobj/type_Trace.sql	109;"	field	language:SQL
+packFile.FileType.Bytes	ora/uobj/type_Trace.sql	107;"	field	language:SQL
+packFile.FileType.CDate	ora/uobj/type_Trace.sql	110;"	field	language:SQL
+packFile.FileType.Hndl	ora/uobj/type_Trace.sql	106;"	field	language:SQL
+packFile.FileType.MaxBytes	ora/uobj/type_Trace.sql	108;"	field	language:SQL
+packFile.FileType.Name	ora/uobj/type_Trace.sql	105;"	field	language:SQL
+packFile.FileType.Path	ora/uobj/type_Trace.sql	104;"	field	language:SQL
+packFile.getFile	ora/uobj/type_Trace.sql	128;"	function	language:SQL
+packFile.setFile	ora/uobj/type_Trace.sql	141;"	procedure	language:SQL
+paint	java/tst/Appt.java	26;"	method	language:Java	class:Appt	access:public	signature:(Graphics g)
+panel	java/tst/MyUI.java	17;"	field	language:Java	class:MyUI	access:default
+pls	ora/cpp/BaseOra.H	59;"	member	language:C++	class:BaseOra	typeref:struct:BaseOra::__anon1	access:private
+pop	ora/uobj/test_Pattern.sql	56;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	420;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	440;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	460;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	471;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	485;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	537;"	function	language:SQL
+price	ora/uobj/test_Pattern.sql	570;"	function	language:SQL
+print	std11/rref.C	16;"	function	language:C++	signature:(const string& str)
+print	std11/rref.C	21;"	function	language:C++	signature:(string&& str)
+printAddress	std11/rref.C	105;"	function	language:C++	signature:(const string& info, const int& v)
+printResults	ora/java/orderman.java	159;"	method	language:Java	class:orderman	access:default	signature:(ResultSet rset)
+push	ora/uobj/test_Pattern.sql	47;"	procedure	language:SQL
+put	pm/My/Log.pm	108;"	subroutine	language:Perl
+quote	ora/java/oscar.java	4;"	method	language:Java	class:oscar	access:public	signature:()
+read	tst/pattern.C	27;"	function	language:C++	class:Core	access:public	signature:(string &str)
+read	tst/pattern.C	52;"	function	language:C++	class:Decorator	access:public	signature:(string &b)
+read	tst/pattern.C	80;"	function	language:C++	class:Wrapper	access:public	signature:(string &str)
+ready	pth/BasePth.H	92;"	function	language:C++	class:BasePth	access:public	signature:()
+ready	sock/BaseSock.C	315;"	function	language:C++	class:BaseSockSrv	signature:(void)
+receiveMessage	std11/lambdaf.H	118;"	function	language:C++	class:EmailProcessor	access:public	signature:(const string& message)
+recv	sock/BaseSock.C	156;"	function	language:C++	class:BaseSock	signature:(BaseStr& r)
+recv	sock/BaseSock.H	61;"	member	language:C++	struct:traf_t	access:public
+reserved	sock/BaseSock.H	168;"	member	language:C++	struct:BaseSockInf::stat_t::flags_t	access:public
+restore	store/store.C	19;"	function	language:C++	class:My1	access:public	implementation:virtual	signature:(void)
+result	pth/BasePth.H	131;"	member	language:C++	class:BasePth	access:private
+result	sock/BaseSock.H	229;"	member	language:C++	class:BaseSockSrv	access:private
+ret	pth/BasePth.H	203;"	member	language:C++	class:BasePth	access:private
+root	ora/uobj/test_Pattern.sql	118;"	variable	language:SQL
+run	mth/BaseMth.H	130;"	function	language:C++	class:BaseMth	access:public	signature:()
+run	pth/BasePth.H	264;"	function	language:C++	class:BasePth	access:public	signature:()
+running	mth/BaseMth.H	120;"	function	language:C++	class:BaseMth	access:public	signature:() const
+running	mth/BaseMth.H	34;"	function	language:C++	class:BaseMth	access:public	signature:() const
+running	pth/BasePth.H	148;"	function	language:C++	class:BasePth	access:public	signature:() const
+running	pth/BasePth.H	254;"	function	language:C++	class:BasePth	access:public	signature:() const
+running	pth/BasePth.H	42;"	function	language:C++	class:BasePth	access:public	signature:() const
+safe	core/BaseCore.H	97;"	member	language:C++	class:Uuid	access:private
+sec	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+send	sock/BaseSock.C	145;"	function	language:C++	class:BaseSock	signature:(const BaseStr& s)
+sent	sock/BaseSock.H	62;"	member	language:C++	struct:traf_t	access:public
+set	sock/BaseSock.C	368;"	function	language:C++	class:BaseSockInf	signature:(const BaseStr& sp)
+set	sock/BaseSock.C	373;"	function	language:C++	class:BaseSockInf	signature:(const BaseMap& mp)
+setAddress	ora/java/ex-jpa-se/src/entity/Order.java	52;"	method	language:Java	class:Order	access:public	signature:(String address)
+setCommand	ora/uobj/test_Pattern.sql	227;"	procedure	language:SQL
+setCustomer	ora/java/ex-jpa-se/src/entity/Order.java	62;"	method	language:Java	class:Order	access:public	signature:(Customer customer)
+setHandlerFunc	std11/lambdaf.H	127;"	function	language:C++	class:EmailProcessor	access:public	signature:(function<void (const string&)> handler_func)
+setId	ora/java/ex-jpa-se/src/entity/Customer.java	46;"	method	language:Java	class:Customer	access:public	signature:(int id)
+setId	ora/java/ex-jpa-se/src/entity/Order.java	43;"	method	language:Java	class:Order	access:public	signature:(int id)
+setName	ora/java/ex-jpa-se/src/entity/Customer.java	54;"	method	language:Java	class:Customer	access:public	signature:(String name)
+setNext	ora/uobj/test_Pattern.sql	72;"	procedure	language:SQL
+setNonBlock	sock/BaseSock.C	185;"	function	language:C++	class:BaseSock	signature:(const bool Block)
+setOrders	ora/java/ex-jpa-se/src/entity/Customer.java	63;"	method	language:Java	class:Customer	access:public	signature:(Collection<Order> newValue)
+setSockOpt	sock/BaseSock.C	65;"	function	language:C++	class:BaseSock	signature:(const int OptNam, const void* OptVal, int OptLen)
+shell	ora/extproc/shell.c	74;"	function	language:C	signature:(char *command, char *msg)
+shm	shm/BaseShm.H	40;"	member	language:C++	class:BaseShm	access:private
+sigint2	exc/test7.C	28;"	function	language:C++	signature:( int sig )
+sigint_handler	exc/test7.C	15;"	function	language:C++	signature:( int sig )
+signal_handler	ipc/ipctst.C	20;"	function	language:C++	signature:(int sig)
+signal_handler	map/maptst.C	20;"	function	language:C++	signature:(int sig)
+signal_handler	mth/mthtst.C	11;"	function	language:C++	signature:(int sig)
+signal_handler	ora/cpp/oratst.C	20;"	function	language:C++	signature:(int sig)
+signal_handler	ora/extproc/socksrv.C	11;"	function	language:C++	signature:(int sig)
+signal_handler	pth/pthtst.C	11;"	function	language:C++	signature:(int sig)
+signal_handler	shm/shmtst.C	10;"	function	language:C++	signature:(int sig)
+signal_handler	sock/socksrv.C	5;"	function	language:C++	signature:(int sig)
+signal_handler	tpl/tpltst.C	20;"	function	language:C++	signature:(int sig)
+signal_handler	trc/trctst.C	20;"	function	language:C++	signature:(int sig)
+signature	obj/BaseObj.H	65;"	member	language:C++	class:BaseObj	access:private
+socket_shutdown	sock/BaseSock.C	9;"	variable	language:C++
+socket_shutdown	sock/BaseSock.H	23;"	variable	language:C++
+sockflag_t	sock/BaseSock.H	27;"	typedef	language:C++
+start	java/tst/Appt.java	17;"	method	language:Java	class:Appt	access:public	signature:()
+start	mth/BaseMth.H	37;"	function	language:C++	class:BaseMth	access:public	signature:(Callable&& fn, Args&& ... args)
+start	mth/BaseMth.H	82;"	function	language:C++	class:BaseMthRunnable	access:public	signature:()
+start	pth/BasePth.H	152;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&& ... args)
+start	pth/BasePth.H	216;"	function	language:C++	class:BasePthRunnable	access:public	signature:()
+start	pth/BasePth.H	45;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&& ... args)
+stat	sock/BaseSock.H	192;"	member	language:C++	class:BaseSockInf	access:private
+stat_t	sock/BaseSock.H	159;"	struct	language:C++	class:BaseSockInf	access:public
+stat_t	sock/BaseSock.H	161;"	function	language:C++	struct:BaseSockInf::stat_t	access:public	signature:()
+std_exception	exc/BaseExc.C	40;"	variable	language:C++
+stop	java/tst/Appt.java	20;"	method	language:Java	class:Appt	access:public	signature:()
+storage	store/BaseStore.H	58;"	member	language:C++	class:BaseStore	access:private
+str	core/BaseCore.H	98;"	member	language:C++	class:Uuid	access:private
+str	mth/mthtst.C	36;"	member	language:C++	class:My	file:	access:private
+str	obj/objtst.C	14;"	member	language:C++	class:My	file:	access:private
+str	pth/pthtst.C	44;"	member	language:C++	class:My	file:	access:private
+str	tst/refobj.C	51;"	member	language:C++	class:MyCopy	file:	access:private
+str	tst/refobj.C	92;"	member	language:C++	class:MyMove	file:	access:private
+stresc	ora/extproc/shell.c	35;"	function	language:C	signature:(char *str, char chr)
+strtomap	map/BaseMap.C	68;"	function	language:C++	class:BaseMap	signature:(const BaseStr& mappedstr)
+strwhat	exc/BaseExc.H	177;"	member	language:C++	class:BaseExc	access:private
+switchfile	vfs/BaseVfs.C	186;"	function	language:C++	class:BaseVfsBuf	signature:(bool newfile)
+task	pth/BasePth.H	164;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&&... args)
+task	pth/BasePth.H	59;"	function	language:C++	class:BasePth	access:public	signature:(Callable&& fn, Args&&... args)
+terminate	exc/BaseExc.C	93;"	function	language:C++	class:BaseExc	signature:()
+terminate_new_handler	exc/test7.C	9;"	function	language:C++	signature:(void)
+testDelete	ora/java/ex-jpa-se/src/client/Client.java	120;"	method	language:Java	class:Client	file:	access:private	signature:(Customer c)
+testInsert	ora/java/ex-jpa-se/src/client/Client.java	74;"	method	language:Java	class:Client	file:	access:private	signature:()
+test_exception	exc/exctst.C	13;"	variable	language:C++
+text	java/tst/Appt.java	11;"	field	language:Java	class:Appt	access:default
+text	java/tst/MyUI.java	15;"	field	language:Java	class:MyUI	access:default
+thcnt	mth/BaseMth.C	9;"	member	language:C++	class:BaseMth	file:
+thcnt	mth/BaseMth.H	147;"	member	language:C++	class:BaseMth	access:private
+thcnt	mth/BaseMth.H	69;"	member	language:C++	class:BaseMth	access:private
+thcnt	pth/BasePth.H	204;"	member	language:C++	class:BasePth	access:private
+thcnt	pth/BasePth.H	281;"	member	language:C++	class:BasePth	access:private
+thid	mth/BaseMth.H	146;"	member	language:C++	class:BaseMth	access:private
+thid	pth/BasePth.H	280;"	member	language:C++	class:BasePth	access:private
+threadid	sock/BaseSock.H	176;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+threadid	sock/BaseSock.H	178;"	member	language:C++	struct:BaseSockInf::stat_t	access:public
+time	time/BaseTime.H	32;"	member	language:C++	class:BaseTime	access:private
+time_buf	time/BaseTime.H	34;"	member	language:C++	class:BaseTime	access:private
+timeout	sock/BaseSock.C	11;"	member	language:C++	class:BaseSockSrv	file:
+timeout	sock/BaseSock.H	221;"	member	language:C++	class:BaseSockSrv	access:private
+timeouted	sock/BaseSock.C	328;"	function	language:C++	class:BaseSockSrv	signature:(int)
+timeouted	sock/BaseSock.C	358;"	function	language:C++	class:BaseSockSrv	signature:(int)
+timestamp	obj/BaseObj.H	62;"	member	language:C++	class:BaseObj	access:private
+tmp	ora/java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+totalOrders	ora/java/orderman.java	135;"	method	language:Java	class:orderman	access:public	signature:()
+tpl	tpl/BaseTpl.H	44;"	member	language:C++	class:BaseTpl	access:private
+traf_t	sock/BaseSock.H	58;"	struct	language:C++
+traf_t	sock/BaseSock.H	60;"	function	language:C++	struct:traf_t	access:public	signature:()
+traf_t::recv	sock/BaseSock.H	61;"	member	language:C++	struct:traf_t	access:public
+traf_t::sent	sock/BaseSock.H	62;"	member	language:C++	struct:traf_t	access:public
+traf_t::traf_t	sock/BaseSock.H	60;"	function	language:C++	struct:traf_t	access:public	signature:()
+trc	ora/uobj/test_Pattern.sql	120;"	variable	language:SQL
+trc	ora/uobj/test_Pattern.sql	255;"	variable	language:SQL
+trc	ora/uobj/test_Pattern.sql	373;"	variable	language:SQL
+trc	ora/uobj/test_Pattern.sql	583;"	variable	language:SQL
+trc	ora/uobj/test_Trace.sql	12;"	variable	language:SQL
+trc	trc/BaseTrc.H	44;"	member	language:C++	class:BaseTrc	access:private
+tst_t	ora/tst/exerc_hays.sql	4;"	table	language:SQL
+tst_t.numeric_field	ora/tst/exerc_hays.sql	4;"	field	language:SQL
+type	std11/lambdaf.H	31;"	member	language:C++	class:Entity	access:private
+type_Core	ora/uobj/test_Pattern.sql	294;"	function	language:SQL
+type_HndlExpr	ora/uobj/test_Pattern.sql	90;"	function	language:SQL
+type_Interface	ora/uobj/test_Pattern.sql	284;"	function	language:SQL
+type_Interface.CONSTRUCTOR	ora/uobj/test_Pattern.sql	277;"	field	language:SQL
+type_Interface.NOT	ora/uobj/test_Pattern.sql	274;"	field	language:SQL
+type_Interface.NOT	ora/uobj/test_Pattern.sql	276;"	field	language:SQL
+type_Interface.Name	ora/uobj/test_Pattern.sql	272;"	field	language:SQL
+type_Interface.Rate	ora/uobj/test_Pattern.sql	273;"	field	language:SQL
+type_Invoker	ora/uobj/test_Pattern.sql	221;"	function	language:SQL
+type_Invoker.CONSTRUCTOR	ora/uobj/test_Pattern.sql	212;"	field	language:SQL
+type_Invoker.Command	ora/uobj/test_Pattern.sql	211;"	field	language:SQL
+type_Invoker.MEMBER	ora/uobj/test_Pattern.sql	213;"	field	language:SQL
+type_Invoker.MEMBER	ora/uobj/test_Pattern.sql	214;"	field	language:SQL
+type_Invoker.MEMBER	ora/uobj/test_Pattern.sql	215;"	field	language:SQL
+type_Trace	ora/uobj/type_Trace.sql	318;"	function	language:SQL
+type_Trace	ora/uobj/type_Trace.sql	350;"	function	language:SQL
+type_TraceBase.FINAL	ora/uobj/type_Trace.sql	166;"	field	language:SQL
+type_TraceBase.FileId	ora/uobj/type_Trace.sql	165;"	field	language:SQL
+type_TraceBase.NOT	ora/uobj/type_Trace.sql	175;"	field	language:SQL
+type_TraceBase.TypeName	ora/uobj/type_Trace.sql	161;"	field	language:SQL
+type_TraceStack	ora/uobj/type_Trace.sql	156;"	table	language:SQL
+type_Wrapper	ora/uobj/test_Pattern.sql	362;"	function	language:SQL
+undefined	ipc/ipctst.C	12;"	enumerator	language:C++	enum:flags	file:
+undefined	map/maptst.C	12;"	enumerator	language:C++	enum:flags	file:
+undefined	ora/cpp/oratst.C	12;"	enumerator	language:C++	enum:flags	file:
+undefined	sock/BaseSock.H	29;"	enumerator	language:C++	enum:flags
+undefined	tpl/tpltst.C	12;"	enumerator	language:C++	enum:flags	file:
+undefined	trc/trctst.C	12;"	enumerator	language:C++	enum:flags	file:
+unexpected	exc/BaseExc.C	100;"	function	language:C++	class:BaseExc	signature:(void)
+unparse	core/BaseCore.H	88;"	function	language:C++	class:Uuid	access:public	signature:(bool upper=true)
+uts2tm	time/BaseTime.C	106;"	function	language:C++	signature:(unsigned long long unixtime)
+uuid	core/BaseCore.H	96;"	member	language:C++	class:Uuid	access:private
+uuid	core/coretst.C	32;"	variable	language:C++
+valid	ipc/BaseIpc.H	37;"	function	language:C++	class:BaseIpc	access:public	signature:() const
+valid	map/BaseMap.H	47;"	function	language:C++	class:BaseMap	access:public	signature:() const
+valid	shm/BaseShm.H	33;"	function	language:C++	class:BaseShm	access:public	signature:() const
+valid	sock/BaseSock.H	105;"	function	language:C++	class:BaseSock	access:public	signature:() const
+valid	sock/BaseSock.H	213;"	function	language:C++	class:BaseSockSrv	access:public	signature:(void)
+valid	tpl/BaseTpl.H	37;"	function	language:C++	class:BaseTpl	access:public	signature:() const
+valid	trc/BaseTrc.H	37;"	function	language:C++	class:BaseTrc	access:public	signature:() const
+verifyDelete	ora/java/ex-jpa-se/src/client/Client.java	131;"	method	language:Java	class:Client	file:	access:private	signature:()
+verifyInsert	ora/java/ex-jpa-se/src/client/Client.java	107;"	method	language:Java	class:Client	file:	access:private	signature:()
+vlog	ora/extproc/Socket.C	31;"	variable	language:C++	file:
+wait	mth/BaseMth.H	50;"	function	language:C++	class:BaseMth	access:public	signature:()
+wait	mth/BaseMth.H	90;"	function	language:C++	class:BaseMthRunnable	access:public	signature:()
+wait	pth/BasePth.H	184;"	function	language:C++	class:BasePth	access:public	signature:()
+wait	pth/BasePth.H	224;"	function	language:C++	class:BasePthRunnable	access:public	signature:()
+what	exc/BaseExc.H	152;"	function	language:C++	class:BaseExc	access:public	implementation:virtual	signature:() const
+what	exc/test2.C	25;"	function	language:C++	class:excbase	access:public	implementation:virtual	signature:() const
+what	exc/test2.C	60;"	function	language:C++	class:exc	access:public	implementation:virtual	signature:() const
+what	exc/test3.C	13;"	member	language:C++	class:exc	file:	access:private
+width	core/BaseCore.H	52;"	member	language:C++	class:coretime_t	access:private
+write	tst/pattern.C	23;"	function	language:C++	class:Core	access:public	signature:(string &str)
+write	tst/pattern.C	48;"	function	language:C++	class:Decorator	access:public	signature:(string &b)
+write	tst/pattern.C	73;"	function	language:C++	class:Wrapper	access:public	signature:(string &str)
+x	std11/rref.C	94;"	variable	language:C++
+xsputn	vfs/BaseVfs.C	156;"	function	language:C++	class:BaseVfsBuf	signature:(const char* buf, streamsize size)
+xtm	time/BaseTime.C	76;"	struct	language:C++	file:
+xtm::day	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+xtm::hour	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+xtm::min	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+xtm::mon	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+xtm::sec	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+xtm::year	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+year	time/BaseTime.C	78;"	member	language:C++	struct:xtm	file:	access:public
+~ArrayWrapper	std11/rref.C	85;"	function	language:C++	class:ArrayWrapper	access:public	signature:()
+~BaseExc	exc/BaseExc.C	57;"	function	language:C++	class:BaseExc	signature:()
+~BaseExcHandler	exc/BaseExc.H	196;"	function	language:C++	class:BaseExcHandler	access:public	signature:()
+~BaseIpc	ipc/BaseIpc.C	22;"	function	language:C++	class:BaseIpc	signature:()
+~BaseMap	map/BaseMap.C	23;"	function	language:C++	class:BaseMap	signature:()
+~BaseMth	mth/BaseMth.C	28;"	function	language:C++	class:BaseMth	signature:()
+~BaseMth	mth/BaseMth.H	28;"	function	language:C++	class:BaseMth	access:public	implementation:virtual	signature:()
+~BaseMthRunnable	mth/BaseMth.H	81;"	function	language:C++	class:BaseMthRunnable	access:public	implementation:virtual	signature:()
+~BaseObj	obj/BaseObj.C	54;"	function	language:C++	class:BaseObj	signature:()
+~BaseOra	ora/cpp/BaseOra.C	46;"	function	language:C++	class:BaseOra	signature:()
+~BasePth	pth/BasePth.C	28;"	function	language:C++	class:BasePth	signature:()
+~BasePth	pth/BasePth.H	142;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:()
+~BasePth	pth/BasePth.H	37;"	function	language:C++	class:BasePth	access:public	implementation:virtual	signature:()
+~BasePthRunnable	pth/BasePth.H	215;"	function	language:C++	class:BasePthRunnable	access:public	implementation:virtual	signature:()
+~BaseShm	shm/BaseShm.C	22;"	function	language:C++	class:BaseShm	signature:()
+~BaseSock	sock/BaseSock.C	28;"	function	language:C++	class:BaseSock	signature:()
+~BaseSockClt	sock/BaseSock.H	240;"	function	language:C++	class:BaseSockClt	access:public	implementation:virtual	signature:()
+~BaseSockInf	sock/BaseSock.H	139;"	function	language:C++	class:BaseSockInf	access:public	implementation:virtual	signature:()
+~BaseSockSrv	sock/BaseSock.H	204;"	function	language:C++	class:BaseSockSrv	access:public	implementation:virtual	signature:()
+~BaseStorable	store/BaseStore.C	16;"	function	language:C++	class:BaseStorable	signature:()
+~BaseStore	store/BaseStore.C	36;"	function	language:C++	class:BaseStore	signature:()
+~BaseStr	str/BaseStr.H	25;"	function	language:C++	class:BaseStr	access:public	implementation:virtual	signature:()
+~BaseTime	time/BaseTime.C	27;"	function	language:C++	class:BaseTime	signature:()
+~BaseTpl	tpl/BaseTpl.C	22;"	function	language:C++	class:BaseTpl	signature:()
+~BaseTrc	trc/BaseTrc.C	22;"	function	language:C++	class:BaseTrc	signature:()
+~BaseVfs	vfs/BaseVfs.C	276;"	function	language:C++	class:BaseVfs	signature:()
+~BaseVfsBuf	vfs/BaseVfs.C	84;"	function	language:C++	class:BaseVfsBuf	signature:()
+~Core	tst/pattern.C	18;"	function	language:C++	class:Core	access:public	signature:()
+~CpObj	tst/refobj.C	31;"	function	language:C++	class:CpObj	access:public	signature:()
+~Decorator	tst/pattern.C	44;"	function	language:C++	class:Decorator	access:public	signature:()
+~Entity	std11/lambdaf.H	24;"	function	language:C++	class:Entity	access:public	implementation:virtual	signature:()
+~EntityContainer	std11/lambdaf.H	41;"	function	language:C++	class:EntityContainer	access:public	implementation:virtual	signature:()
+~Inner	exc/test5.C	26;"	function	language:C++	class:Inner	signature:()
+~Interface	tst/pattern.C	10;"	function	language:C++	class:Interface	access:public	implementation:virtual	signature:()
+~MvObj	tst/refobj.C	59;"	function	language:C++	class:MvObj	access:public	signature:()
+~My	mth/mthtst.C	29;"	function	language:C++	class:My	access:public	signature:()
+~My	obj/objtst.C	10;"	function	language:C++	class:My	access:public	implementation:virtual	signature:()
+~My	pth/pthtst.C	30;"	function	language:C++	class:My	access:public	signature:()
+~My1	store/store.C	17;"	function	language:C++	class:My1	access:public	signature:(void)
+~My2	store/store.C	36;"	function	language:C++	class:My2	access:public	signature:(void)
+~MyCopy	tst/refobj.C	46;"	function	language:C++	class:MyCopy	access:public	signature:()
+~MyMove	tst/refobj.C	69;"	function	language:C++	class:MyMove	access:public	signature:()
+~Obj	tst/array.C	11;"	function	language:C++	class:Obj	access:public	signature:()
+~Obj	tst/freemem.C	34;"	function	language:C++	class:Obj	signature:()
+~Obj	tst/funarg.C	21;"	function	language:C++	class:Obj	signature:()
+~Obj	tst/funobj.C	23;"	function	language:C++	class:Obj	signature:()
+~Obj	tst/nofobj.C	23;"	function	language:C++	class:Obj	access:public	signature:()
+~Obj	tst/refobj.C	12;"	function	language:C++	class:Obj	access:public	signature:()
+~Outer	exc/test5.C	44;"	function	language:C++	class:Outer	signature:()
+~StackWalker	exc/test1.C	28;"	function	language:C++	class:StackWalker	access:public	signature:()
+~TInt	tst/Storage.C	38;"	function	language:C++	class:TInt	signature:()
+~Uuid	core/BaseCore.H	73;"	function	language:C++	class:Uuid	access:public	signature:()
+~Wrapper	tst/pattern.C	69;"	function	language:C++	class:Wrapper	access:public	signature:()
+~exc	exc/test2.C	56;"	function	language:C++	class:exc	access:public	signature:(void)
+~exc	exc/test3.C	20;"	function	language:C++	class:exc	access:public	signature:(void)
+~excbase	exc/test2.C	21;"	function	language:C++	class:excbase	access:public	signature:(void)
+~exctst	exc/exctst.C	24;"	function	language:C++	class:exctst	access:public	signature:(void)
+~objbase	exc/test2.C	37;"	function	language:C++	class:objbase	access:public	signature:(void)

@@ -1,0 +1,374 @@
+Action	uobj/test_Pattern.sql	198;"	function	language:SQL
+Bas	uobj/pack_Bas.sql	25;"	package	language:SQL
+Bas	uobj/pack_Bas.sql	8;"	package	language:SQL
+Bas.Exec	uobj/pack_Bas.sql	33;"	function	language:SQL
+BaseOra	cpp/BaseOra.C	40;"	function	language:C++	class:BaseOra	signature:()
+BaseOra	cpp/BaseOra.H	19;"	class	language:C++	inherits:BaseObj
+BaseOra::BaseOra	cpp/BaseOra.C	40;"	function	language:C++	class:BaseOra	signature:()
+BaseOra::ClassName	cpp/BaseOra.H	29;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:() const
+BaseOra::Commit	cpp/BaseOra.C	133;"	function	language:C++	class:BaseOra	signature:(void) const
+BaseOra::Connect	cpp/BaseOra.C	57;"	function	language:C++	class:BaseOra	signature:(const BaseStr& connstr)
+BaseOra::Disconnect	cpp/BaseOra.C	155;"	function	language:C++	class:BaseOra	signature:(void)
+BaseOra::ErrHandler	cpp/BaseOra.C	31;"	function	language:C++	class:BaseOra	signature:(const BaseStr& msg)
+BaseOra::Execute	cpp/BaseOra.C	86;"	function	language:C++	class:BaseOra	signature:( const BaseStr& Package, const BaseStr& FuncName, const BaseStr& InPar )
+BaseOra::Rollback	cpp/BaseOra.C	144;"	function	language:C++	class:BaseOra	signature:(void) const
+BaseOra::__anon2::Msg	cpp/BaseOra.H	58;"	member	language:C++	struct:BaseOra::__anon2	access:public
+BaseOra::__anon2::OutPar	cpp/BaseOra.H	57;"	member	language:C++	struct:BaseOra::__anon2	access:public
+BaseOra::__anon2::Ret	cpp/BaseOra.H	56;"	member	language:C++	struct:BaseOra::__anon2	access:public
+BaseOra::_connected	cpp/BaseOra.H	53;"	member	language:C++	class:BaseOra	access:private
+BaseOra::_connstr	cpp/BaseOra.H	54;"	member	language:C++	class:BaseOra	access:private
+BaseOra::connected	cpp/BaseOra.H	44;"	function	language:C++	class:BaseOra	access:public	signature:(void) const
+BaseOra::connected	cpp/BaseOra.H	45;"	function	language:C++	class:BaseOra	access:public	signature:(bool setval)
+BaseOra::onPrint	cpp/BaseOra.H	47;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:(ostream& os) const
+BaseOra::pls	cpp/BaseOra.H	59;"	member	language:C++	class:BaseOra	typeref:struct:BaseOra::__anon2	access:private
+BaseOra::~BaseOra	cpp/BaseOra.C	46;"	function	language:C++	class:BaseOra	signature:()
+BaseOraErrHandler	cpp/BaseOra.C	26;"	function	language:C++	file:	signature:(const BaseStr& msg)
+BaseOra_H	cpp/BaseOra.H	4;"	variable	language:C++
+BaseOra_unexpected	cpp/BaseOra.C	13;"	variable	language:C++
+BaseOra_unexpected	cpp/BaseOra.H	17;"	variable	language:C++
+BaseTpl_C	cpp/BaseOra.C	1;"	variable	language:C++	file:
+CFLAGS	extproc/makefile	15;"	macro	language:Make
+CLEAN	java/makefile	60;"	macro	language:Make
+CLEAN	uobj/makefile	49;"	macro	language:Make
+CUSTOMER	java/ex-jpa-se/sql/tables_oracle.sql	4;"	table	language:SQL
+CUSTOMER.ID	java/ex-jpa-se/sql/tables_oracle.sql	4;"	field	language:SQL
+CUSTOMER.NAME	java/ex-jpa-se/sql/tables_oracle.sql	5;"	field	language:SQL
+CXX	extproc/makefile	13;"	macro	language:Make
+ClassName	cpp/BaseOra.H	29;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:() const
+Client	java/ex-jpa-se/src/client/Client.java	36;"	class	language:Java
+Client.closeEntityManager	java/ex-jpa-se/src/client/Client.java	182;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.closeTransactionalEntityManager	java/ex-jpa-se/src/client/Client.java	167;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.createEntityManager	java/ex-jpa-se/src/client/Client.java	176;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.createTransactionalEntityManager	java/ex-jpa-se/src/client/Client.java	158;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.em	java/ex-jpa-se/src/client/Client.java	39;"	field	language:Java	class:Client	file:	access:private
+Client.emf	java/ex-jpa-se/src/client/Client.java	38;"	field	language:Java	class:Client	file:	access:private
+Client.findCustomer	java/ex-jpa-se/src/client/Client.java	150;"	method	language:Java	class:Client	file:	access:private	signature:(String name)
+Client.main	java/ex-jpa-se/src/client/Client.java	41;"	method	language:Java	class:Client	access:public	signature:(String[] args)
+Client.testDelete	java/ex-jpa-se/src/client/Client.java	120;"	method	language:Java	class:Client	file:	access:private	signature:(Customer c)
+Client.testInsert	java/ex-jpa-se/src/client/Client.java	74;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.verifyDelete	java/ex-jpa-se/src/client/Client.java	131;"	method	language:Java	class:Client	file:	access:private	signature:()
+Client.verifyInsert	java/ex-jpa-se/src/client/Client.java	107;"	method	language:Java	class:Client	file:	access:private	signature:()
+Close	uobj/type_Trace.sql	461;"	procedure	language:SQL
+Commit	cpp/BaseOra.C	133;"	function	language:C++	class:BaseOra	signature:(void) const
+Connect	cpp/BaseOra.C	57;"	function	language:C++	class:BaseOra	signature:(const BaseStr& connstr)
+Customer	java/ex-jpa-se/src/entity/Customer.java	35;"	class	language:Java	inherits:Serializable
+Customer.getId	java/ex-jpa-se/src/entity/Customer.java	42;"	method	language:Java	class:Customer	access:public	signature:()
+Customer.getName	java/ex-jpa-se/src/entity/Customer.java	50;"	method	language:Java	class:Customer	access:public	signature:()
+Customer.getOrders	java/ex-jpa-se/src/entity/Customer.java	59;"	method	language:Java	class:Customer	access:public	signature:()
+Customer.id	java/ex-jpa-se/src/entity/Customer.java	37;"	field	language:Java	class:Customer	file:	access:private
+Customer.name	java/ex-jpa-se/src/entity/Customer.java	38;"	field	language:Java	class:Customer	file:	access:private
+Customer.orders	java/ex-jpa-se/src/entity/Customer.java	39;"	field	language:Java	class:Customer	file:	access:private
+Customer.setId	java/ex-jpa-se/src/entity/Customer.java	46;"	method	language:Java	class:Customer	access:public	signature:(int id)
+Customer.setName	java/ex-jpa-se/src/entity/Customer.java	54;"	method	language:Java	class:Customer	access:public	signature:(String name)
+Customer.setOrders	java/ex-jpa-se/src/entity/Customer.java	63;"	method	language:Java	class:Customer	access:public	signature:(Collection<Order> newValue)
+Customers	java/pack_orderman.sql	11;"	table	language:SQL
+Customers.City	java/pack_orderman.sql	14;"	field	language:SQL
+Customers.CustName	java/pack_orderman.sql	12;"	field	language:SQL
+Customers.CustNo	java/pack_orderman.sql	11;"	field	language:SQL
+Customers.Phone	java/pack_orderman.sql	17;"	field	language:SQL
+Customers.State	java/pack_orderman.sql	15;"	field	language:SQL
+Customers.Street	java/pack_orderman.sql	13;"	field	language:SQL
+Customers.Zip	java/pack_orderman.sql	16;"	field	language:SQL
+DataView1	tst/exerc_hays.sql	22;"	view	language:SQL
+DataView2	tst/exerc_hays.sql	31;"	view	language:SQL
+Disconnect	cpp/BaseOra.C	155;"	function	language:C++	class:BaseOra	signature:(void)
+DoIt	uobj/test_Pattern.sql	246;"	variable	language:SQL
+ErrHandler	cpp/BaseOra.C	31;"	function	language:C++	class:BaseOra	signature:(const BaseStr& msg)
+Execute	cpp/BaseOra.C	86;"	function	language:C++	class:BaseOra	signature:( const BaseStr& Package, const BaseStr& FuncName, const BaseStr& InPar )
+Execute	uobj/test_Pattern.sql	181;"	function	language:SQL
+Extproc	uobj/pack_Extproc.sql	27;"	package	language:SQL
+Extproc.System	uobj/pack_Extproc.sql	31;"	procedure	language:SQL
+Extproc.System.SockSrv	uobj/pack_Extproc.sql	41;"	procedure	language:SQL
+FileHandleOp	uobj/type_Trace.sql	187;"	function	language:SQL
+FileHandleOp.FLUSH	uobj/type_Trace.sql	272;"	label	language:SQL
+FileHandleOp.OPEN	uobj/type_Trace.sql	222;"	label	language:SQL
+FileHandleOp.PUTL	uobj/type_Trace.sql	237;"	label	language:SQL
+FileHandleOp.SwitchTraceFile	uobj/type_Trace.sql	245;"	label	language:SQL
+FileHandleOp.getFileName	uobj/type_Trace.sql	201;"	function	language:SQL
+Flush	uobj/type_Trace.sql	452;"	procedure	language:SQL
+Func1	uobj/test_Trace.sql	18;"	procedure	language:SQL
+Func2	uobj/test_Trace.sql	30;"	procedure	language:SQL
+Func3	uobj/test_Trace.sql	42;"	procedure	language:SQL
+Handle	uobj/test_Pattern.sql	105;"	procedure	language:SQL
+Handle	uobj/test_Pattern.sql	77;"	procedure	language:SQL
+INCFLAGS	cpp/makefile	23;"	macro	language:Make
+INCFLAGS	extproc/makefile	14;"	macro	language:Make
+Init	uobj/type_Trace.sql	366;"	procedure	language:SQL
+Inst	uobj/test_Pattern.sql	374;"	variable	language:SQL
+Invoke	uobj/test_Pattern.sql	237;"	function	language:SQL
+JCLSS	java/makefile	6;"	macro	language:Make
+LDFLAGS	cpp/makefile	26;"	macro	language:Make
+LDFLAGS	extproc/makefile	17;"	macro	language:Make
+LDJ	java/makefile	12;"	macro	language:Make
+LDJFLAGS	java/makefile	14;"	macro	language:Make
+LIBFLAGS	cpp/makefile	24;"	macro	language:Make
+LIBFLAGS	extproc/makefile	16;"	macro	language:Make
+LOGON	java/makefile	10;"	macro	language:Make
+LineItems	java/pack_orderman.sql	40;"	table	language:SQL
+LineItems.Discount	java/pack_orderman.sql	44;"	field	language:SQL
+LineItems.LineNo	java/pack_orderman.sql	40;"	field	language:SQL
+LineItems.OrderNo	java/pack_orderman.sql	41;"	field	language:SQL
+LineItems.Quantity	java/pack_orderman.sql	43;"	field	language:SQL
+LineItems.StockNo	java/pack_orderman.sql	42;"	field	language:SQL
+MAKEFILE	cpp/makefile	8;"	macro	language:Make
+MAKEFILE	extproc/makefile	9;"	macro	language:Make
+MAKEFILE	java/makefile	17;"	macro	language:Make
+MAKEFILE	makefile	5;"	macro	language:Make
+MAKEFILE	uobj/makefile	12;"	macro	language:Make
+MAX	cpp/BaseOra.H	15;"	variable	language:C++
+Msg	cpp/BaseOra.H	58;"	member	language:C++	struct:BaseOra::__anon2	access:public
+Msg	uobj/test_Pattern.sql	245;"	variable	language:SQL
+Msg	uobj/type_Trace.sql	427;"	procedure	language:SQL
+OBJS	cpp/makefile	12;"	macro	language:Make
+OBJS	cpp/makefile	5;"	macro	language:Make
+OBJS	extproc/makefile	5;"	macro	language:Make
+OBJS	java/makefile	4;"	macro	language:Make
+OBJS	uobj/makefile	4;"	macro	language:Make
+ORA_LIBS	cpp/makefile	15;"	macro	language:Make
+ORDER_TABLE	java/ex-jpa-se/sql/tables_oracle.sql	9;"	table	language:SQL
+ORDER_TABLE.CUSTOMER_ID	java/ex-jpa-se/sql/tables_oracle.sql	11;"	field	language:SQL
+ORDER_TABLE.ORDER_ID	java/ex-jpa-se/sql/tables_oracle.sql	9;"	field	language:SQL
+ORDER_TABLE.SHIPPING_ADDRESS	java/ex-jpa-se/sql/tables_oracle.sql	10;"	field	language:SQL
+Open	uobj/type_Trace.sql	381;"	procedure	language:SQL
+Opened	uobj/type_Trace.sql	372;"	function	language:SQL
+Order	java/ex-jpa-se/src/entity/Order.java	31;"	class	language:Java
+Order.address	java/ex-jpa-se/src/entity/Order.java	34;"	field	language:Java	class:Order	file:	access:private
+Order.customer	java/ex-jpa-se/src/entity/Order.java	35;"	field	language:Java	class:Order	file:	access:private
+Order.getAddress	java/ex-jpa-se/src/entity/Order.java	48;"	method	language:Java	class:Order	access:public	signature:()
+Order.getCustomer	java/ex-jpa-se/src/entity/Order.java	58;"	method	language:Java	class:Order	access:public	signature:()
+Order.getId	java/ex-jpa-se/src/entity/Order.java	39;"	method	language:Java	class:Order	access:public	signature:()
+Order.id	java/ex-jpa-se/src/entity/Order.java	33;"	field	language:Java	class:Order	file:	access:private
+Order.setAddress	java/ex-jpa-se/src/entity/Order.java	52;"	method	language:Java	class:Order	access:public	signature:(String address)
+Order.setCustomer	java/ex-jpa-se/src/entity/Order.java	62;"	method	language:Java	class:Order	access:public	signature:(Customer customer)
+Order.setId	java/ex-jpa-se/src/entity/Order.java	43;"	method	language:Java	class:Order	access:public	signature:(int id)
+Orders	java/pack_orderman.sql	22;"	table	language:SQL
+Orders.Custno	java/pack_orderman.sql	23;"	field	language:SQL
+Orders.OrderDate	java/pack_orderman.sql	24;"	field	language:SQL
+Orders.OrderNo	java/pack_orderman.sql	22;"	field	language:SQL
+Orders.ShipDate	java/pack_orderman.sql	25;"	field	language:SQL
+Orders.ToCity	java/pack_orderman.sql	27;"	field	language:SQL
+Orders.ToState	java/pack_orderman.sql	28;"	field	language:SQL
+Orders.ToStreet	java/pack_orderman.sql	26;"	field	language:SQL
+Orders.ToZip	java/pack_orderman.sql	29;"	field	language:SQL
+OutPar	cpp/BaseOra.H	57;"	member	language:C++	struct:BaseOra::__anon2	access:public
+PROC	cpp/makefile	13;"	macro	language:Make
+PROCFLAGS	cpp/makefile	32;"	macro	language:Make
+PROCINC	cpp/makefile	33;"	macro	language:Make
+PROCSQL	cpp/makefile	31;"	macro	language:Make
+PROGS	cpp/makefile	3;"	macro	language:Make
+PROGS	extproc/makefile	3;"	macro	language:Make
+PROGS	java/makefile	3;"	macro	language:Make
+PROGS	uobj/makefile	3;"	macro	language:Make
+Pop	uobj/type_Trace.sql	436;"	procedure	language:SQL
+Push	uobj/type_Trace.sql	390;"	function	language:SQL
+Put	uobj/type_Trace.sql	403;"	procedure	language:SQL
+Put.My	uobj/type_Trace.sql	405;"	label	language:SQL
+Ret	cpp/BaseOra.H	56;"	member	language:C++	struct:BaseOra::__anon2	access:public
+Ret	uobj/test_Pattern.sql	244;"	variable	language:SQL
+Rollback	cpp/BaseOra.C	144;"	function	language:C++	class:BaseOra	signature:(void) const
+SHLIB	extproc/makefile	6;"	macro	language:Make
+SQLP	java/makefile	9;"	macro	language:Make
+SQLPFLAGS	java/makefile	11;"	macro	language:Make
+SUBDIRS	makefile	3;"	macro	language:Make
+SockSrv	extproc/Socket.C	35;"	function	language:C++	signature:(int par, char* snd, char* rcv)
+StockItems	java/pack_orderman.sql	34;"	table	language:SQL
+StockItems.Description	java/pack_orderman.sql	35;"	field	language:SQL
+StockItems.Price	java/pack_orderman.sql	36;"	field	language:SQL
+StockItems.StockNo	java/pack_orderman.sql	34;"	field	language:SQL
+UOBJS	java/makefile	5;"	macro	language:Make
+UOBJS	uobj/makefile	5;"	macro	language:Make
+USERID	cpp/makefile	30;"	macro	language:Make
+USERSTR	java/makefile	13;"	macro	language:Make
+_BaseOra_H	cpp/BaseOra.H	2;"	macro	language:C++
+_connected	cpp/BaseOra.H	53;"	member	language:C++	class:BaseOra	access:private
+_connstr	cpp/BaseOra.H	54;"	member	language:C++	class:BaseOra	access:private
+aCoffee	uobj/test_Pattern.sql	580;"	variable	language:SQL
+aTea	uobj/test_Pattern.sql	582;"	variable	language:SQL
+addCustomer	java/orderman.java	29;"	method	language:Java	class:orderman	access:public	signature:(int custNo, String custName, String street, String city, String state, String zipCode, String phoneNo)
+addLineItem	java/orderman.java	110;"	method	language:Java	class:orderman	access:public	signature:(int lineNo, int orderNo, int stockNo, int quantity, float discount)
+addOrder	java/orderman.java	80;"	method	language:Java	class:orderman	access:public	signature:(int orderNo, int custNo, String orderDate, String shipDate, String toStreet, String toCity, String toState, String toZipCode)
+addStockItem	java/orderman.java	57;"	method	language:Java	class:orderman	access:public	signature:(int stockNo, String description, float price)
+address	java/ex-jpa-se/src/entity/Order.java	34;"	field	language:Java	class:Order	file:	access:private
+bounded	cpp/oratst.C	14;"	enumerator	language:C++	enum:flags	file:
+chain	uobj/test_Pattern.sql	119;"	variable	language:SQL
+changeQuantity	java/orderman.java	231;"	method	language:Java	class:orderman	access:public	signature:(int newQty, int orderNo, int stockNo)
+checkStockItem	java/orderman.java	206;"	method	language:Java	class:orderman	access:public	signature:(int stockNo)
+client	java/ex-jpa-se/src/client/Client.java	21;"	package	language:Java
+closeEntityManager	java/ex-jpa-se/src/client/Client.java	182;"	method	language:Java	class:Client	file:	access:private	signature:()
+closeTransactionalEntityManager	java/ex-jpa-se/src/client/Client.java	167;"	method	language:Java	class:Client	file:	access:private	signature:()
+connected	cpp/BaseOra.H	44;"	function	language:C++	class:BaseOra	access:public	signature:(void) const
+connected	cpp/BaseOra.H	45;"	function	language:C++	class:BaseOra	access:public	signature:(bool setval)
+connected	cpp/oratst.C	16;"	enumerator	language:C++	enum:flags	file:
+core.log	java/core/log/myLogger.java	8;"	package	language:Java
+createEntityManager	java/ex-jpa-se/src/client/Client.java	176;"	method	language:Java	class:Client	file:	access:private	signature:()
+createTransactionalEntityManager	java/ex-jpa-se/src/client/Client.java	158;"	method	language:Java	class:Client	file:	access:private	signature:()
+created	cpp/oratst.C	13;"	enumerator	language:C++	enum:flags	file:
+cur	tst/exerc_hays.sql	67;"	cursor	language:SQL
+customer	java/ex-jpa-se/src/entity/Order.java	35;"	field	language:Java	class:Order	file:	access:private
+deleteOrder	java/orderman.java	255;"	method	language:Java	class:orderman	access:public	signature:(int orderNo)
+drink_o	uobj/test_Pattern.sql	412;"	function	language:SQL
+drink_o.constructor	uobj/test_Pattern.sql	406;"	field	language:SQL
+drink_o.description	uobj/test_Pattern.sql	402;"	field	language:SQL
+drink_o.member	uobj/test_Pattern.sql	404;"	field	language:SQL
+drink_o.member	uobj/test_Pattern.sql	405;"	field	language:SQL
+em	java/ex-jpa-se/src/client/Client.java	39;"	field	language:Java	class:Client	file:	access:private
+emf	java/ex-jpa-se/src/client/Client.java	38;"	field	language:Java	class:Client	file:	access:private
+entity	java/ex-jpa-se/src/entity/Customer.java	21;"	package	language:Java
+entity	java/ex-jpa-se/src/entity/Order.java	21;"	package	language:Java
+faulty	cpp/oratst.C	17;"	enumerator	language:C++	enum:flags	file:
+findCustomer	java/ex-jpa-se/src/client/Client.java	150;"	method	language:Java	class:Client	file:	access:private	signature:(String name)
+flags	cpp/oratst.C	11;"	enum	language:C++	file:
+flags_t	cpp/oratst.C	10;"	typedef	language:C++	file:
+format	java/core/log/myLogger.java	45;"	method	language:Java	class:myFormatter	access:public	signature:(LogRecord record)
+get	uobj/test_Pattern.sql	29;"	function	language:SQL
+getAddress	java/ex-jpa-se/src/entity/Order.java	48;"	method	language:Java	class:Order	access:public	signature:()
+getCustomer	java/ex-jpa-se/src/entity/Order.java	58;"	method	language:Java	class:Order	access:public	signature:()
+getDescription	uobj/test_Pattern.sql	428;"	function	language:SQL
+getDescription	uobj/test_Pattern.sql	504;"	function	language:SQL
+getDescription	uobj/test_Pattern.sql	516;"	function	language:SQL
+getDescription	uobj/test_Pattern.sql	531;"	function	language:SQL
+getDescription	uobj/test_Pattern.sql	549;"	function	language:SQL
+getDescription	uobj/test_Pattern.sql	564;"	function	language:SQL
+getId	java/ex-jpa-se/src/entity/Customer.java	42;"	method	language:Java	class:Customer	access:public	signature:()
+getId	java/ex-jpa-se/src/entity/Order.java	39;"	method	language:Java	class:Order	access:public	signature:()
+getLogger	java/core/log/myLogger.java	18;"	method	language:Java	class:myLogger	access:public	signature:()
+getMsg	uobj/test_Pattern.sql	165;"	function	language:SQL
+getMsg	uobj/test_Pattern.sql	232;"	function	language:SQL
+getMyName	uobj/type_Trace.sql	361;"	function	language:SQL
+getName	java/ex-jpa-se/src/entity/Customer.java	50;"	method	language:Java	class:Customer	access:public	signature:()
+getName	uobj/test_Pattern.sql	308;"	function	language:SQL
+getName	uobj/test_Pattern.sql	329;"	function	language:SQL
+getName	uobj/test_Pattern.sql	342;"	function	language:SQL
+getOrders	java/ex-jpa-se/src/entity/Customer.java	59;"	method	language:Java	class:Customer	access:public	signature:()
+getRate	uobj/test_Pattern.sql	313;"	function	language:SQL
+getRate	uobj/test_Pattern.sql	334;"	function	language:SQL
+getRate	uobj/test_Pattern.sql	356;"	function	language:SQL
+id	java/ex-jpa-se/src/entity/Customer.java	37;"	field	language:Java	class:Customer	file:	access:private
+id	java/ex-jpa-se/src/entity/Order.java	33;"	field	language:Java	class:Order	file:	access:private
+init	java/core/log/myLogger.java	20;"	method	language:Java	class:myLogger	access:public	signature:(String logfile, String name)
+init	java/orderman.java	23;"	method	language:Java	class:orderman	access:public	signature:(String logfile)
+listened	cpp/oratst.C	15;"	enumerator	language:C++	enum:flags	file:
+log	java/core/log/myLogger.java	17;"	field	language:Java	class:myLogger	file:	access:private
+log	java/orderman.java	21;"	field	language:Java	class:orderman	file:	access:private
+loginit	extproc/Socket.C	32;"	variable	language:C++	file:
+mailx	extproc/shell.c	21;"	function	language:C	signature:(char *to, char *subject, char *message)
+main	cpp/oratst.C	26;"	function	language:C++	signature:(int argc, char *argv[])
+main	extproc/shell.c	83;"	function	language:C	signature:(int argc, char **argv)
+main	extproc/socksrv.C	20;"	function	language:C++	signature:(void)
+main	java/ex-jpa-se/src/client/Client.java	41;"	method	language:Java	class:Client	access:public	signature:(String[] args)
+my	java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+myFormatter	java/core/log/myLogger.java	42;"	class	language:Java	inherits:Formatter
+myFormatter.format	java/core/log/myLogger.java	45;"	method	language:Java	class:myFormatter	access:public	signature:(LogRecord record)
+myLogger	java/core/log/myLogger.java	15;"	class	language:Java
+myLogger.getLogger	java/core/log/myLogger.java	18;"	method	language:Java	class:myLogger	access:public	signature:()
+myLogger.init	java/core/log/myLogger.java	20;"	method	language:Java	class:myLogger	access:public	signature:(String logfile, String name)
+myLogger.log	java/core/log/myLogger.java	17;"	field	language:Java	class:myLogger	file:	access:private
+n	tst/exerc_hays.sql	14;"	variable	language:SQL
+name	java/ex-jpa-se/src/entity/Customer.java	38;"	field	language:Java	class:Customer	file:	access:private
+onPrint	cpp/BaseOra.H	47;"	function	language:C++	class:BaseOra	access:public	implementation:virtual	signature:(ostream& os) const
+orderman	java/orderman.java	17;"	class	language:Java
+orderman	java/pack_orderman.sql	71;"	package	language:SQL
+orderman	java/pack_orderman.sql	92;"	package	language:SQL
+orderman.addCustomer	java/orderman.java	29;"	method	language:Java	class:orderman	access:public	signature:(int custNo, String custName, String street, String city, String state, String zipCode, String phoneNo)
+orderman.addLineItem	java/orderman.java	110;"	method	language:Java	class:orderman	access:public	signature:(int lineNo, int orderNo, int stockNo, int quantity, float discount)
+orderman.addOrder	java/orderman.java	80;"	method	language:Java	class:orderman	access:public	signature:(int orderNo, int custNo, String orderDate, String shipDate, String toStreet, String toCity, String toState, String toZipCode)
+orderman.addStockItem	java/orderman.java	57;"	method	language:Java	class:orderman	access:public	signature:(int stockNo, String description, float price)
+orderman.changeQuantity	java/orderman.java	231;"	method	language:Java	class:orderman	access:public	signature:(int newQty, int orderNo, int stockNo)
+orderman.checkStockItem	java/orderman.java	206;"	method	language:Java	class:orderman	access:public	signature:(int stockNo)
+orderman.deleteOrder	java/orderman.java	255;"	method	language:Java	class:orderman	access:public	signature:(int orderNo)
+orderman.init	java/orderman.java	23;"	method	language:Java	class:orderman	access:public	signature:(String logfile)
+orderman.init	java/pack_orderman.sql	93;"	procedure	language:SQL
+orderman.init.add_customer	java/pack_orderman.sql	97;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item	java/pack_orderman.sql	104;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order	java/pack_orderman.sql	108;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item	java/pack_orderman.sql	116;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders	java/pack_orderman.sql	121;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders.check_stock_item	java/pack_orderman.sql	125;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders.check_stock_item.change_quantity	java/pack_orderman.sql	129;"	procedure	language:SQL
+orderman.init.add_customer.add_stock_item.add_order.add_line_item.total_orders.check_stock_item.change_quantity.delete_order	java/pack_orderman.sql	133;"	procedure	language:SQL
+orderman.log	java/orderman.java	21;"	field	language:Java	class:orderman	file:	access:private
+orderman.my	java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+orderman.printResults	java/orderman.java	159;"	method	language:Java	class:orderman	access:default	signature:(ResultSet rset)
+orderman.tmp	java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+orderman.totalOrders	java/orderman.java	135;"	method	language:Java	class:orderman	access:public	signature:()
+orders	java/ex-jpa-se/src/entity/Customer.java	39;"	field	language:Java	class:Customer	file:	access:private
+oscar	java/oscar.java	1;"	class	language:Java
+oscar.quote	java/oscar.java	4;"	method	language:Java	class:oscar	access:public	signature:()
+oscar_quote	java/oscar.sql	3;"	function	language:SQL
+packFile	uobj/type_Trace.sql	100;"	package	language:SQL
+packFile	uobj/type_Trace.sql	122;"	package	language:SQL
+packFile.FileHndlType	uobj/type_Trace.sql	103;"	subtype	language:SQL
+packFile.FileTab	uobj/type_Trace.sql	125;"	variable	language:SQL
+packFile.FileTabType	uobj/type_Trace.sql	125;"	table	language:SQL
+packFile.FileType.AutoFlush	uobj/type_Trace.sql	109;"	field	language:SQL
+packFile.FileType.Bytes	uobj/type_Trace.sql	107;"	field	language:SQL
+packFile.FileType.CDate	uobj/type_Trace.sql	110;"	field	language:SQL
+packFile.FileType.Hndl	uobj/type_Trace.sql	106;"	field	language:SQL
+packFile.FileType.MaxBytes	uobj/type_Trace.sql	108;"	field	language:SQL
+packFile.FileType.Name	uobj/type_Trace.sql	105;"	field	language:SQL
+packFile.FileType.Path	uobj/type_Trace.sql	104;"	field	language:SQL
+packFile.getFile	uobj/type_Trace.sql	128;"	function	language:SQL
+packFile.setFile	uobj/type_Trace.sql	141;"	procedure	language:SQL
+pls	cpp/BaseOra.H	59;"	member	language:C++	class:BaseOra	typeref:struct:BaseOra::__anon2	access:private
+pop	uobj/test_Pattern.sql	56;"	function	language:SQL
+price	uobj/test_Pattern.sql	420;"	function	language:SQL
+price	uobj/test_Pattern.sql	440;"	function	language:SQL
+price	uobj/test_Pattern.sql	460;"	function	language:SQL
+price	uobj/test_Pattern.sql	471;"	function	language:SQL
+price	uobj/test_Pattern.sql	485;"	function	language:SQL
+price	uobj/test_Pattern.sql	537;"	function	language:SQL
+price	uobj/test_Pattern.sql	570;"	function	language:SQL
+printResults	java/orderman.java	159;"	method	language:Java	class:orderman	access:default	signature:(ResultSet rset)
+push	uobj/test_Pattern.sql	47;"	procedure	language:SQL
+quote	java/oscar.java	4;"	method	language:Java	class:oscar	access:public	signature:()
+root	uobj/test_Pattern.sql	118;"	variable	language:SQL
+setAddress	java/ex-jpa-se/src/entity/Order.java	52;"	method	language:Java	class:Order	access:public	signature:(String address)
+setCommand	uobj/test_Pattern.sql	227;"	procedure	language:SQL
+setCustomer	java/ex-jpa-se/src/entity/Order.java	62;"	method	language:Java	class:Order	access:public	signature:(Customer customer)
+setId	java/ex-jpa-se/src/entity/Customer.java	46;"	method	language:Java	class:Customer	access:public	signature:(int id)
+setId	java/ex-jpa-se/src/entity/Order.java	43;"	method	language:Java	class:Order	access:public	signature:(int id)
+setName	java/ex-jpa-se/src/entity/Customer.java	54;"	method	language:Java	class:Customer	access:public	signature:(String name)
+setNext	uobj/test_Pattern.sql	72;"	procedure	language:SQL
+setOrders	java/ex-jpa-se/src/entity/Customer.java	63;"	method	language:Java	class:Customer	access:public	signature:(Collection<Order> newValue)
+shell	extproc/shell.c	74;"	function	language:C	signature:(char *command, char *msg)
+signal_handler	cpp/oratst.C	20;"	function	language:C++	signature:(int sig)
+signal_handler	extproc/socksrv.C	11;"	function	language:C++	signature:(int sig)
+stresc	extproc/shell.c	35;"	function	language:C	signature:(char *str, char chr)
+testDelete	java/ex-jpa-se/src/client/Client.java	120;"	method	language:Java	class:Client	file:	access:private	signature:(Customer c)
+testInsert	java/ex-jpa-se/src/client/Client.java	74;"	method	language:Java	class:Client	file:	access:private	signature:()
+tmp	java/orderman.java	19;"	field	language:Java	class:orderman	file:	access:private
+totalOrders	java/orderman.java	135;"	method	language:Java	class:orderman	access:public	signature:()
+trc	uobj/test_Pattern.sql	120;"	variable	language:SQL
+trc	uobj/test_Pattern.sql	255;"	variable	language:SQL
+trc	uobj/test_Pattern.sql	373;"	variable	language:SQL
+trc	uobj/test_Pattern.sql	583;"	variable	language:SQL
+trc	uobj/test_Trace.sql	12;"	variable	language:SQL
+tst_t	tst/exerc_hays.sql	4;"	table	language:SQL
+tst_t.numeric_field	tst/exerc_hays.sql	4;"	field	language:SQL
+type_Core	uobj/test_Pattern.sql	294;"	function	language:SQL
+type_HndlExpr	uobj/test_Pattern.sql	90;"	function	language:SQL
+type_Interface	uobj/test_Pattern.sql	284;"	function	language:SQL
+type_Interface.CONSTRUCTOR	uobj/test_Pattern.sql	277;"	field	language:SQL
+type_Interface.NOT	uobj/test_Pattern.sql	274;"	field	language:SQL
+type_Interface.NOT	uobj/test_Pattern.sql	276;"	field	language:SQL
+type_Interface.Name	uobj/test_Pattern.sql	272;"	field	language:SQL
+type_Interface.Rate	uobj/test_Pattern.sql	273;"	field	language:SQL
+type_Invoker	uobj/test_Pattern.sql	221;"	function	language:SQL
+type_Invoker.CONSTRUCTOR	uobj/test_Pattern.sql	212;"	field	language:SQL
+type_Invoker.Command	uobj/test_Pattern.sql	211;"	field	language:SQL
+type_Invoker.MEMBER	uobj/test_Pattern.sql	213;"	field	language:SQL
+type_Invoker.MEMBER	uobj/test_Pattern.sql	214;"	field	language:SQL
+type_Invoker.MEMBER	uobj/test_Pattern.sql	215;"	field	language:SQL
+type_Trace	uobj/type_Trace.sql	318;"	function	language:SQL
+type_Trace	uobj/type_Trace.sql	350;"	function	language:SQL
+type_TraceBase.FINAL	uobj/type_Trace.sql	166;"	field	language:SQL
+type_TraceBase.FileId	uobj/type_Trace.sql	165;"	field	language:SQL
+type_TraceBase.NOT	uobj/type_Trace.sql	175;"	field	language:SQL
+type_TraceBase.TypeName	uobj/type_Trace.sql	161;"	field	language:SQL
+type_TraceStack	uobj/type_Trace.sql	156;"	table	language:SQL
+type_Wrapper	uobj/test_Pattern.sql	362;"	function	language:SQL
+undefined	cpp/oratst.C	12;"	enumerator	language:C++	enum:flags	file:
+verifyDelete	java/ex-jpa-se/src/client/Client.java	131;"	method	language:Java	class:Client	file:	access:private	signature:()
+verifyInsert	java/ex-jpa-se/src/client/Client.java	107;"	method	language:Java	class:Client	file:	access:private	signature:()
+vlog	extproc/Socket.C	31;"	variable	language:C++	file:
+~BaseOra	cpp/BaseOra.C	46;"	function	language:C++	class:BaseOra	signature:()
