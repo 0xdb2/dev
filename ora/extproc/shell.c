@@ -2,17 +2,7 @@
  *  shell.c
  *  Example program used to demonstrate how to call O/S
  *  commands from PL/SQL using external procedures. 
- * 
- * as shared library
- ( 
-     set -e; 
-     gcc -std=gnu99 -fPIC -c shell.c; 
-     gcc -shared -static-libgcc -o shell.so shell.o; 
-     cp -p shell.so /home/db/rel/.lib/; 
- )
- * as main
- !gcc -std=c99 -o shell shell.c
- */
+ */  
 
 #include<stdio.h>
 #include<stdlib.h>

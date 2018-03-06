@@ -26,7 +26,7 @@ ifeq ($(srcdir), yes)
 ######################################## START srcdir=yes
 # Example for source directories
 #
-# # $Revision: 584 $
+# # $Revision: 633 $
 # OBJS = BaseFoo.o # none, when only headers
 # PROGS = foo bar
 #
@@ -149,7 +149,7 @@ clean:
 else
 ######################################## srcdir=no
 # Example for makefiles in sub-directories
-# # $Revision: 584 $
+# # $Revision: 633 $
 # SUBDIRS = foo bar
 #
 # ifndef MAKEFILE
@@ -221,7 +221,7 @@ tags:
 #/\$$.*:.*\$$/ { gensub(/(.*)(\$$.*:)(.*\$$)(.*)/, "\\1\\2\$$\\4", 1) }
 #substcmd := awk -v newdir=$(newdir) ' \
 #    BEGIN { newDir=toupper(substr(newdir, 1, 1)) substr(newdir, 2); print newDir > "/dev/stderr"; } \
-#    /\$$.*:.*\$$/ { match($$0, /\$$.*:.*\$$/); print substr($$0, 0, RSTART) "$$Id: makefile 584 2017-03-27 22:41:12Z db $$" substr($$0, RSTART+RLENGTH); next; } \
+#    /\$$.*:.*\$$/ { match($$0, /\$$.*:.*\$$/); print substr($$0, 0, RSTART) "$$Id: makefile 633 2018-03-06 12:22:20Z db $$" substr($$0, RSTART+RLENGTH); next; } \
 #    { gsub("tpl", newdir); gsub("BaseTpl", "Base" newDir); print $$0; } \
 #    '
 #newDir = $(shell echo | $(substcmd) 2>&1)
