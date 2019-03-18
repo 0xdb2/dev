@@ -1,0 +1,35 @@
+# hidden entries 
+###################
+.*
+!/.gitignore
+
+# Compiled source #
+###################
+*.class
+*.dll
+*.o
+*.so
+
+# Packages #
+############
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.lis
+*.ldj
+*.db
+
+# other generated files #
+######################
+.svn/
+preinstall
